@@ -74,7 +74,6 @@ function render(){
   const grid=node('div','menu-grid');items.forEach((dish,index)=>grid.append(cardFor(dish,index)));section.append(heading,grid);host.append(section);
  });
  if(mode==='carta'||mode==='drinks')host.append(node('p','tax-note',t().tax));host.setAttribute('aria-busy','false');
- document.querySelector('#sample-message').textContent=mode==='drinks'?t().drinksSample:mode==='lunch'?t().lunchSample:t().sampleBody;
  window.scrollTo({top:savedScroll,behavior:'instant'});updateActive();
 }
 function updateActive(){
