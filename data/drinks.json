@@ -1,0 +1,941 @@
+{
+  "categories": [
+    {
+      "id": "sake",
+      "name": {
+        "es": "Sake",
+        "en": "Sake"
+      },
+      "icon": "bottle"
+    },
+    {
+      "id": "refrescos",
+      "name": {
+        "es": "Aguas y refrescos",
+        "en": "Water & soft drinks"
+      },
+      "icon": "drink"
+    },
+    {
+      "id": "cervezas",
+      "name": {
+        "es": "Cervezas",
+        "en": "Beers"
+      },
+      "icon": "beer"
+    },
+    {
+      "id": "tintos",
+      "name": {
+        "es": "Vinos tintos",
+        "en": "Red wines"
+      },
+      "icon": "wine"
+    },
+    {
+      "id": "blancos",
+      "name": {
+        "es": "Vinos blancos",
+        "en": "White wines"
+      },
+      "icon": "wine"
+    },
+    {
+      "id": "rosados",
+      "name": {
+        "es": "Vinos rosados",
+        "en": "Rosé wines"
+      },
+      "icon": "wine"
+    },
+    {
+      "id": "cavas",
+      "name": {
+        "es": "Cavas",
+        "en": "Cava"
+      },
+      "icon": "wine"
+    },
+    {
+      "id": "cafes",
+      "name": {
+        "es": "Cafés e infusiones",
+        "en": "Coffee & tea"
+      },
+      "icon": "cup"
+    },
+    {
+      "id": "copas",
+      "name": {
+        "es": "Copas y chupitos",
+        "en": "Spirits & shots"
+      },
+      "icon": "drink"
+    },
+    {
+      "id": "cocteles",
+      "name": {
+        "es": "Cócteles",
+        "en": "Cocktails"
+      },
+      "icon": "cocktail"
+    }
+  ],
+  "dishes": [
+    {
+      "category": "sake",
+      "reference": "SA301",
+      "name": {
+        "es": "Sake Mio",
+        "en": "Sake Mio"
+      },
+      "description": {
+        "es": "Espumoso, suave, no muy dulce y aromático. 5 % vol · 300 ml.",
+        "en": "Sparkling, smooth, lightly sweet and aromatic. 5% ABV · 300 ml."
+      },
+      "price": 16.8
+    },
+    {
+      "category": "sake",
+      "reference": "SA302",
+      "name": {
+        "es": "Shogun",
+        "en": "Shogun"
+      },
+      "description": {
+        "es": "Sabor suave, fácil de beber. 14 % vol · 180 ml.",
+        "en": "Smooth and easy to drink. 14% ABV · 180 ml."
+      },
+      "price": 10.8
+    },
+    {
+      "category": "sake",
+      "reference": "SA303",
+      "name": {
+        "es": "Kubota Senju",
+        "en": "Kubota Senju"
+      },
+      "description": {
+        "es": "Sake seco. 15 % vol · 300 ml.",
+        "en": "Dry sake. 15% ABV · 300 ml."
+      },
+      "price": 18.5
+    },
+    {
+      "category": "sake",
+      "reference": "SA304",
+      "name": {
+        "es": "Hanaawaka",
+        "en": "Hanaawaka"
+      },
+      "description": {
+        "es": "Sake espumoso, refrescante, ligero y dulce. 7 % vol · 250 ml.",
+        "en": "Sparkling sake, refreshing, light and sweet. 7% ABV · 250 ml."
+      },
+      "price": 14.8
+    },
+    {
+      "category": "sake",
+      "reference": "SA306",
+      "name": {
+        "es": "Mutsu Hassen",
+        "en": "Mutsu Hassen"
+      },
+      "description": {
+        "es": "Seco, con umami. 15 % vol · 300 ml.",
+        "en": "Dry, with umami. 15% ABV · 300 ml."
+      },
+      "price": 28.8
+    },
+    {
+      "category": "sake",
+      "reference": "SA307",
+      "name": {
+        "es": "Ozeki",
+        "en": "Ozeki"
+      },
+      "description": {
+        "es": "Jarra de 300 ml. 15 % vol.",
+        "en": "300 ml carafe. 15% ABV."
+      },
+      "price": 10.8
+    },
+    {
+      "category": "refrescos",
+      "reference": "201",
+      "name": {
+        "es": "Agua · 50 cl",
+        "en": "Water · 50 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 2.8
+    },
+    {
+      "category": "refrescos",
+      "reference": "202",
+      "name": {
+        "es": "Agua con gas Solán de Cabras · 33 cl",
+        "en": "Solán de Cabras sparkling water · 33 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.2
+    },
+    {
+      "category": "refrescos",
+      "reference": "203",
+      "name": {
+        "es": "Refresco · 35 cl",
+        "en": "Soft drink · 35 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.5
+    },
+    {
+      "category": "refrescos",
+      "reference": "200",
+      "name": {
+        "es": "Nestea / Aquarius · 35 cl",
+        "en": "Nestea / Aquarius · 35 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.8
+    },
+    {
+      "category": "refrescos",
+      "reference": "205",
+      "name": {
+        "es": "Zumo de botella · 20 cl",
+        "en": "Bottled juice · 20 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 2.8
+    },
+    {
+      "category": "refrescos",
+      "reference": "206",
+      "name": {
+        "es": "Tónica japonesa · Yuzu Ocha",
+        "en": "Japanese tonic · Yuzu Ocha"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.5
+    },
+    {
+      "category": "refrescos",
+      "reference": "242",
+      "name": {
+        "es": "Ramune · Melón o fresa",
+        "en": "Ramune · Melon or strawberry"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 4.5
+    },
+    {
+      "category": "cervezas",
+      "reference": "210",
+      "name": {
+        "es": "Caña de cerveza · 33 cl",
+        "en": "Draught beer · 33 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 2.8
+    },
+    {
+      "category": "cervezas",
+      "reference": "211",
+      "name": {
+        "es": "Cerveza grande · 50 cl",
+        "en": "Large beer · 50 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 4.9
+    },
+    {
+      "category": "cervezas",
+      "reference": "213",
+      "name": {
+        "es": "San Miguel 1516 / Sin alcohol",
+        "en": "San Miguel 1516 / Alcohol-free"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.5
+    },
+    {
+      "category": "cervezas",
+      "reference": "214",
+      "name": {
+        "es": "Estrella Galicia · 33 cl",
+        "en": "Estrella Galicia · 33 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.5
+    },
+    {
+      "category": "cervezas",
+      "reference": "216",
+      "name": {
+        "es": "Sapporo japonesa · 33 cl",
+        "en": "Japanese Sapporo · 33 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.8
+    },
+    {
+      "category": "cervezas",
+      "reference": "218",
+      "name": {
+        "es": "Alhambra Reserva 1925 · 33 cl",
+        "en": "Alhambra Reserva 1925 · 33 cl"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.5
+    },
+    {
+      "category": "tintos",
+      "reference": "219",
+      "name": {
+        "es": "Copa de vino de la casa",
+        "en": "House wine · Glass"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.1
+    },
+    {
+      "category": "tintos",
+      "reference": "207",
+      "name": {
+        "es": "Tinto de verano / Sangría",
+        "en": "Tinto de verano / Sangria"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 4.5
+    },
+    {
+      "category": "tintos",
+      "reference": "208",
+      "name": {
+        "es": "Jarra de tinto de verano / Sangría",
+        "en": "Tinto de verano / Sangria · Jug"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 12.5
+    },
+    {
+      "category": "tintos",
+      "reference": "220",
+      "name": {
+        "es": "Vino de la casa · Rioja",
+        "en": "House wine · Rioja"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 11.8
+    },
+    {
+      "category": "tintos",
+      "reference": "221",
+      "name": {
+        "es": "Añares · Rioja Crianza",
+        "en": "Añares · Rioja Crianza"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 12.8
+    },
+    {
+      "category": "tintos",
+      "reference": "222",
+      "name": {
+        "es": "Viña Valoria · Rioja Crianza",
+        "en": "Viña Valoria · Rioja Crianza"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 16.8
+    },
+    {
+      "category": "tintos",
+      "reference": "223",
+      "name": {
+        "es": "Valdubón Crianza · Ribera del Duero",
+        "en": "Valdubón Crianza · Ribera del Duero"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 25.5
+    },
+    {
+      "category": "tintos",
+      "reference": "224",
+      "name": {
+        "es": "Lambrusco Monteberin",
+        "en": "Lambrusco Monteberin"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 12.5
+    },
+    {
+      "category": "tintos",
+      "reference": "500",
+      "name": {
+        "es": "Fuentespina · Ribera del Duero",
+        "en": "Fuentespina · Ribera del Duero"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 14.5
+    },
+    {
+      "category": "tintos",
+      "reference": "501",
+      "name": {
+        "es": "Muga · Rioja",
+        "en": "Muga · Rioja"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 29.8
+    },
+    {
+      "category": "blancos",
+      "reference": "225",
+      "name": {
+        "es": "Copa de vino de la casa",
+        "en": "House wine · Glass"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.1
+    },
+    {
+      "category": "blancos",
+      "reference": "226",
+      "name": {
+        "es": "Vino de la casa · Rioja",
+        "en": "House wine · Rioja"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 11.8
+    },
+    {
+      "category": "blancos",
+      "reference": "227",
+      "name": {
+        "es": "Diamante · Rioja",
+        "en": "Diamante · Rioja"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 14.5
+    },
+    {
+      "category": "blancos",
+      "reference": "228",
+      "name": {
+        "es": "Finca Ariadna · Verdejo · Rueda",
+        "en": "Finca Ariadna · Verdejo · Rueda"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 16.8
+    },
+    {
+      "category": "blancos",
+      "reference": "230",
+      "name": {
+        "es": "Marina Alta · Alicante",
+        "en": "Marina Alta · Alicante"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 15.5
+    },
+    {
+      "category": "rosados",
+      "reference": "232",
+      "name": {
+        "es": "Copa de vino de la casa",
+        "en": "House wine · Glass"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3.1
+    },
+    {
+      "category": "rosados",
+      "reference": "233",
+      "name": {
+        "es": "Vino de la casa · Rioja",
+        "en": "House wine · Rioja"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 11.8
+    },
+    {
+      "category": "rosados",
+      "reference": "235",
+      "name": {
+        "es": "Lambrusco Monteberin",
+        "en": "Lambrusco Monteberin"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 12.5
+    },
+    {
+      "category": "cavas",
+      "reference": "236",
+      "name": {
+        "es": "Freixenet Extra Brut",
+        "en": "Freixenet Extra Brut"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 15.1
+    },
+    {
+      "category": "cavas",
+      "reference": "237",
+      "name": {
+        "es": "Freixenet Barroco Reserva",
+        "en": "Freixenet Barroco Reserva"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 21.8
+    },
+    {
+      "category": "cavas",
+      "reference": "238",
+      "name": {
+        "es": "Freixenet Brut Rosé",
+        "en": "Freixenet Brut Rosé"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 18.1
+    },
+    {
+      "category": "cafes",
+      "reference": "239",
+      "name": {
+        "es": "Café",
+        "en": "Coffee"
+      },
+      "description": {
+        "es": "Expreso, descafeinado, solo, cortado o con leche.",
+        "en": "Espresso, decaf, black, with a dash of milk or with milk."
+      },
+      "price": 1.8
+    },
+    {
+      "category": "cafes",
+      "reference": "240",
+      "name": {
+        "es": "Té japonés, jazmín o infusiones",
+        "en": "Japanese tea, jasmine tea or herbal infusions"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 2.5
+    },
+    {
+      "category": "cafes",
+      "reference": "241",
+      "name": {
+        "es": "Café con Baileys",
+        "en": "Coffee with Baileys"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 3
+    },
+    {
+      "category": "copas",
+      "reference": "209",
+      "name": {
+        "es": "Martini blanco / Rosado",
+        "en": "Martini blanco / Rosado"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 5.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "243",
+      "name": {
+        "es": "Bacardi Carta Blanca",
+        "en": "Bacardi Carta Blanca"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 5.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "244",
+      "name": {
+        "es": "Glenfiddich · 15 years old",
+        "en": "Glenfiddich · 15 years old"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 6.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "245",
+      "name": {
+        "es": "Baileys Original",
+        "en": "Baileys Original"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 5.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "246",
+      "name": {
+        "es": "El Afilador · Licor de hierbas",
+        "en": "El Afilador · Licor de hierbas"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 5.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "247",
+      "name": {
+        "es": "El Afilador · Tradicional",
+        "en": "El Afilador · Tradicional"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 5.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "248",
+      "name": {
+        "es": "Mediterráneo · Limoncello",
+        "en": "Mediterráneo · Limoncello"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 5.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "249",
+      "name": {
+        "es": "Brugal Añejo · Ron",
+        "en": "Brugal Añejo · Ron"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 5.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "250",
+      "name": {
+        "es": "Veterano",
+        "en": "Veterano"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 5.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "251",
+      "name": {
+        "es": "Chivas Regal · Whisky",
+        "en": "Chivas Regal · Whisky"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 6.5,
+      "shotPrice": 3
+    },
+    {
+      "category": "copas",
+      "reference": "252",
+      "name": {
+        "es": "The Chita · Whisky japonés",
+        "en": "The Chita · Whisky japonés"
+      },
+      "description": {
+        "es": "",
+        "en": ""
+      },
+      "price": 11.9
+    },
+    {
+      "category": "cocteles",
+      "reference": "253",
+      "name": {
+        "es": "JinZu · Gin & Tonic",
+        "en": "JinZu · Gin & Tonic"
+      },
+      "description": {
+        "es": "Pomelo y manzana verde.",
+        "en": "Grapefruit and green apple."
+      },
+      "price": 8
+    },
+    {
+      "category": "cocteles",
+      "reference": "254",
+      "name": {
+        "es": "Gordon’s · Pink Tonic",
+        "en": "Gordon’s · Pink Tonic"
+      },
+      "description": {
+        "es": "Fresa, frambuesa y grosella roja.",
+        "en": "Strawberry, raspberry and redcurrant."
+      },
+      "price": 7
+    },
+    {
+      "category": "cocteles",
+      "reference": "255",
+      "name": {
+        "es": "Tanqueray · London Dry Gin & Tonic",
+        "en": "Tanqueray · London Dry Gin & Tonic"
+      },
+      "description": {
+        "es": "Bayas de enebro y lima fresca y seca.",
+        "en": "Juniper berries and fresh and dried lime."
+      },
+      "price": 7
+    },
+    {
+      "category": "cocteles",
+      "reference": "256",
+      "name": {
+        "es": "Tanqueray · Rangpur & Tonic",
+        "en": "Tanqueray · Rangpur & Tonic"
+      },
+      "description": {
+        "es": "Cítricos y naranja.",
+        "en": "Citrus and orange."
+      },
+      "price": 8
+    },
+    {
+      "category": "cocteles",
+      "reference": "257",
+      "name": {
+        "es": "Mojito",
+        "en": "Mojito"
+      },
+      "description": {
+        "es": "Bacardi, azúcar, lima y hojas de menta.",
+        "en": "Bacardi, sugar, lime and mint leaves."
+      },
+      "price": 7
+    },
+    {
+      "category": "cocteles",
+      "reference": "258",
+      "name": {
+        "es": "San Francisco · Sin alcohol",
+        "en": "San Francisco · Alcohol-free"
+      },
+      "description": {
+        "es": "Zumo de piña, naranja, limón, melocotón, granadina y azúcar.",
+        "en": "Pineapple, orange, lemon and peach juice, grenadine and sugar."
+      },
+      "price": 7
+    },
+    {
+      "category": "cocteles",
+      "reference": "259",
+      "name": {
+        "es": "Rojo Frutal · Sin alcohol",
+        "en": "Rojo Frutal · Alcohol-free"
+      },
+      "description": {
+        "es": "Puré de frutas rojas, clavo, canela y zumo de lima.",
+        "en": "Red fruit purée, cloves, cinnamon and lime juice."
+      },
+      "price": 8
+    },
+    {
+      "category": "cocteles",
+      "reference": "260",
+      "name": {
+        "es": "Ginger Gin & Tonic",
+        "en": "Ginger Gin & Tonic"
+      },
+      "description": {
+        "es": "Roku Gin, tónica y jengibre.",
+        "en": "Roku Gin, tonic and ginger."
+      },
+      "price": 8.5
+    },
+    {
+      "category": "cocteles",
+      "reference": "261",
+      "name": {
+        "es": "Classic Gin & Tonic",
+        "en": "Classic Gin & Tonic"
+      },
+      "description": {
+        "es": "Roku Gin, tónica y lima.",
+        "en": "Roku Gin, tonic and lime."
+      },
+      "price": 8.5
+    },
+    {
+      "category": "cocteles",
+      "reference": "262",
+      "name": {
+        "es": "Plum Gin & Tonic",
+        "en": "Plum Gin & Tonic"
+      },
+      "description": {
+        "es": "Roku Gin, tónica y ciruela japonesa.",
+        "en": "Roku Gin, tonic and Japanese plum."
+      },
+      "price": 8.5
+    },
+    {
+      "category": "cocteles",
+      "reference": "263",
+      "name": {
+        "es": "Lemon Gin & Tonic",
+        "en": "Lemon Gin & Tonic"
+      },
+      "description": {
+        "es": "Roku Gin, tónica y limón.",
+        "en": "Roku Gin, tonic and lemon."
+      },
+      "price": 8.5
+    }
+  ]
+}

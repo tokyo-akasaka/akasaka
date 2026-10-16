@@ -1,0 +1,11 @@
+{
+ "rates":[{"id":"weekdayLunch","price":20.9},{"id":"otherTimes","price":26.9},{"id":"children","price":12.9}],
+ "rules":{
+  "es":["El buffet se cobra por comensal y se sirve a mesa completa. Adultos: mínimo 2 personas.","Cada persona debe consumir al menos una bebida. Bebida, postre y café no incluidos.","Rondas ilimitadas, con un máximo de 4 platos por comensal y ronda.","Se cobran 4 € por cada plato no consumido.","Menú infantil: para niños de menos de 120 cm. No incluye los platos marcados con una o dos estrellas.","Los precios incluyen el 10 % de IVA.","Si tienes alergias o intolerancias, informa al personal. Las fotografías pueden diferir ligeramente de la presentación real."],
+  "en":["The buffet is charged per person and applies to the whole table. Adults: minimum 2 people.","Each person must order at least one drink. Drinks, dessert and coffee are not included.","Unlimited rounds, with up to 4 dishes per person per round.","A €4 charge applies to each uneaten dish.","Children’s menu: for children under 120 cm. Dishes marked with one or two stars are excluded.","Prices include 10% VAT.","Please inform staff of any allergies or intolerances. Photos may differ slightly from the actual presentation."]
+ },
+ "stars":{
+  "one":{"es":"Solo en cenas, fines de semana, festivos y vísperas de festivos. Se puede pedir una sola vez.","en":"Dinner, weekends, public holidays and their eves only. May be ordered once only."},
+  "two":{"es":"Se puede pedir una sola vez.","en":"May be ordered once only."}
+ }
+}

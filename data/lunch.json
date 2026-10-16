@@ -1,0 +1,234 @@
+{
+  "availability": {
+    "es": "De lunes a viernes, excepto festivos.",
+    "en": "Monday to Friday, excluding public holidays."
+  },
+  "choice": {
+    "es": "Elige 2 primeros + 1 segundo. Incluye 1 bebida y 1 helado o café.",
+    "en": "Choose 2 starters + 1 main. Includes 1 drink and 1 ice cream or coffee."
+  },
+  "prices": {
+    "standard": 16.9,
+    "sushi": 17.9
+  },
+  "categories": [
+    {
+      "id": "primeros",
+      "name": {
+        "es": "Primeros · Elige 2",
+        "en": "Starters · Choose 2"
+      },
+      "icon": "starter"
+    },
+    {
+      "id": "segundos",
+      "name": {
+        "es": "Segundos · Elige 1",
+        "en": "Mains · Choose 1"
+      },
+      "icon": "bowl"
+    },
+    {
+      "id": "sushi",
+      "name": {
+        "es": "Segundos · Sushi",
+        "en": "Mains · Sushi"
+      },
+      "icon": "sushi"
+    }
+  ],
+  "dishes": [
+    {
+      "reference": "E2",
+      "category": "primeros",
+      "image": "assets/dishes/e2.webp",
+      "name": {
+        "es": "Sushi Quingo",
+        "en": "Sushi Quingo"
+      },
+      "description": {
+        "es": "Bolas de arroz frito con queso.",
+        "en": "Fried rice balls with cheese."
+      },
+      "portion": {
+        "es": "2 uds.",
+        "en": "2 pcs."
+      },
+      "allergens": [
+        "gluten",
+        "sesame",
+        "egg",
+        "milk",
+        "sulphites"
+      ],
+      "sourcePage": 2,
+      "buffetStars": 0,
+      "twoPersons": false
+    },
+    {
+      "reference": "E3",
+      "category": "primeros",
+      "image": "assets/dishes/e3.webp",
+      "name": {
+        "es": "Gyoza vegetal",
+        "en": "Vegetable gyoza"
+      },
+      "description": {
+        "es": "Empanadillas japonesas rellenas de verduras con mayonesa picante.",
+        "en": "Japanese dumplings filled with mixed vegetables and spicy mayonnaise."
+      },
+      "portion": {
+        "es": "4 uds.",
+        "en": "4 pcs."
+      },
+      "allergens": [
+        "mustard",
+        "gluten",
+        "egg",
+        "soy"
+      ],
+      "sourcePage": 2,
+      "buffetStars": 0,
+      "twoPersons": false
+    },
+    {
+      "reference": "E1",
+      "category": "primeros",
+      "image": "assets/dishes/e1.webp",
+      "name": {
+        "es": "Takoyaki",
+        "en": "Takoyaki"
+      },
+      "description": {
+        "es": "Bolitas de pulpo con salsa takoyaki.",
+        "en": "Octopus balls with takoyaki sauce."
+      },
+      "portion": {
+        "es": "2 uds.",
+        "en": "2 pcs."
+      },
+      "allergens": [
+        "gluten",
+        "sesame",
+        "egg",
+        "molluscs",
+        "soy"
+      ],
+      "sourcePage": 2
+    },
+    {
+      "reference": "UD141",
+      "category": "segundos",
+      "name": {
+        "es": "Tonkatsu Ramen",
+        "en": "Tonkatsu Ramen"
+      },
+      "description": {
+        "es": "Ramen con pechuga de pollo rebozada y narutomaki.",
+        "en": "Ramen with breaded chicken breast and narutomaki."
+      },
+      "image": "assets/dishes/lunch-ud141.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "allergens": null,
+      "sourcePage": 6
+    },
+    {
+      "reference": "M157",
+      "category": "segundos",
+      "name": {
+        "es": "Katsudon",
+        "en": "Katsudon"
+      },
+      "description": {
+        "es": "Pollo empanado con huevo y cebolla sobre cama de arroz.",
+        "en": "Breaded chicken with egg and onion on a bed of rice."
+      },
+      "image": "assets/dishes/lunch-m157.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "allergens": null,
+      "sourcePage": 6
+    },
+    {
+      "reference": "M156",
+      "category": "segundos",
+      "name": {
+        "es": "Teriyaki de pollo con arroz",
+        "en": "Chicken Teriyaki with Rice"
+      },
+      "description": {
+        "es": "Pollo, cebolla y salsa teriyaki con arroz.",
+        "en": "Chicken, onion and teriyaki sauce with rice."
+      },
+      "image": "assets/dishes/lunch-m156.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "allergens": null,
+      "sourcePage": 6
+    },
+    {
+      "reference": "CM170",
+      "category": "sushi",
+      "name": {
+        "es": "Mix Sushi Hoso",
+        "en": "Mix Sushi Hoso"
+      },
+      "description": {
+        "es": "2 nigiri de salmón, 2 de atún, 2 de gambas y 6 hosomaki de salmón.",
+        "en": "2 salmon nigiri, 2 tuna nigiri, 2 prawn nigiri and 6 salmon hosomaki."
+      },
+      "image": "assets/dishes/lunch-cm170.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "allergens": null,
+      "sourcePage": 8
+    },
+    {
+      "reference": "CM171",
+      "category": "sushi",
+      "name": {
+        "es": "Mix Samo Ebi",
+        "en": "Mix Samo Ebi"
+      },
+      "description": {
+        "es": "4 nigiri de salmón, 4 de gambas y 4 California.",
+        "en": "4 salmon nigiri, 4 prawn nigiri and 4 California rolls."
+      },
+      "image": "assets/dishes/lunch-cm171.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "allergens": null,
+      "sourcePage": 8
+    },
+    {
+      "reference": "CM172",
+      "category": "sushi",
+      "name": {
+        "es": "Mix Samo Hoso",
+        "en": "Mix Samo Hoso"
+      },
+      "description": {
+        "es": "2 nigiri de salmón, 2 de gambas, 4 California y 6 kappa maki.",
+        "en": "2 salmon nigiri, 2 prawn nigiri, 4 California rolls and 6 kappa maki."
+      },
+      "image": "assets/dishes/lunch-cm172.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "allergens": null,
+      "sourcePage": 8
+    }
+  ]
+}

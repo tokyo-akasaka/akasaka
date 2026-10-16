@@ -1,0 +1,122 @@
+[
+  {
+    "id": "entrantes",
+    "name": {
+      "es": "Entrantes",
+      "en": "Starters"
+    },
+    "icon": "starter"
+  },
+  {
+    "id": "sopa",
+    "name": {
+      "es": "Sopas",
+      "en": "Soups"
+    },
+    "icon": "sopa"
+  },
+  {
+    "id": "ramen",
+    "name": {
+      "es": "Ramen",
+      "en": "Ramen"
+    },
+    "icon": "ramen"
+  },
+  {
+    "id": "poke",
+    "name": {
+      "es": "Poke",
+      "en": "Poke"
+    },
+    "icon": "bowl"
+  },
+  {
+    "id": "arroz",
+    "name": {
+      "es": "Fideos y arroz",
+      "en": "Noodles & rice"
+    },
+    "icon": "bowl"
+  },
+  {
+    "id": "nigiri",
+    "name": {
+      "es": "Nigiri",
+      "en": "Nigiri"
+    },
+    "icon": "sushi"
+  },
+  {
+    "id": "hosomaki",
+    "name": {
+      "es": "Hosomaki",
+      "en": "Hosomaki"
+    },
+    "icon": "sushi"
+  },
+  {
+    "id": "temaki",
+    "name": {
+      "es": "Temaki",
+      "en": "Temaki"
+    },
+    "icon": "temaki"
+  },
+  {
+    "id": "rollitos",
+    "name": {
+      "es": "Rollitos",
+      "en": "Rolls"
+    },
+    "icon": "sushi"
+  },
+  {
+    "id": "carpaccio",
+    "name": {
+      "es": "Carpaccio",
+      "en": "Carpaccio"
+    },
+    "icon": "fish"
+  },
+  {
+    "id": "sashimi",
+    "name": {
+      "es": "Sashimi",
+      "en": "Sashimi"
+    },
+    "icon": "fish"
+  },
+  {
+    "id": "tartar",
+    "name": {
+      "es": "Tartar",
+      "en": "Tartare"
+    },
+    "icon": "bowl"
+  },
+  {
+    "id": "carnes",
+    "name": {
+      "es": "Carnes",
+      "en": "Meat"
+    },
+    "icon": "skewer"
+  },
+  {
+    "id": "pescado",
+    "name": {
+      "es": "Pescado y marisco",
+      "en": "Fish & seafood"
+    },
+    "icon": "fish"
+  },
+  {
+    "id": "postres",
+    "name": {
+      "es": "Postres",
+      "en": "Desserts"
+    },
+    "icon": "dessert"
+  }
+]

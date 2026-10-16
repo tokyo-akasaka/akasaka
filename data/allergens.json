@@ -1,0 +1,42 @@
+{
+  "gluten": {
+    "es": "Gluten",
+    "en": "Gluten"
+  },
+  "sesame": {
+    "es": "Sésamo",
+    "en": "Sesame"
+  },
+  "egg": {
+    "es": "Huevo",
+    "en": "Egg"
+  },
+  "milk": {
+    "es": "Lácteos",
+    "en": "Milk"
+  },
+  "sulphites": {
+    "es": "Sulfitos",
+    "en": "Sulphites"
+  },
+  "mustard": {
+    "es": "Mostaza",
+    "en": "Mustard"
+  },
+  "soy": {
+    "es": "Soja",
+    "en": "Soy"
+  },
+  "fish": {
+    "es": "Pescado",
+    "en": "Fish"
+  },
+  "molluscs": {
+    "es": "Moluscos",
+    "en": "Molluscs"
+  },
+  "crustaceans": {
+    "es": "Crustáceos",
+    "en": "Crustaceans"
+  }
+}

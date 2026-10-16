@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1400" viewBox="0 0 1200 1400">
+<defs>
+ <filter id="warp" x="-30%" y="-30%" width="160%" height="160%"><feTurbulence type="fractalNoise" baseFrequency=".008 .013" numOctaves="3" seed="18" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="68" xChannelSelector="R" yChannelSelector="G"/></filter>
+ <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+ <g id="veins" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M-170 70C70 190 125 110 280 265S480 380 540 570 780 690 890 850 1020 1020 1260 1100"/>
+  <path d="M-180 620C70 640 135 790 320 805S580 1000 665 1100 940 1230 1070 1460"/>
+  <path d="M480-160C490 60 720 80 740 260S1010 440 1060 600 1260 740 1330 820"/>
+ </g>
+</defs>
+<g filter="url(#warp)" stroke="#8e9189">
+ <use href="#veins" stroke-width="24" opacity=".12" filter="url(#soft)"/>
+ <use href="#veins" stroke-width="3.5" opacity=".2"/>
+ <use href="#veins" stroke-width=".8" opacity=".48"/>
+ <g fill="none" stroke-width=".65" opacity=".32">
+  <path d="M280 265Q360 250 405 140T590 15M540 570Q470 630 450 740T320 805M890 850Q940 760 1030 780T1210 740M320 805Q210 900 225 1010T110 1220M665 1100Q755 1010 850 1015T1070 930M740 260Q640 335 655 450T540 570M1060 600Q960 640 955 700T890 850"/>
+  <path d="M-100 88C90 210 137 134 270 280S465 399 527 583 766 712 877 864 1000 1038 1250 1118M480-145C470 65 705 95 725 270S990 455 1044 613"/>
+ </g>
+</g>
+</svg>
