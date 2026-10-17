@@ -39,9 +39,28 @@
   ],
   "dishes": [
     {
+      "reference": "E6",
+      "category": "primeros",
+      "name": {
+        "es": "Cha Giò Hai San",
+        "en": "Cha Giò Hai San"
+      },
+      "description": {
+        "es": "Rollitos de marisco.",
+        "en": "Seafood rolls."
+      },
+      "image": "assets/dishes/lunch-e6.webp",
+      "portion": {
+        "es": "4 uds. · Para 2 personas",
+        "en": "4 pcs. · For 2 people"
+      },
+      "twoPersons": true,
+      "allergens": null,
+      "sourcePage": 2
+    },
+    {
       "reference": "E2",
       "category": "primeros",
-      "image": "assets/dishes/e2.webp",
       "name": {
         "es": "Sushi Quingo",
         "en": "Sushi Quingo"
@@ -50,10 +69,12 @@
         "es": "Bolas de arroz frito con queso.",
         "en": "Fried rice balls with cheese."
       },
+      "image": "assets/dishes/lunch-e2.webp",
       "portion": {
         "es": "2 uds.",
         "en": "2 pcs."
       },
+      "twoPersons": false,
       "allergens": [
         "gluten",
         "sesame",
@@ -61,40 +82,156 @@
         "milk",
         "sulphites"
       ],
-      "sourcePage": 2,
-      "buffetStars": 0,
-      "twoPersons": false
+      "sourcePage": 2
+    },
+    {
+      "reference": "E21",
+      "category": "primeros",
+      "name": {
+        "es": "Gyoza de la casa",
+        "en": "House Gyoza"
+      },
+      "description": {
+        "es": "Empanadillas hechas a mano con carne picada y verduras.",
+        "en": "Handmade dumplings with minced meat and vegetables."
+      },
+      "image": "assets/dishes/lunch-e21.webp",
+      "portion": {
+        "es": "4 uds. · Para 2 personas",
+        "en": "4 pcs. · For 2 people"
+      },
+      "twoPersons": true,
+      "allergens": null,
+      "sourcePage": 2
     },
     {
       "reference": "E3",
       "category": "primeros",
-      "image": "assets/dishes/e3.webp",
       "name": {
         "es": "Gyoza vegetal",
-        "en": "Vegetable gyoza"
+        "en": "Vegetable Gyoza"
       },
       "description": {
         "es": "Empanadillas japonesas rellenas de verduras con mayonesa picante.",
         "en": "Japanese dumplings filled with mixed vegetables and spicy mayonnaise."
       },
+      "image": "assets/dishes/lunch-e3.webp",
       "portion": {
         "es": "4 uds.",
         "en": "4 pcs."
       },
+      "twoPersons": false,
       "allergens": [
         "mustard",
         "gluten",
         "egg",
         "soy"
       ],
-      "sourcePage": 2,
-      "buffetStars": 0,
-      "twoPersons": false
+      "sourcePage": 2
+    },
+    {
+      "reference": "ES20",
+      "category": "primeros",
+      "name": {
+        "es": "Gyoza Tori",
+        "en": "Gyoza Tori"
+      },
+      "description": {
+        "es": "Raviolis fritos de pollo y verduras con salsa de curry.",
+        "en": "Fried chicken and vegetable ravioli with curry sauce."
+      },
+      "image": "assets/dishes/lunch-es20.webp",
+      "portion": {
+        "es": "4 uds.",
+        "en": "4 pcs."
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 2
+    },
+    {
+      "reference": "E5",
+      "category": "primeros",
+      "name": {
+        "es": "Harumaki",
+        "en": "Harumaki"
+      },
+      "description": {
+        "es": "Rollitos con verduras.",
+        "en": "Vegetable rolls."
+      },
+      "image": "assets/dishes/lunch-e5.webp",
+      "portion": {
+        "es": "5 uds.",
+        "en": "5 pcs."
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 2
+    },
+    {
+      "reference": "E7",
+      "category": "primeros",
+      "name": {
+        "es": "Ebi Kimono",
+        "en": "Ebi Kimono"
+      },
+      "description": {
+        "es": "Gambas en kimono.",
+        "en": "Prawns in kimono."
+      },
+      "image": "assets/dishes/lunch-e7.webp",
+      "portion": {
+        "es": "4 uds.",
+        "en": "4 pcs."
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 3
+    },
+    {
+      "reference": "E4",
+      "category": "primeros",
+      "name": {
+        "es": "Tiras de pollo",
+        "en": "Chicken Strips"
+      },
+      "description": {
+        "es": "Pollo con salsa chili.",
+        "en": "Chicken with chili sauce."
+      },
+      "image": "assets/dishes/lunch-e4.webp",
+      "portion": {
+        "es": "4 uds.",
+        "en": "4 pcs."
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 3
+    },
+    {
+      "reference": "E28",
+      "category": "primeros",
+      "name": {
+        "es": "Wantun frito",
+        "en": "Fried Wontons"
+      },
+      "description": {
+        "es": "Rellenos de queso Philadelphia y surimi.",
+        "en": "Filled with Philadelphia cream cheese and surimi."
+      },
+      "image": "assets/dishes/lunch-e28.webp",
+      "portion": {
+        "es": "4 uds.",
+        "en": "4 pcs."
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 3
     },
     {
       "reference": "E1",
       "category": "primeros",
-      "image": "assets/dishes/e1.webp",
       "name": {
         "es": "Takoyaki",
         "en": "Takoyaki"
@@ -103,10 +240,12 @@
         "es": "Bolitas de pulpo con salsa takoyaki.",
         "en": "Octopus balls with takoyaki sauce."
       },
+      "image": "assets/dishes/lunch-e1.webp",
       "portion": {
         "es": "2 uds.",
         "en": "2 pcs."
       },
+      "twoPersons": false,
       "allergens": [
         "gluten",
         "sesame",
@@ -114,7 +253,227 @@
         "molluscs",
         "soy"
       ],
-      "sourcePage": 2
+      "sourcePage": 3
+    },
+    {
+      "reference": "GY22",
+      "category": "primeros",
+      "name": {
+        "es": "Butaman",
+        "en": "Butaman"
+      },
+      "description": {
+        "es": "Raviolis con carne.",
+        "en": "Dumplings with meat."
+      },
+      "image": "assets/dishes/lunch-gy22.webp",
+      "portion": {
+        "es": "3 uds.",
+        "en": "3 pcs."
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 3
+    },
+    {
+      "reference": "GY23",
+      "category": "primeros",
+      "name": {
+        "es": "Dimsum",
+        "en": "Dim Sum"
+      },
+      "description": {
+        "es": "Hakao cantonés relleno de gamba picada, en caldo katsuobushi.",
+        "en": "Cantonese har gow dumplings filled with minced prawn, in katsuobushi broth."
+      },
+      "image": "assets/dishes/lunch-gy23.webp",
+      "portion": {
+        "es": "3 uds.",
+        "en": "3 pcs."
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 3
+    },
+    {
+      "reference": "ES13",
+      "category": "primeros",
+      "name": {
+        "es": "Ebi Shake Sarada",
+        "en": "Ebi Shake Sarada"
+      },
+      "description": {
+        "es": "Ensalada mezclum con salmón y gambas, con salsa de la casa y yuzu.",
+        "en": "Mixed leaf salad with salmon and prawns, house sauce and yuzu."
+      },
+      "image": "assets/dishes/lunch-es13.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 4
+    },
+    {
+      "reference": "ES14",
+      "category": "primeros",
+      "name": {
+        "es": "Wakame Sarada",
+        "en": "Wakame Sarada"
+      },
+      "description": {
+        "es": "Ensalada de algas.",
+        "en": "Seaweed salad."
+      },
+      "image": "assets/dishes/lunch-es14.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 4
+    },
+    {
+      "reference": "ES17",
+      "category": "primeros",
+      "name": {
+        "es": "Shake Abokado",
+        "en": "Shake Abokado"
+      },
+      "description": {
+        "es": "Ensalada mezclum con salmón, aguacate, salsa de la casa y yuzu.",
+        "en": "Mixed leaf salad with salmon, avocado, house sauce and yuzu."
+      },
+      "image": "assets/dishes/lunch-es17.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 4
+    },
+    {
+      "reference": "ES18",
+      "category": "primeros",
+      "name": {
+        "es": "Wakame Abokado",
+        "en": "Wakame Abokado"
+      },
+      "description": {
+        "es": "Ensalada mezclum con wakame y aguacate.",
+        "en": "Mixed leaf salad with wakame and avocado."
+      },
+      "image": "assets/dishes/lunch-es18.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 4
+    },
+    {
+      "reference": "ES12",
+      "category": "primeros",
+      "name": {
+        "es": "Maguro Abokado",
+        "en": "Maguro Abokado"
+      },
+      "description": {
+        "es": "Ensalada mezclum con atún, aguacate, salsa de la casa y yuzu.",
+        "en": "Mixed leaf salad with tuna, avocado, house sauce and yuzu."
+      },
+      "image": "assets/dishes/lunch-es12.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 4
+    },
+    {
+      "reference": "E11",
+      "category": "primeros",
+      "name": {
+        "es": "Edamame",
+        "en": "Edamame"
+      },
+      "description": {
+        "es": "Soja verde con sal.",
+        "en": "Green soybeans with salt."
+      },
+      "image": "assets/dishes/lunch-e11.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 4
+    },
+    {
+      "reference": "S112",
+      "category": "primeros",
+      "name": {
+        "es": "Espinaca Misoshiru",
+        "en": "Spinach Misoshiru"
+      },
+      "description": {
+        "es": "Sopa de miso con espinaca.",
+        "en": "Miso soup with spinach."
+      },
+      "image": "assets/dishes/lunch-s112.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 5
+    },
+    {
+      "reference": "S110",
+      "category": "primeros",
+      "name": {
+        "es": "Tofu Misoshiru",
+        "en": "Tofu Misoshiru"
+      },
+      "description": {
+        "es": "Sopa de miso con tofu.",
+        "en": "Miso soup with tofu."
+      },
+      "image": "assets/dishes/lunch-s110.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 5
+    },
+    {
+      "reference": "S111",
+      "category": "primeros",
+      "name": {
+        "es": "Misoshiru",
+        "en": "Misoshiru"
+      },
+      "description": {
+        "es": "Sopa de miso con almejas y algas.",
+        "en": "Miso soup with clams and seaweed."
+      },
+      "image": "assets/dishes/lunch-s111.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 5
     },
     {
       "reference": "UD141",
@@ -132,6 +491,7 @@
         "es": "",
         "en": ""
       },
+      "twoPersons": false,
       "allergens": null,
       "sourcePage": 6
     },
@@ -151,6 +511,7 @@
         "es": "",
         "en": ""
       },
+      "twoPersons": false,
       "allergens": null,
       "sourcePage": 6
     },
@@ -170,8 +531,189 @@
         "es": "",
         "en": ""
       },
+      "twoPersons": false,
       "allergens": null,
       "sourcePage": 6
+    },
+    {
+      "reference": "M155",
+      "category": "segundos",
+      "name": {
+        "es": "Yakisoba",
+        "en": "Yakisoba"
+      },
+      "description": {
+        "es": "Tallarines con gambas y verduras mixtas.",
+        "en": "Noodles with prawns and mixed vegetables."
+      },
+      "image": "assets/dishes/lunch-m155.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 6
+    },
+    {
+      "reference": "M158",
+      "category": "segundos",
+      "name": {
+        "es": "Pollo estilo Thai",
+        "en": "Thai-style Chicken"
+      },
+      "description": {
+        "es": "Pollo con salsa de curry picante. Arroz opcional.",
+        "en": "Chicken with spicy curry sauce. Rice optional."
+      },
+      "image": "assets/dishes/lunch-m158.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 6
+    },
+    {
+      "reference": "CR139",
+      "category": "segundos",
+      "name": {
+        "es": "Langostinos Ebi Chili",
+        "en": "Ebi Chili Prawns"
+      },
+      "description": {
+        "es": "Verduras de temporada con salsa de chili.",
+        "en": "Seasonal vegetables with chili sauce."
+      },
+      "image": "assets/dishes/lunch-cr139.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 6
+    },
+    {
+      "reference": "UD163",
+      "category": "segundos",
+      "name": {
+        "es": "Duck Chow Mein",
+        "en": "Duck Chow Mein"
+      },
+      "description": {
+        "es": "Pato con tallarines y verduras.",
+        "en": "Duck with noodles and vegetables."
+      },
+      "image": "assets/dishes/lunch-ud163.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 7
+    },
+    {
+      "reference": "DR106",
+      "category": "segundos",
+      "name": {
+        "es": "Kamo Donburi",
+        "en": "Kamo Donburi"
+      },
+      "description": {
+        "es": "Pechuga de pato sobre cama de arroz.",
+        "en": "Duck breast on a bed of rice."
+      },
+      "image": "assets/dishes/lunch-dr106.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 7
+    },
+    {
+      "reference": "DR104",
+      "category": "segundos",
+      "name": {
+        "es": "Gyudon",
+        "en": "Gyudon"
+      },
+      "description": {
+        "es": "Ternera sobre cama de arroz.",
+        "en": "Beef on a bed of rice."
+      },
+      "image": "assets/dishes/lunch-dr104.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 7
+    },
+    {
+      "reference": "CR128",
+      "category": "segundos",
+      "name": {
+        "es": "Yakiniku",
+        "en": "Yakiniku"
+      },
+      "description": {
+        "es": "Entrecot de ternera con salsa yakiniku.",
+        "en": "Beef entrecôte with yakiniku sauce."
+      },
+      "image": "assets/dishes/lunch-cr128.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 7
+    },
+    {
+      "reference": "MR131",
+      "category": "segundos",
+      "name": {
+        "es": "Ika Syogayaki",
+        "en": "Ika Syogayaki"
+      },
+      "description": {
+        "es": "Calamares a la plancha en salsa de jengibre shoga.",
+        "en": "Grilled squid in shoga ginger sauce."
+      },
+      "image": "assets/dishes/lunch-mr131.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 7
+    },
+    {
+      "reference": "M161",
+      "category": "segundos",
+      "name": {
+        "es": "Donburi salmón teriyaki",
+        "en": "Salmon Teriyaki Donburi"
+      },
+      "description": {
+        "es": "Salmón con arroz.",
+        "en": "Salmon with rice."
+      },
+      "image": "assets/dishes/lunch-m161.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 7
     },
     {
       "reference": "CM170",
@@ -186,9 +728,10 @@
       },
       "image": "assets/dishes/lunch-cm170.webp",
       "portion": {
-        "es": "",
-        "en": ""
+        "es": "12 uds.",
+        "en": "12 pcs."
       },
+      "twoPersons": false,
       "allergens": null,
       "sourcePage": 8
     },
@@ -205,9 +748,10 @@
       },
       "image": "assets/dishes/lunch-cm171.webp",
       "portion": {
-        "es": "",
-        "en": ""
+        "es": "12 uds.",
+        "en": "12 pcs."
       },
+      "twoPersons": false,
       "allergens": null,
       "sourcePage": 8
     },
@@ -224,9 +768,70 @@
       },
       "image": "assets/dishes/lunch-cm172.webp",
       "portion": {
-        "es": "",
-        "en": ""
+        "es": "14 uds.",
+        "en": "14 pcs."
       },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 8
+    },
+    {
+      "reference": "CM173",
+      "category": "sushi",
+      "name": {
+        "es": "Mix Hosomaki",
+        "en": "Mix Hosomaki"
+      },
+      "description": {
+        "es": "6 maki de atún, 6 de aguacate y 6 de salmón.",
+        "en": "6 tuna maki, 6 avocado maki and 6 salmon maki."
+      },
+      "image": "assets/dishes/lunch-cm173.webp",
+      "portion": {
+        "es": "18 uds.",
+        "en": "18 pcs."
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 8
+    },
+    {
+      "reference": "CM174",
+      "category": "sushi",
+      "name": {
+        "es": "Mix Max",
+        "en": "Mix Max"
+      },
+      "description": {
+        "es": "2 ebi, 2 saba, 2 shakeaburi, 4 shake, 2 de pez mantequilla y 2 maguro.",
+        "en": "2 prawn, 2 mackerel, 2 flame-seared salmon, 4 salmon, 2 butterfish and 2 tuna nigiri."
+      },
+      "image": "assets/dishes/lunch-cm174.webp",
+      "portion": {
+        "es": "14 uds.",
+        "en": "14 pcs."
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "sourcePage": 8
+    },
+    {
+      "reference": "CM175",
+      "category": "sushi",
+      "name": {
+        "es": "Mix Sashimi",
+        "en": "Mix Sashimi"
+      },
+      "description": {
+        "es": "2 nigiri de salmón, 2 de atún, 2 de gambas, 6 maki de salmón, 3 sashimi de atún y 3 de salmón.",
+        "en": "2 salmon nigiri, 2 tuna nigiri, 2 prawn nigiri, 6 salmon maki, 3 tuna sashimi and 3 salmon sashimi."
+      },
+      "image": "assets/dishes/lunch-cm175.webp",
+      "portion": {
+        "es": "18 uds.",
+        "en": "18 pcs."
+      },
+      "twoPersons": false,
       "allergens": null,
       "sourcePage": 8
     }

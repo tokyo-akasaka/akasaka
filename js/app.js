@@ -1,4 +1,5 @@
 import {buildDishShareData,shareDish} from './share.js';
+import {createReader,describeDish} from './audio.js';
 import {translations,initialLanguage,applyLanguage,trackHeader} from './language.js';
 const requestedMode=new URLSearchParams(location.search).get('mode');
 const mode=['buffet','carta','lunch','drinks'].includes(requestedMode)?requestedMode:'carta';
@@ -8,8 +9,33 @@ const host=document.querySelector('#menu'),rail=document.querySelector('#categor
 const t=()=>translations[language];
 function node(tag,className,text){const e=document.createElement(tag);if(className)e.className=className;if(text!==undefined)e.textContent=text;return e;}
 const money=value=>new Intl.NumberFormat(language==='es'?'es-ES':'en-IE',{style:'currency',currency:'EUR'}).format(value);
+// Un lector compartido evita colas y lecturas superpuestas.
+let audioState={state:'idle',id:null}, audioNames=new Map();
+const audioDock=node('aside','audio-dock');audioDock.hidden=true;audioDock.setAttribute('aria-label','Audio');
+const audioStatus=node('span','audio-status');audioStatus.setAttribute('role','status');audioStatus.setAttribute('aria-live','polite');
+const stopAudio=node('button','audio-stop');stopAudio.type='button';audioDock.append(audioStatus,stopAudio);document.body.append(audioDock);
+function refreshAudio(){
+ const busy=audioState.state==='loading'||audioState.state==='speaking';
+ document.querySelectorAll('.listen-button').forEach(button=>{
+  const active=busy&&button.dataset.reference===audioState.id;
+  button.classList.toggle('is-speaking',active);
+  const label=active?t().stopReading:(mode==='drinks'?t().listenDrink:t().listen);
+  button.querySelector('.listen-label').textContent=label;
+  button.setAttribute('aria-label',`${label}: ${audioNames.get(button.dataset.reference)||''}`);
+  button.querySelector('.listen-icon').textContent=active?'■':'🔊';
+ });
+ audioDock.hidden=!busy&&audioState.state!=='error';
+ if(busy)audioStatus.textContent=`${audioState.state==='loading'?t().audioLoading:t().audioSpeaking}: ${audioNames.get(audioState.id)||''}`;
+ else if(audioState.state==='error')audioStatus.textContent=audioState.error==='unsupported'?t().audioUnsupported:t().audioError;
+ else audioStatus.textContent='';
+ stopAudio.textContent=busy?t().stopReading:t().close;
+}
+const reader=createReader({onState:state=>{audioState=state;refreshAudio();}});
+stopAudio.addEventListener('click',()=>reader.stop());
+window.addEventListener('pagehide',()=>reader.stop());
+document.addEventListener('visibilitychange',()=>{if(document.hidden)reader.stop();});
 let dialogScroll=0;
-function openConditions(){if(!dialog.open){dialogScroll=window.scrollY;window.scrollTo({top:dialogScroll,behavior:'instant'});dialog.showModal();document.documentElement.classList.add('modal-open');}}
+function openConditions(){reader.stop();if(!dialog.open){dialogScroll=window.scrollY;window.scrollTo({top:dialogScroll,behavior:'instant'});dialog.showModal();document.documentElement.classList.add('modal-open');}}
 function closeConditions(){dialog.close();}
 dialog.addEventListener('close',()=>{document.documentElement.classList.remove('modal-open');window.scrollTo({top:dialogScroll,behavior:'instant'});});
 dialog.addEventListener('click',event=>{if(event.target===dialog){const box=dialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)closeConditions();}});
@@ -58,15 +84,21 @@ function cardFor(dish,index){
   const icon=node('span','share-icon');icon.setAttribute('aria-hidden','true');button.append(icon,node('span','sr-only',t().share));
   const status=node('span','share-status');status.setAttribute('role','status');status.setAttribute('aria-live','polite');
   button.addEventListener('click',async()=>{
-   if(button.disabled)return;button.disabled=true;status.textContent='';
+   if(button.disabled)return;reader.stop();button.disabled=true;status.textContent='';
    try{const result=await shareDish(buildDishShareData(dish,{href:location.href,language}),{onManual:showShareLink});if(result==='copied')status.textContent=t().shareCopied;}
    finally{button.disabled=false;}
   });actions.append(status,button);(card.querySelector('.dish-media')||body).append(actions);
  }
- card.append(body);return card;
+ const listen=node('button','listen-button');listen.type='button';listen.dataset.reference=dish.reference;
+ const icon=node('span','listen-icon','🔊');icon.setAttribute('aria-hidden','true');listen.append(icon,node('span','listen-label',mode==='drinks'?t().listenDrink:t().listen));
+ listen.setAttribute('aria-label',`${mode==='drinks'?t().listenDrink:t().listen}: ${dish.name[language]}`);
+ audioNames.set(dish.reference,dish.name[language]);
+ if(!reader.supported){listen.disabled=true;listen.title=t().audioUnsupported;body.append(node('p','audio-unavailable',t().audioUnsupported));}
+ listen.addEventListener('click',()=>reader.speak({id:dish.reference,text:describeDish(dish,{language,mode,allergens:data.allergens,text:t()}),language}));
+ body.append(listen);card.append(body);return card;
 }
 function render(){
- const savedScroll=window.scrollY;applyLanguage(language);
+ const savedScroll=window.scrollY;reader.stop();audioNames.clear();applyLanguage(language);refreshAudio();
  const title=mode==='buffet'?'ALL YOU CAN EAT':t()[{carta:'cartaTitle',lunch:'lunchTitle',drinks:'drinksTitle'}[mode]];
  document.querySelector('#mode-title').textContent=title;document.title=`Akasaka · ${title}`;
  document.querySelector('#conditions-open').hidden=mode!=='buffet';
