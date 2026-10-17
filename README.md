@@ -55,3 +55,9 @@ Lee el precio en carta y bebidas (incluido chupito), las restricciones en buffet
 Las voces y su calidad dependen del navegador y del sistema; algunas voces del sistema pueden utilizar servicios de red. Si no hay soporte o falla la voz, se muestra un aviso y la carta sigue disponible. Prueba pendiente con sonido real en Safari/iPhone y Chrome/Android, especialmente los nombres japoneses.
 
 Pruebas de lógica: `node --test tests/audio.test.mjs`. No generan audio real.
+
+## Bandera NEW independiente
+
+`isNew: true` en cada plato activa la bandera `assets/brand/new.webp`, exportada de `New product.psd`. Es un elemento separado de la imagen y del recorte redondeado. Posición y tamaño en `.new-badge` y las variables `--new-badge-top`, `--new-badge-left` de `.dish-visual`.
+
+Las fotografías que tenían la bandera incrustada se sustituyeron por sus objetos foto originales del PDF o el PSD original, sin retocarlos. Ejecutar `scripts/prepare_new_badges.py` después de `scripts/complete_lunch_v011.py` si se regeneran las fotos de mediodía.

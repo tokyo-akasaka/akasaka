@@ -167,3 +167,131 @@ dialog::backdrop{background:#0009;backdrop-filter:blur(4px)}
 .audio-unavailable{font-size:11px;line-height:1.6;color:var(--muted);margin:15px 0 0}
 body:has(.audio-dock:not([hidden])){padding-bottom:110px}
 @media(max-width:599px){.audio-dock{left:62px;right:12px;width:auto;transform:none;gap:10px;padding:10px}.audio-status{font-size:11px}.audio-stop{font-size:11px;padding:9px}.listen-button{font-size:12px}}
+
+/* Foto estrecha y acciones en una columna a su derecha. */
+.dish-visual{display:grid;grid-template-columns:minmax(0,1fr) 52px;gap:4px;align-items:stretch}
+.dish-visual .dish-media{aspect-ratio:16/9;min-width:0}
+.dish-tools{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;position:relative;padding:4px 0}
+.dish-tools .dish-actions{position:static;display:flex;margin:0;gap:0}
+.dish-tools .listen-button,.dish-tools .share-button{display:flex;align-items:center;justify-content:center;min-width:44px;width:44px;min-height:44px;height:44px;padding:11px;margin:0;border:0;border-radius:50%;background:transparent;color:var(--muted);box-shadow:none}
+.dish-tools .listen-button:hover,.dish-tools .listen-button.is-speaking,.dish-tools .share-button:hover{background:var(--chip);color:var(--red)}
+.dish-tools .listen-icon{display:block;width:20px;height:20px;min-width:20px;background:currentColor;mask:url('../assets/icons/audio.svg') center / contain no-repeat;-webkit-mask:url('../assets/icons/audio.svg') center / contain no-repeat}
+.dish-tools .is-speaking .listen-icon{mask-image:url('../assets/icons/stop.svg');-webkit-mask-image:url('../assets/icons/stop.svg')}
+.dish-tools .share-icon{width:19px;height:19px}
+.dish-tools .share-status:not(:empty){position:absolute;right:50px;bottom:8px;z-index:2;padding:7px 10px;min-width:110px;background:var(--card);border:1px solid var(--line);border-radius:5px;color:var(--ink);box-shadow:0 2px 8px #0002}
+.menu-page .dish-body{padding:13px 14px}
+.menu-page .dish-meta{margin-bottom:7px}
+.menu-page .description{margin:8px 0 12px;line-height:1.5}
+.menu-page .allergens{padding-top:8px}
+.menu-page .allergen-list{margin-top:6px}
+.menu-page .text-only-card .dish-body{position:relative;padding-right:62px}
+.text-only-card .dish-body>.dish-tools{position:absolute;right:5px;top:5px}
+@media(max-width:599px){
+ .menu-page .dish-body,.menu-page .drink-card .dish-body{padding:11px 12px}
+ .menu-page .text-only-card .dish-body{padding-right:60px}
+ .menu-page .menu-grid{gap:13px}
+ .menu-page .dish-heading h3{font-size:22px}
+ .menu-page .description{font-size:13px;margin:7px 0 10px;line-height:1.5}
+ .menu-page .allergens{padding-top:7px}
+ .menu-page .allergen-list li{padding:3px 6px}
+}
+
+/* Alérgenos sin rótulo visible, más próximos a la descripción. */
+.menu-page .dish-body .description{margin-bottom:6px}
+.menu-page .dish-body .allergens{margin-top:0;padding-top:5px}
+.menu-page .dish-body .allergen-list{margin-top:0;gap:4px}
+.dish-tools .listen-button,.dish-tools .share-button{border:0.5px solid var(--line)}
+
+/* Más separación de las categorías y menor margen derecho en móvil. */
+@media(max-width:599px){
+ .menu-page main{margin-left:74px;margin-right:6px}
+ .menu-page .menu-grid{padding-inline:0}
+}
+
+/* Títulos y grupos más próximos a sus tarjetas. */
+.menu-page .section-heading{margin:18px 0 12px}
+.menu-page .section-heading h2{margin-bottom:0}
+.menu-page .food-group{margin-bottom:16px}
+@media(max-width:599px){
+ .menu-page .section-heading{margin:14px 0 10px}
+ .menu-page .food-group{margin-bottom:12px}
+}
+
+/* Categorías sin contador y con separación mínima. */
+.menu-page .section-heading{margin:10px 0 8px}
+.menu-page .food-group{margin-bottom:8px}
+@media(max-width:599px){
+ .menu-page .section-heading{margin:9px 0 7px}
+ .menu-page .food-group{margin-bottom:6px}
+}
+
+/* Pequeño margen interior alrededor del inicio de cada foto. */
+.dish-visual{padding-top:6px;padding-left:6px}
+
+/* Barra de categorías móvil sin separación bajo la cabecera. */
+@media(max-width:599px){
+ .category-rail{top:var(--header-height);max-height:calc(100dvh - var(--header-height));border-top-left-radius:0;border-top-right-radius:0}
+}
+
+@media(max-width:599px){
+ .category-rail{border-radius:12px}
+}
+
+/* Esquinas suavemente redondeadas en las fotografías. */
+.dish-visual .dish-media{border-radius:6px}
+
+/* Mayor separación vertical entre audio y compartir. */
+.dish-tools{gap:20px}
+
+/* Referencia más próxima al borde inferior de la foto. */
+.menu-page .dish-visual + .dish-body{padding-top:5px}
+
+/* Las restricciones del buffet no separan la referencia de la foto. */
+.menu-page .dish-meta:has(.buffet-stars, .two-person-badge){align-items:flex-start}
+.dish-meta .buffet-stars{min-height:24px;min-width:28px;padding:1px 4px;font-size:20px;line-height:22px}
+.dish-meta .two-person-badge{min-height:24px;height:24px}
+.dish-meta .two-person-badge img{width:22px;height:22px}
+
+/* Desplazamiento de los títulos de categoría. */
+.menu-page .section-heading h2{margin-left:25px}
+
+/* Acento vertical junto a los títulos de categoría. */
+@media(max-width:599px){
+ .menu-page .section-heading h2{border-left:3px solid var(--red);padding-left:5px}
+}
+
+/* Barra lateral móvil sin fondo ni contorno. */
+@media(max-width:599px){
+ .category-rail{background:transparent;border-color:transparent;box-shadow:none}
+}
+
+/* Columna de categorías móvil ligeramente más ancha. */
+@media(max-width:599px){
+ .category-rail .rail-tab{width:52px}
+ .category-rail .rail-label{max-width:50px}
+}
+
+/* Información de alérgenos desplegable desde el primer icono. */
+.dish-tools .allergen-button{display:flex;align-items:center;justify-content:center;width:44px;min-width:44px;height:44px;min-height:44px;padding:11px;margin:0;border:.5px solid var(--line);border-radius:50%;background:transparent;color:var(--muted);cursor:pointer}
+.allergen-button:hover,.allergen-button[aria-expanded="true"]{background:var(--chip);color:var(--red)}
+.allergen-button:focus-visible{outline:3px solid var(--red);outline-offset:3px}
+.allergen-icon{display:block;width:20px;height:20px;background:currentColor;mask:url('../assets/icons/allergens.svg') center / contain no-repeat;-webkit-mask:url('../assets/icons/allergens.svg') center / contain no-repeat}
+
+/* La imagen no se estira por la altura de los tres botones. */
+.dish-visual{grid-template-columns:minmax(0,1fr) 52px;align-items:start}
+.dish-visual .dish-media{width:100%;max-width:100%;min-width:0;height:auto;align-self:start;aspect-ratio:16/9}
+.dish-tools{gap:10px;padding:2px 0}
+.dish-tools .allergen-button,.dish-tools .listen-button,.dish-tools .share-button{width:36px;min-width:36px;height:36px;min-height:36px;padding:8px}
+@media(max-width:599px){
+ .dish-visual .dish-media{height:clamp(124px,35vw,148px);aspect-ratio:auto}
+}
+
+/* Redondeo solo en las esquinas superior izquierda e inferior derecha. */
+.dish-visual .dish-media{border-radius:16px 0 16px 0}
+
+/* Novedad como elemento independiente del recorte de la foto. */
+.dish-visual{position:relative;--new-badge-top:6px;--new-badge-left:-2px}
+.new-badge{position:absolute;top:var(--new-badge-top);left:var(--new-badge-left);width:54px;height:auto;z-index:1;pointer-events:none;object-fit:contain}
+
+/* Esquina superior izquierda de la foto igual al marco de la tarjeta. */
+.dish-visual .dish-media{border-top-left-radius:var(--radius)}

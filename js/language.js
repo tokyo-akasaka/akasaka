@@ -1,5 +1,7 @@
 export const translations = {
   es: {
+    newDish: "Novedad",
+    allergenAdvice: "Consulta los alérgenos con el personal.",
     shareDish: "Compartir plato",
     share: "Compartir",
     shareCopied: "Enlace copiado",
@@ -60,6 +62,8 @@ export const translations = {
     backToDishes: "Volver a los platos",
   },
   en: {
+    newDish: "New",
+    allergenAdvice: "Please check allergens with staff.",
     shareDish: "Share dish",
     share: "Share",
     shareCopied: "Link copied",

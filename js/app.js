@@ -22,7 +22,7 @@ function refreshAudio(){
   const label=active?t().stopReading:(mode==='drinks'?t().listenDrink:t().listen);
   button.querySelector('.listen-label').textContent=label;
   button.setAttribute('aria-label',`${label}: ${audioNames.get(button.dataset.reference)||''}`);
-  button.querySelector('.listen-icon').textContent=active?'■':'🔊';
+
  });
  audioDock.hidden=!busy&&audioState.state!=='error';
  if(busy)audioStatus.textContent=`${audioState.state==='loading'?t().audioLoading:t().audioSpeaking}: ${audioNames.get(audioState.id)||''}`;
@@ -74,10 +74,11 @@ function cardFor(dish,index){
  if(mode==='drinks'&&dish.shotPrice!==undefined){body.append(node('p','serving-prices',`${t().glass}: ${money(dish.price)} · ${t().shot}: ${money(dish.shotPrice)}`));}
  if(dish.reviewPending)body.append(node('p','review-note',t().reviewPending));
  if(mode!=='drinks'){
-  const allergies=node('div','allergens');
+  const allergies=node('div','allergens');allergies.id=`allergens-${dish.reference}`;allergies.hidden=true;allergies.setAttribute('role','region');allergies.setAttribute('aria-label',`${t().allergens}: ${dish.name[language]}`);
   if(dish.allergens===null||dish.allergens===undefined){allergies.append(node('p','allergen-pending',t().allergensPending));}
-  else if(dish.allergens.length){allergies.append(node('span','allergen-label',t().allergens));const list=node('ul','allergen-list');dish.allergens.forEach(id=>list.append(node('li','',data.allergens[id][language])));allergies.append(list);}
-  if(allergies.childNodes.length)body.append(allergies);
+  else if(dish.allergens.length){allergies.setAttribute('aria-label',t().allergens);const list=node('ul','allergen-list');dish.allergens.forEach(id=>list.append(node('li','',data.allergens[id][language])));allergies.append(list);}
+  if(!allergies.childNodes.length)allergies.append(node('p','allergen-pending',t().allergenAdvice));
+  body.append(allergies);
  }
  if(mode==='carta'){
   const actions=node('div','dish-actions'),button=node('button','share-button');button.type='button';button.setAttribute('aria-label',`${t().shareDish}: ${dish.name[language]}`);
@@ -90,12 +91,28 @@ function cardFor(dish,index){
   });actions.append(status,button);(card.querySelector('.dish-media')||body).append(actions);
  }
  const listen=node('button','listen-button');listen.type='button';listen.dataset.reference=dish.reference;
- const icon=node('span','listen-icon','🔊');icon.setAttribute('aria-hidden','true');listen.append(icon,node('span','listen-label',mode==='drinks'?t().listenDrink:t().listen));
+ const icon=node('span','listen-icon');icon.setAttribute('aria-hidden','true');listen.append(icon,node('span','listen-label sr-only',mode==='drinks'?t().listenDrink:t().listen));
  listen.setAttribute('aria-label',`${mode==='drinks'?t().listenDrink:t().listen}: ${dish.name[language]}`);
  audioNames.set(dish.reference,dish.name[language]);
  if(!reader.supported){listen.disabled=true;listen.title=t().audioUnsupported;body.append(node('p','audio-unavailable',t().audioUnsupported));}
  listen.addEventListener('click',()=>reader.speak({id:dish.reference,text:describeDish(dish,{language,mode,allergens:data.allergens,text:t()}),language}));
- body.append(listen);card.append(body);return card;
+ const tools=node('div','dish-tools');
+ if(mode!=='drinks'){
+  const allergyButton=node('button','allergen-button');allergyButton.type='button';allergyButton.title=t().allergens;allergyButton.setAttribute('aria-label',`${t().allergens}: ${dish.name[language]}`);allergyButton.setAttribute('aria-expanded','false');allergyButton.setAttribute('aria-controls',`allergens-${dish.reference}`);
+  const allergyIcon=node('span','allergen-icon');allergyIcon.setAttribute('aria-hidden','true');allergyButton.append(allergyIcon);
+  allergyButton.addEventListener('click',()=>{const panel=body.querySelector('.allergens');panel.hidden=!panel.hidden;allergyButton.setAttribute('aria-expanded',String(!panel.hidden));});
+  tools.append(allergyButton);
+ }
+ tools.append(listen);
+ const shareActions=card.querySelector('.dish-actions')||body.querySelector('.dish-actions');if(shareActions)tools.append(shareActions);
+ const media=card.querySelector('.dish-media');
+ if(media){
+  const visual=node('div','dish-visual');visual.append(media,tools);
+  if(dish.isNew){const badge=node('img','new-badge');badge.src='assets/brand/new.webp';badge.alt=t().newDish;badge.width=54;badge.height=36;visual.append(badge);}
+  card.prepend(visual);
+ }
+ else{card.classList.add('text-only-card');body.prepend(tools);}
+ card.append(body);return card;
 }
 function render(){
  const savedScroll=window.scrollY;reader.stop();audioNames.clear();applyLanguage(language);refreshAudio();
@@ -113,7 +130,7 @@ function render(){
    if(cls==='rail-tab'){const icon=node('img');icon.src=`assets/categories/${category.icon}.svg`;icon.alt='';icon.width=25;icon.height=25;link.append(icon,node('span','rail-label',category.name[language]));}else link.textContent=category.name[language];parent.append(link);
   }
   const section=node('section','food-group');section.id=`group-${category.id}`;section.dataset.group=category.id;section.setAttribute('aria-labelledby',`title-${category.id}`);
-  const heading=node('div','section-heading'),h=node('h2','',category.name[language]);h.id=`title-${category.id}`;heading.append(h,node('span','dish-count',`${items.length} ${mode==='drinks'?t().drinkItems:t().dishes}`));
+  const heading=node('div','section-heading'),h=node('h2','',category.name[language]);h.id=`title-${category.id}`;heading.append(h);
   const grid=node('div','menu-grid');items.forEach((dish,index)=>grid.append(cardFor(dish,index)));section.append(heading,grid);host.append(section);
  });
  if(mode==='carta'||mode==='drinks')host.append(node('p','tax-note',t().tax));host.setAttribute('aria-busy','false');

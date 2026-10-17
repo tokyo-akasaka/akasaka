@@ -24,7 +24,8 @@
     ],
     "sourcePage": 2,
     "buffetStars": 2,
-    "twoPersons": true
+    "twoPersons": true,
+    "isNew": true
   },
   {
     "reference": "E2",
@@ -52,7 +53,8 @@
     ],
     "sourcePage": 2,
     "buffetStars": 0,
-    "twoPersons": false
+    "twoPersons": false,
+    "isNew": false
   },
   {
     "reference": "E3",
@@ -79,7 +81,8 @@
     ],
     "sourcePage": 2,
     "buffetStars": 0,
-    "twoPersons": false
+    "twoPersons": false,
+    "isNew": true
   },
   {
     "reference": "S112",
@@ -104,7 +107,8 @@
     ],
     "sourcePage": 6,
     "buffetStars": 0,
-    "twoPersons": false
+    "twoPersons": false,
+    "isNew": false
   },
   {
     "reference": "S110",
@@ -129,7 +133,8 @@
     ],
     "sourcePage": 6,
     "buffetStars": 0,
-    "twoPersons": false
+    "twoPersons": false,
+    "isNew": false
   },
   {
     "reference": "S111",
@@ -154,7 +159,8 @@
     ],
     "sourcePage": 6,
     "buffetStars": 0,
-    "twoPersons": false
+    "twoPersons": false,
+    "isNew": true
   },
   {
     "reference": "UD140",
@@ -180,7 +186,8 @@
     ],
     "sourcePage": 6,
     "buffetStars": 0,
-    "twoPersons": false
+    "twoPersons": false,
+    "isNew": false
   },
   {
     "reference": "UD141",
@@ -206,7 +213,8 @@
     ],
     "sourcePage": 6,
     "buffetStars": 0,
-    "twoPersons": false
+    "twoPersons": false,
+    "isNew": false
   },
   {
     "reference": "UD147",
@@ -232,7 +240,8 @@
     ],
     "sourcePage": 6,
     "buffetStars": 0,
-    "twoPersons": false
+    "twoPersons": false,
+    "isNew": false
   },
   {
     "reference": "SM107",
@@ -261,7 +270,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 7,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": true
   },
   {
     "reference": "SM109",
@@ -284,7 +294,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 7,
-    "reviewPending": true
+    "reviewPending": true,
+    "isNew": true
   },
   {
     "reference": "SM108",
@@ -307,7 +318,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 7,
-    "reviewPending": true
+    "reviewPending": true,
+    "isNew": false
   },
   {
     "reference": "UD143",
@@ -330,7 +342,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 8,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "UD144",
@@ -353,7 +366,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 8,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "UD142",
@@ -376,7 +390,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 8,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "SH30",
@@ -401,7 +416,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 9,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "SH31",
@@ -426,7 +442,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 9,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "SH32",
@@ -451,7 +468,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 9,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "HM79",
@@ -476,7 +494,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 11,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "HM80",
@@ -499,7 +518,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 11,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "HM81",
@@ -522,7 +542,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 11,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "TK51",
@@ -545,7 +566,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 12,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "TK52",
@@ -568,7 +590,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 12,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "TK53",
@@ -591,7 +614,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 12,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "RS60",
@@ -614,7 +638,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 13,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "RS61",
@@ -637,7 +662,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 13,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "RS62",
@@ -660,7 +686,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 13,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "CR90",
@@ -683,7 +710,8 @@
     "buffetStars": 1,
     "twoPersons": true,
     "sourcePage": 16,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": true
   },
   {
     "reference": "CR91",
@@ -706,7 +734,8 @@
     "buffetStars": 2,
     "twoPersons": true,
     "sourcePage": 16,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": true
   },
   {
     "reference": "CR97",
@@ -729,7 +758,8 @@
     "buffetStars": 2,
     "twoPersons": true,
     "sourcePage": 16,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": true
   },
   {
     "reference": "SM92",
@@ -754,7 +784,8 @@
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 17,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "SM95",
@@ -779,7 +810,8 @@
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 17,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "94",
@@ -802,7 +834,8 @@
     "buffetStars": 1,
     "twoPersons": false,
     "sourcePage": 17,
-    "reviewPending": true
+    "reviewPending": true,
+    "isNew": true
   },
   {
     "reference": "E10",
@@ -825,7 +858,8 @@
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 17,
-    "reviewPending": true
+    "reviewPending": true,
+    "isNew": true
   },
   {
     "reference": "CR118",
@@ -848,7 +882,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 18,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "CR126",
@@ -871,7 +906,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 18,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "CR119",
@@ -894,7 +930,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 18,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "MR131",
@@ -917,7 +954,8 @@
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 20,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": true
   },
   {
     "reference": "MR132",
@@ -940,7 +978,8 @@
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 20,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "CR133",
@@ -963,7 +1002,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 20,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": true
   },
   {
     "reference": "PS180",
@@ -986,7 +1026,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 22,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "PS181",
@@ -1009,7 +1050,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 22,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   },
   {
     "reference": "PS182",
@@ -1032,6 +1074,7 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 22,
-    "reviewPending": false
+    "reviewPending": false,
+    "isNew": false
   }
 ]
