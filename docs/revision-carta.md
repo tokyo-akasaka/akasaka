@@ -26,3 +26,15 @@ La exportación del PDF incluye textos de proveedor ocultos en página 22 y erro
 - SM109 mantiene aviso de receta sin confirmar; SM108 tiene inglés corregido desde el español pero sigue marcado para revisión. Referencia 94 se conserva sin prefijo inventado. E10 se normaliza editorialmente y sigue pendiente de validación.
 - `allergens: null` indica información aún no revisada; no equivale a ausencia de alérgenos. No se infieren alérgenos de ingredientes. Los iconos SVG de alérgenos siguen pendientes de recepción.
 - Fotografías de categorías ampliadas: recortes del área fotográfica del PDF, renderizados a 3x. No se modifican los originales. Se podrán sustituir por Links al completar la revisión.
+
+
+## V0.1.1 · 17/10/2026
+
+- Mediodía completo: 21 primeros (páginas 2–5), 12 segundos (6–7), 6 combinaciones de sushi (8). 39 referencias únicas, con fotos extraídas de su propio PDF.
+- Bebidas: se conservan las 65 referencias completas. Carta y buffet mantienen muestras por categoría.
+- E5 se conserva como rollitos de verduras; E4 y E7 son 4 unidades, GY22 son 3, según mediodía. No se reutilizan recetas de carta para estas referencias. E6 no añade tartar ni trufa: la descripción del borrador solo indica rollitos de marisco. E6 y E21 conservan las 4 unidades para 2 personas.
+- CR139 se mantiene en mediodía como Ebi Chili, con la descripción de verduras de temporada y chili de este documento. En carta CR139 corresponde a otro plato; quedan separados.
+- CR128: inglés normalizado desde el español (yakiniku), ya que el original inglés menciona teriyaki. CM174: erratas del listado normalizadas; confirmar la composición antes de cerrar el diseño.
+- Los precios individuales residuales de ES20, E28 y M155 en el borrador no se presentan como suplementos.
+- Los alérgenos no revisados continúan con null y su aviso; no se presume que los platos carezcan de alérgenos. Iconos vectoriales aún pendientes.
+- Regeneración de fotos y contenido: scripts/complete_lunch_v011.py (Pillow, pypdfium2).

@@ -12,7 +12,7 @@ El servidor solo escucha en 127.0.0.1; bloquea material_base, docs y scripts.
 - `index.html`: cuatro accesos grandes en una columna, también en escritorio.
 - `menu.html?mode=buffet`: comida sin postres ni precios individuales; estrellas y dos personas; ventana de condiciones en cabecera.
 - `menu.html?mode=carta`: precios por plato, sin estrellas ni requisito de dos personas; incluye 3 postres.
-- `menu.html?mode=lunch`: muestra del menú mediodía con tarifas de 16,90 € / 17,90 € y 3 platos por grupo.
+- `menu.html?mode=lunch`: menú mediodía completo: 21 primeros, 12 segundos y 6 combinaciones de sushi; tarifas de 16,90 € / 17,90 €.
 - `menu.html?mode=drinks`: las 65 referencias de bebidas del PDF, con copa/chupito cuando procede.
 
 ## Contenido editable
@@ -34,3 +34,17 @@ Variables de colores en `css/styles.css`. Tema recordado con `js/theme.js`; idio
 ## Publicación futura
 
 Publicar solo index.html, menu.html y css/, js/, data/, assets/. Nunca material_base/, scripts/ o docs/.
+
+## V0.1.1
+
+Menú mediodía completo (39 platos) y bebidas completas (65 referencias). La carta general y el buffet mantienen sus muestras por categoría. Aviso: Diseño en revisión V0.1.1.
+
+## Experimento de audio descriptivo
+
+Cada tarjeta tiene Escuchar y Detener. `js/audio.js` genera la narración desde los datos de la modalidad y usa SpeechSynthesis del dispositivo, sin API ni micrófono. Nunca reproduce automáticamente. Un solo lector compartido cancela la lectura anterior. Se detiene al cambiar idioma, abrir condiciones, ocultar la página o navegar fuera. Una barra inferior permite detener un plato aunque su tarjeta quede fuera de pantalla.
+
+Lee el precio en carta y bebidas (incluido chupito), las restricciones en buffet, y la pertenencia al menú en mediodía. Lee los alérgenos verificados o avisa si están pendientes. Los campos opcionales `speechName: {es, en}` y `speechDescription: {es, en}` permiten ajustar pronunciaciones sin cambiar el texto visible.
+
+Las voces y su calidad dependen del navegador y del sistema; algunas voces del sistema pueden utilizar servicios de red. Si no hay soporte o falla la voz, se muestra un aviso y la carta sigue disponible. Prueba pendiente con sonido real en Safari/iPhone y Chrome/Android, especialmente los nombres japoneses.
+
+Pruebas de lógica: `node --test tests/audio.test.mjs`. No generan audio real.
