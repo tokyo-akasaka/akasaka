@@ -1,3 +1,4 @@
+import {buildDishShareData,shareDish} from './share.js';
 import {translations,initialLanguage,applyLanguage,trackHeader} from './language.js';
 const requestedMode=new URLSearchParams(location.search).get('mode');
 const mode=['buffet','carta','lunch','drinks'].includes(requestedMode)?requestedMode:'carta';
@@ -32,7 +33,7 @@ function renderSummary(){
  }
 }
 function cardFor(dish,index){
- const card=node('article',`dish-card${mode==='drinks'?' drink-card':''}`);card.setAttribute('aria-labelledby',`dish-${dish.reference}`);
+ const card=node('article',`dish-card${mode==='drinks'?' drink-card':''}`);card.id=`dish-${dish.reference}`;card.setAttribute('aria-labelledby',`dish-title-${dish.reference}`);
  if(dish.image){const media=node('div','dish-media'),image=node('img');image.src=dish.image;image.alt=dish.name[language];image.width=900;image.height=675;image.loading=index===0?'eager':'lazy';image.decoding='async';media.append(image);card.append(media);}
  const body=node('div','dish-body'),meta=node('div','dish-meta');meta.append(node('span','reference',`${t().reference} ${dish.reference}`));
  if(dish.portion?.[language])meta.append(node('span','portion',dish.portion[language]));
@@ -40,7 +41,7 @@ function cardFor(dish,index){
   if(dish.buffetStars){const stars=node('button','buffet-stars',dish.buffetStars===1?'✱':'✱✱');stars.type='button';stars.setAttribute('aria-label',`${dish.buffetStars===1?t().starOne:t().starTwo} ${t().notIncluded}`);stars.title=stars.getAttribute('aria-label');stars.addEventListener('click',openConditions);meta.append(stars);}
   if(dish.twoPersons){const badge=node('span','two-person-badge');badge.title=t().two;const image=node('img');image.src='assets/categories/people.svg';image.alt=t().two;image.width=26;image.height=26;badge.append(image);meta.append(badge);}
  }
- const heading=node('div','dish-heading'),name=node('h3','',dish.name[language]);name.id=`dish-${dish.reference}`;heading.append(name);
+ const heading=node('div','dish-heading'),name=node('h3','',dish.name[language]);name.id=`dish-title-${dish.reference}`;heading.append(name);
  if(mode==='carta'||mode==='drinks')heading.append(node('span','price',money(dish.price)));
  body.append(meta,heading);
  if(dish.description?.[language])body.append(node('p','description',dish.description[language]));
@@ -51,6 +52,16 @@ function cardFor(dish,index){
   if(dish.allergens===null||dish.allergens===undefined){allergies.append(node('p','allergen-pending',t().allergensPending));}
   else if(dish.allergens.length){allergies.append(node('span','allergen-label',t().allergens));const list=node('ul','allergen-list');dish.allergens.forEach(id=>list.append(node('li','',data.allergens[id][language])));allergies.append(list);}
   if(allergies.childNodes.length)body.append(allergies);
+ }
+ if(mode==='carta'){
+  const actions=node('div','dish-actions'),button=node('button','share-button');button.type='button';button.setAttribute('aria-label',`${t().shareDish}: ${dish.name[language]}`);
+  const icon=node('span','share-icon');icon.setAttribute('aria-hidden','true');button.append(icon,node('span','sr-only',t().share));
+  const status=node('span','share-status');status.setAttribute('role','status');status.setAttribute('aria-live','polite');
+  button.addEventListener('click',async()=>{
+   if(button.disabled)return;button.disabled=true;status.textContent='';
+   try{const result=await shareDish(buildDishShareData(dish,{href:location.href,language}),{onManual:showShareLink});if(result==='copied')status.textContent=t().shareCopied;}
+   finally{button.disabled=false;}
+  });actions.append(status,button);(card.querySelector('.dish-media')||body).append(actions);
  }
  card.append(body);return card;
 }
@@ -89,5 +100,27 @@ applyLanguage(language);trackHeader();
 document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>{language=button.dataset.language;if(data)render();else applyLanguage(language);document.querySelector('#language-status').textContent=t().changed;}));
 try{
  const names=['menu','categories','allergens','drinks','lunch','buffet'];const values=await Promise.all(names.map(async name=>{const response=await fetch(`data/${name}.json`);if(!response.ok)throw new Error(name);return response.json();}));data=Object.fromEntries(names.map((name,index)=>[name,values[index]]));render();
- if(location.hash.startsWith('#group-'))requestAnimationFrame(()=>document.getElementById(decodeURIComponent(location.hash.slice(1)))?.scrollIntoView());
+ requestAnimationFrame(()=>requestAnimationFrame(followAnchor));
 }catch(error){host.replaceChildren(node('p','load-error',t().error));host.setAttribute('aria-busy','false');console.error('Menu load failed',error);}
+
+// Las tarjetas se generan después del fetch: resolvemos el ancla al terminar.
+let highlightTimer;
+function followAnchor(){
+ let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
+ if(!id.startsWith('dish-')&&!id.startsWith('group-'))return;
+ const target=document.getElementById(id);if(!target)return;
+ target.scrollIntoView({behavior:'instant',block:'start'});
+ if(id.startsWith('dish-')){
+  document.querySelectorAll('.shared-dish').forEach(card=>card.classList.remove('shared-dish'));
+  target.classList.add('shared-dish');clearTimeout(highlightTimer);highlightTimer=setTimeout(()=>target.classList.remove('shared-dish'),3500);
+ }
+ updateActive();
+}
+window.addEventListener('hashchange',()=>{if(data)followAnchor();});
+function showShareLink(url){
+ let shareDialog=document.querySelector('#share-dialog');
+ if(!shareDialog){shareDialog=node('dialog');shareDialog.id='share-dialog';document.body.append(shareDialog);}
+ shareDialog.replaceChildren();shareDialog.setAttribute('aria-labelledby','share-dialog-title');
+ const header=node('div','dialog-header'),heading=node('h2','',t().shareDish);heading.id='share-dialog-title';const close=node('button','',t().close);close.type='button';close.addEventListener('click',()=>shareDialog.close());header.append(heading,close);
+ const body=node('div','share-link-body'),label=node('label','',t().shareHint);label.htmlFor='share-link-input';const input=node('input','share-link-input');input.id='share-link-input';input.type='url';input.readOnly=true;input.value=url;input.addEventListener('focus',()=>input.select());body.append(label,input);shareDialog.append(header,body);shareDialog.showModal();input.focus();input.select();
+}

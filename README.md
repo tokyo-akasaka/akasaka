@@ -34,3 +34,11 @@ Variables de colores en `css/styles.css`. Tema recordado con `js/theme.js`; idio
 ## Publicación futura
 
 Publicar solo index.html, menu.html y css/, js/, data/, assets/. Nunca material_base/, scripts/ o docs/.
+
+## Compartir un plato · La Carta
+
+Botón discreto con icono de compartir. Se usa el menú nativo del dispositivo cuando está disponible; como alternativa se copia el enlace. Si no se puede copiar, se muestra el enlace seleccionable. Cancelar el menú de compartir no copia nada.
+
+Los enlaces usan `menu.html?mode=carta&lang=es#dish-E2`, conservando la subcarpeta de GitHub Pages. La referencia identifica la tarjeta completa. Se resuelve el ancla después de cargar el JSON, con espacio para la cabecera y resaltado temporal. No hay páginas individuales, precios en el mensaje ni integración del experimento de audio.
+
+Pruebas: `node --test tests/share.test.mjs`. No publican ni comparten mensajes reales.

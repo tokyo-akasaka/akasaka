@@ -1,5 +1,9 @@
 export const translations = {
   es: {
+    shareDish: "Compartir plato",
+    share: "Compartir",
+    shareCopied: "Enlace copiado",
+    shareHint: "Copia este enlace para compartir el plato.",
     homeTitle: "Akasaka · Elige tu experiencia",
     choose: "¿Cómo te apetece disfrutar hoy?",
     buffetHint: "Rondas ilimitadas · A tu ritmo",
@@ -49,6 +53,10 @@ export const translations = {
     backToDishes: "Volver a los platos",
   },
   en: {
+    shareDish: "Share dish",
+    share: "Share",
+    shareCopied: "Link copied",
+    shareHint: "Copy this link to share the dish.",
     homeTitle: "Akasaka · Choose your experience",
     choose: "How would you like to enjoy your visit?",
     buffetHint: "Unlimited rounds · At your own pace",
@@ -98,6 +106,8 @@ export const translations = {
   },
 };
 export function initialLanguage() {
+  const sharedLanguage = new URLSearchParams(location.search).get('lang');
+  if (sharedLanguage === 'es' || sharedLanguage === 'en') return sharedLanguage;
   try {
     return localStorage.getItem("akasaka-language") === "en" ? "en" : "es";
   } catch {

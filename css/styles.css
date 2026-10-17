@@ -127,3 +127,34 @@ dialog::backdrop{background:#0009;backdrop-filter:blur(4px)}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
 
 @media(max-width:599px){html{scroll-padding-top:calc(var(--header-height) + 16px)}}
+
+/* Acción de compartir discreta, solo en La Carta. */
+.dish-actions{display:flex;justify-content:flex-end;align-items:center;gap:10px;margin-top:13px}
+.share-button{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-width:44px;min-height:44px;padding:8px 10px;border:0;border-radius:6px;background:transparent;color:var(--muted);font:500 11px/1.4 Arial,Helvetica,sans-serif;cursor:pointer}
+.share-button:hover,.share-button:focus-visible{color:var(--red);background:var(--chip)}
+.share-button:focus-visible{outline:2px solid var(--red);outline-offset:2px}.share-button:disabled{opacity:.6;cursor:wait}
+.share-icon{display:block;width:18px;height:18px;background:currentColor;mask:url('../assets/icons/share.svg') center / contain no-repeat;-webkit-mask:url('../assets/icons/share.svg') center / contain no-repeat}
+.share-status{font-size:10px;line-height:1.5;color:var(--muted)}
+.dish-card.shared-dish{outline:2px solid var(--red);outline-offset:3px}
+.share-link-body{padding:22px;display:grid;gap:15px;font-size:13px;line-height:1.6}.share-link-input{width:100%;min-width:0;padding:12px;border:1px solid var(--line);border-radius:5px;background:var(--card);color:var(--ink);font:inherit;font-size:12px}
+
+/* Partage en surimpression; cartes mobiles plus compactes. */
+.dish-media{position:relative}
+.dish-media .dish-actions{position:absolute;right:10px;bottom:10px;z-index:1;margin:0;gap:8px}
+.dish-media .share-button{width:44px;height:44px;min-width:44px;padding:12px;border-radius:50%;background:rgb(255 255 255 / .92);color:#33382f;box-shadow:0 2px 12px #0002;backdrop-filter:blur(6px)}
+.dish-media .share-button:hover,.dish-media .share-button:focus-visible{background:#fff;color:#aa342d}
+.dish-media .share-status:not(:empty){padding:7px 10px;border-radius:5px;background:rgb(255 255 255 / .95);color:#33382f;max-width:150px;text-align:right}
+@media(max-width:599px){
+ .menu-page .menu-grid{padding-inline:4px;gap:16px}
+ .menu-page .dish-media{aspect-ratio:16/9}
+ .menu-page .dish-body,.menu-page .drink-card .dish-body{padding:14px 13px}
+ .menu-page .dish-meta{margin-bottom:9px;gap:8px}
+ .menu-page .dish-heading{gap:10px}
+ .menu-page .dish-heading h3{font-size:23px;line-height:1.15}
+ .menu-page .price{font-size:15px}
+ .menu-page .description{font-size:13px;line-height:1.6;margin:10px 0 14px}
+ .menu-page .allergens{padding-top:11px}
+ .menu-page .allergen-list{margin-top:7px;gap:5px}
+ .menu-page .allergen-list li{padding:4px 7px;font-size:10px}
+ .menu-page .dish-media .dish-actions{right:8px;bottom:8px}
+}
