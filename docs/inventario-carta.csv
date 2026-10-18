@@ -1,0 +1,242 @@
+modalidad,pagina_pdf,referencia,categoria,nombre_es,precio,imagen,estrellas,dos_personas,revisar
+carta,2,E6,entrantes,Cha Giò Hai San,5.8,assets/dishes/e6-focus.webp,2,True,False
+carta,2,E2,entrantes,Sushi Quingo,4.8,assets/dishes/e2.webp,0,False,False
+carta,2,E3,entrantes,Gyoza vegetal,5.0,assets/dishes/e3.webp,0,False,False
+carta,2,E4,entrantes,Tiras de pollo,7.8,assets/dishes/e4.webp,0,False,False
+carta,2,E5,entrantes,Duck Harumaki,5.8,assets/dishes/e5.webp,0,False,False
+carta,2,E1,entrantes,Takoyaki,5.0,assets/dishes/e1.webp,0,False,False
+carta,3,E7,entrantes,Ebi Kimono,7.5,assets/dishes/e7-original.webp,0,False,False
+carta,3,E8,entrantes,Okonomiyaki brochetas,8.0,assets/dishes/e8-two.webp,1,True,False
+carta,3,E11,entrantes,Edamame,5.8,assets/dishes/e11-original.webp,0,False,False
+carta,3,ES12,entrantes,Maguro Abokado,12.8,assets/dishes/es12-original.webp,0,False,False
+carta,3,ES13,entrantes,Ebi Shake Sarada,11.8,assets/dishes/es13.webp,0,False,False
+carta,3,ES14,entrantes,Wakame Sarada,5.8,assets/dishes/es14.webp,0,False,False
+carta,4,ES10,entrantes,Imo Mochi,8.0,assets/dishes/es10.webp,2,True,False
+carta,4,ES17,entrantes,Shake Abokado,11.8,assets/dishes/es17-original.webp,0,False,False
+carta,4,ES18,entrantes,Wakame Abokado,10.8,assets/dishes/es18-original.webp,0,False,False
+carta,4,ES20,entrantes,Gyoza Tori,6.5,assets/dishes/es20.webp,0,False,False
+carta,4,E21,entrantes,Gyoza de la casa,6.8,assets/dishes/e21.webp,2,True,False
+carta,5,GY22,entrantes,Butaman,6.2,assets/dishes/gy22.webp,0,False,False
+carta,5,GY23,entrantes,Dimsum Hakao,8.8,assets/dishes/gy23.webp,0,False,False
+carta,5,GY26,entrantes,Gwa Bao (Angus),6.8,assets/dishes/gy26-original.webp,1,False,False
+carta,5,GY25,entrantes,Gwa Bao (pato),5.8,assets/dishes/gy25.webp,0,False,True
+carta,5,E28,entrantes,Wantun frito,6.5,assets/dishes/e28-original.webp,0,False,False
+carta,6,S112,sopa,Espinaca Misoshiru,5.8,assets/dishes/s112.webp,0,False,False
+carta,6,S110,sopa,Tofu Misoshiru,5.5,assets/dishes/s110.webp,0,False,False
+carta,6,S111,sopa,Misoshiru,8.0,assets/dishes/s111-centered.webp,0,False,False
+carta,6,UD140,ramen,Miso Udon,10.9,assets/dishes/ud140.webp,0,False,False
+carta,6,UD141,ramen,Tonkatsu Ramen,10.2,assets/dishes/ud141.webp,0,False,False
+carta,6,UD147,ramen,Miso Ramen-Chasu,10.8,assets/dishes/ud147.webp,0,False,False
+carta,7,SM107,poke,Poke Salmón Lava · Onsen Tamago,14.0,assets/dishes/sm107.webp,0,False,False
+carta,7,SM109,poke,Unagi Poke,14.8,assets/dishes/sm109.webp,0,False,True
+carta,7,SM108,poke,Poke Salmón,14.8,assets/dishes/sm108.webp,0,False,True
+carta,8,UD143,arroz,Udon,10.9,assets/dishes/ud143.webp,0,False,False
+carta,8,UD144,arroz,Duck Chow Mein,15.2,assets/dishes/ud144.webp,0,False,False
+carta,8,UD142,arroz,Yakisoba,11.2,assets/dishes/ud142.webp,0,False,False
+carta,8,UD146,arroz,Fideos de arroz,10.0,assets/dishes/ud146-original.webp,0,False,False
+carta,8,UD145,arroz,Pato con arroz,10.8,assets/dishes/ud145-original.webp,0,False,False
+carta,8,UD148,arroz,Arroz trufado,14.8,assets/dishes/ud148-original.webp,0,False,False
+carta,9,SH30,nigiri,Maguro,6.0,assets/dishes/sh30-crop-original.webp,0,False,False
+carta,9,SH31,nigiri,Shake,5.0,assets/dishes/sh31-crop-original.webp,0,False,False
+carta,9,SH32,nigiri,Ebi,5.0,assets/dishes/sh32-crop-original.webp,0,False,False
+carta,9,SH33,nigiri,Neto,5.0,assets/dishes/sh33-crop-original.webp,0,False,False
+carta,9,SH34,nigiri,Hokkigai,4.8,assets/dishes/sh34-crop-original.webp,1,False,True
+carta,9,SH35,nigiri,Shake Aburi,5.0,assets/dishes/sh35-crop-original.webp,0,False,False
+carta,9,SH36,nigiri,Bigene atún,8.0,assets/dishes/sh36-crop-original.webp,1,True,False
+carta,9,SH37,nigiri,Masago,5.0,assets/dishes/sh37-centered-original.webp,0,False,False
+carta,9,SH38,nigiri,Bigene salmón,6.0,assets/dishes/sh38-fondo-nigiri.webp,0,False,True
+carta,9,SH39,nigiri,Corvina,5.0,assets/dishes/sh39-centered-original.webp,1,False,True
+carta,9,SH40,nigiri,Tamagoyaki,5.0,assets/dishes/sh40-crop-original.webp,0,False,False
+carta,9,SH41,nigiri,Ika,5.0,assets/dishes/sh41-crop-original.webp,0,False,False
+carta,10,SH42,nigiri,Aburi Maguro,6.0,assets/dishes/sh42-crop-original.webp,0,False,False
+carta,10,SH43,nigiri,Unagi,6.0,assets/dishes/sh43-crop-original.webp,1,False,False
+carta,10,SH044,nigiri,Tobikko,5.5,assets/dishes/sh044-centered-original.webp,0,False,False
+carta,10,SH45,nigiri,Saba,5.0,assets/dishes/sh45-crop-original.webp,0,False,False
+carta,10,SH46,nigiri,Tako,6.0,assets/dishes/sh46-crop-original.webp,0,False,False
+carta,10,SH47,nigiri,Ikura,8.0,assets/dishes/sh47-fondo-nigiri.webp,1,True,False
+carta,10,SH48,nigiri,Amaebi,8.0,assets/dishes/sh48-crop-original.webp,1,False,False
+carta,10,SH49,nigiri,Aburi mantequilla,6.0,assets/dishes/sh49-crop-original.webp,0,False,False
+carta,10,SH50,nigiri,Kanikama,5.0,assets/dishes/sh50-crop-original.webp,0,False,False
+carta,10,SH56,nigiri,Inari,4.5,assets/dishes/sh56-centered-original.webp,0,False,False
+carta,10,SH57,nigiri,Nigiri Mix,15.0,assets/dishes/sh57-crop-original.webp,1,False,True
+carta,10,SH58,nigiri,Vieira,5.0,assets/dishes/sh58-centered-original.webp,1,False,False
+carta,11,HM79,hosomaki,Shake Abokado,6.0,assets/dishes/hm79-centered-original.webp,0,False,False
+carta,11,HM80,hosomaki,Abokado Maki,5.0,assets/dishes/hm80-centered-original.webp,0,False,False
+carta,11,HM81,hosomaki,Kappa Maki,5.0,assets/dishes/hm81-centered-original.webp,0,False,False
+carta,11,HM82,hosomaki,Tekka Maki,8.0,assets/dishes/hm82-centered-original.webp,0,False,False
+carta,11,HM83,hosomaki,Ichigo Tempura Maki,10.0,assets/dishes/hm83-centered-original.webp,0,False,False
+carta,11,HM84,hosomaki,Ebi Shake,8.0,assets/dishes/hm84-centered-original.webp,0,False,False
+carta,11,HM85,hosomaki,Osomaki,10.0,assets/dishes/hm85-centered-original.webp,0,False,False
+carta,11,HM86,hosomaki,Spicy Tuna Maki,8.0,assets/dishes/hm86-centered-original.webp,0,False,False
+carta,11,HM87,hosomaki,Shake Maki,6.0,assets/dishes/hm87-centered-original.webp,0,False,False
+carta,11,HM77,hosomaki,Maki Volcano,12.0,assets/dishes/hm77-centered-original.webp,0,False,False
+carta,12,TK51,temaki,Ebi Ten Aguacate Temaki,5.8,assets/dishes/tk51.webp,0,False,False
+carta,12,TK52,temaki,Spicy Shake Temaki,5.5,assets/dishes/tk52.webp,0,False,False
+carta,12,TK53,temaki,Maguro California Temaki,7.8,assets/dishes/tk53.webp,0,False,False
+carta,12,TK54,temaki,Shake Avokado,5.8,assets/dishes/tk54.webp,0,False,False
+carta,12,TK55,temaki,Spicy Tuna Especial,8.0,assets/dishes/tk55.webp,0,False,False
+carta,13,RS60,rollitos,Cheddar Roll,12.0,assets/dishes/rs60.webp,0,False,False
+carta,13,RS61,rollitos,Rollo vegetal,10.0,assets/dishes/rs61.webp,0,False,False
+carta,13,RS62,rollitos,New Futomaki,7.8,assets/dishes/rs62.webp,0,False,False
+carta,13,RS63,rollitos,Rollo tropical,14.0,assets/dishes/rs63.webp,0,False,False
+carta,13,RS64,rollitos,Rollo hawaiano,15.0,assets/dishes/rs64.webp,0,False,False
+carta,13,RS65,rollitos,California,10.0,assets/dishes/rs65.webp,0,False,False
+carta,14,RS66,rollitos,Espacial Banzai,12.0,assets/dishes/rs66-centered.webp,0,False,True
+carta,14,RS67,rollitos,Supaidaroru,10.8,assets/dishes/rs67.webp,0,False,False
+carta,14,RS68,rollitos,Cho Cho Roru,11.8,assets/dishes/rs68.webp,0,False,False
+carta,14,RS69,rollitos,Sake Waka,10.8,assets/dishes/rs69.webp,0,False,True
+carta,14,RS70,rollitos,Diablo salmón,12.0,assets/dishes/rs70.webp,0,False,False
+carta,14,RS71,rollitos,Toro Aburi Roll,14.8,assets/dishes/rs71.webp,1,True,False
+carta,15,RS72,rollitos,Sake Waka,9.8,assets/dishes/rs72.webp,0,False,True
+carta,15,RS73,rollitos,Banzai,9.8,assets/dishes/rs73.webp,0,False,False
+carta,15,RS74,rollitos,Arcoíris,14.0,assets/dishes/rs74.webp,0,False,False
+carta,15,RS75,rollitos,Rollo sésamo,12.0,assets/dishes/rs75.webp,0,False,False
+carta,15,RS76,rollitos,Diablo atún,12.0,assets/dishes/rs76-centered.webp,0,False,False
+carta,15,RS78,rollitos,Katsuobushi Roll,12.0,assets/dishes/rs78.webp,0,False,True
+carta,16,CR90,carpaccio,Carpaccio de corvina,14.0,assets/dishes/cr90.webp,1,True,True
+carta,16,CR91,carpaccio,Carpaccio de salmón,12.0,assets/dishes/cr91.webp,2,True,False
+carta,16,CR97,carpaccio,Carpaccio de pez mantequilla,12.0,assets/dishes/cr97.webp,2,True,False
+carta,16,CR93,carpaccio,Carpaccio de atún,14.0,assets/dishes/cr93.webp,1,True,True
+carta,16,CR96,carpaccio,Tataki de wagyu,14.0,assets/dishes/cr96.webp,1,True,False
+carta,17,SM92,sashimi,Shake Sashimi,10.8,assets/dishes/sm92.webp,2,False,False
+carta,17,SM95,sashimi,Sashimi Mix,14.8,assets/dishes/sm95.webp,2,False,False
+carta,17,94,tartar,Tartar Sake Negi,10.8,assets/dishes/94-centered-original.webp,1,False,True
+carta,17,E10,tartar,Tartar de salmón,18.0,assets/dishes/e10.webp,2,False,True
+carta,18,CR118,carnes,Teriyaki de pollo,9.8,assets/dishes/cr118.webp,0,False,False
+carta,18,CR126,carnes,Yakitori,5.5,assets/dishes/cr126.webp,0,False,False
+carta,18,CR119,carnes,Pinchos de secreto,8.8,assets/dishes/cr119.webp,0,False,False
+carta,18,CR128,carnes,Yakiniku,14.8,assets/dishes/cr128.webp,2,False,True
+carta,18,CR129,carnes,Pollo estilo Thai,14.0,assets/dishes/cr129.webp,0,False,False
+carta,19,CR117,carnes,Pato al curry,14.8,assets/dishes/cr117.webp,0,False,False
+carta,19,CR120,carnes,Pato teriyaki,14.8,assets/dishes/cr120.webp,0,False,True
+carta,19,CR124,carnes,Chikin Teriyaki,9.8,assets/dishes/cr124.webp,0,False,False
+carta,19,CR125,carnes,Chikin Katsu,9.8,assets/dishes/cr125.webp,0,False,False
+carta,19,CR123,carnes,Tori Karaage,10.8,assets/dishes/cr123.webp,0,False,False
+carta,20,MR131,pescado,Ika Syogayaki,14.8,assets/dishes/mr131.webp,2,False,False
+carta,20,MR132,pescado,Shake,12.8,assets/dishes/mr132.webp,2,False,False
+carta,20,CR133,pescado,Gallineta en tempura,14.0,assets/dishes/cr133.webp,0,False,False
+carta,20,MR135,pescado,Maguro Syogayaki,12.8,assets/dishes/mr135.webp,2,False,False
+carta,21,MR136,pescado,Ebi Tempura,10.8,assets/dishes/mr136.webp,0,False,False
+carta,21,CR138,pescado,Langostinos Ebi Chili,14.0,assets/dishes/cr138.webp,0,False,True
+carta,21,CR139,pescado,Langostinos estilo Thai,14.0,assets/dishes/cr139.webp,0,False,False
+carta,21,MR137,pescado,Langostino rebozado,10.8,assets/dishes/mr137-centered-original.webp,0,False,False
+carta,22,PS180,postres,Makis helados,7.8,assets/dishes/ps180.webp,0,False,False
+carta,22,PS181,postres,Dorayaki,5.5,assets/dishes/ps181.webp,0,False,False
+carta,22,PS182,postres,Mousse de chocolate,7.8,assets/dishes/ps182.webp,0,False,False
+carta,22,PS185,postres,Trufas japonesas,8.0,assets/dishes/ps185.webp,0,False,False
+carta,22,PS186,postres,Tiramisú nuevo estilo,6.8,assets/dishes/ps186.webp,0,False,False
+carta,22,PS191,postres,Piña,6.8,assets/dishes/ps191.webp,0,False,True
+carta,23,PS187,postres,Yuzu Sorbet,6.8,assets/dishes/ps187.webp,0,False,False
+carta,23,PS188,postres,Gari Sorbet,5.8,assets/dishes/ps188.webp,0,False,False
+carta,23,PS189,postres,Goma Ice,8.0,assets/dishes/ps189.webp,0,False,False
+carta,23,PS190,postres,Maccha Ice,4.8,assets/dishes/ps190.webp,0,False,False
+carta,23,PS192,postres,Daifuku Aka,5.8,assets/dishes/ps192.webp,0,False,False
+carta,23,PS193,postres,Huevo de chocolate blanco y mango,8.5,assets/dishes/ps193.webp,0,False,False
+carta,24,PS194,postres,Soufflé de chocolate,8.0,assets/dishes/ps194.webp,0,False,False
+carta,24,PS195,postres,Convento de Baileys,8.0,assets/dishes/ps195.webp,0,False,True
+carta,24,PS184,postres,Mochi de helado,6.8,assets/dishes/ps184.webp,0,False,True
+mediodia,2,E6,primeros,Cha Giò Hai San,,assets/dishes/e6-focus.webp,,True,False
+mediodia,2,E2,primeros,Sushi Quingo,,assets/dishes/e2.webp,,False,False
+mediodia,2,E21,primeros,Gyoza de la casa,,assets/dishes/e21.webp,,True,False
+mediodia,2,E3,primeros,Gyoza vegetal,,assets/dishes/e3.webp,,False,False
+mediodia,2,ES20,primeros,Gyoza Tori,,assets/dishes/es20.webp,,False,False
+mediodia,2,E5,primeros,Harumaki,,assets/dishes/e5.webp,,False,False
+mediodia,3,E7,primeros,Ebi Kimono,,assets/dishes/e7-original.webp,,False,False
+mediodia,3,E4,primeros,Tiras de pollo,,assets/dishes/e4.webp,,False,False
+mediodia,3,E28,primeros,Wantun frito,,assets/dishes/e28-original.webp,,False,False
+mediodia,3,E1,primeros,Takoyaki,,assets/dishes/e1.webp,,False,False
+mediodia,3,GY22,primeros,Butaman,,assets/dishes/gy22.webp,,False,False
+mediodia,3,GY23,primeros,Dimsum,,assets/dishes/gy23.webp,,False,False
+mediodia,4,ES13,primeros,Ebi Shake Sarada,,assets/dishes/es13.webp,,False,False
+mediodia,4,ES14,primeros,Wakame Sarada,,assets/dishes/es14.webp,,False,False
+mediodia,4,ES17,primeros,Shake Abokado,,assets/dishes/es17-original.webp,,False,False
+mediodia,4,ES18,primeros,Wakame Abokado,,assets/dishes/es18-original.webp,,False,False
+mediodia,4,ES12,primeros,Maguro Abokado,,assets/dishes/es12-original.webp,,False,False
+mediodia,4,E11,primeros,Edamame,,assets/dishes/e11-original.webp,,False,False
+mediodia,5,S112,primeros,Espinaca Misoshiru,,assets/dishes/s112.webp,,False,False
+mediodia,5,S110,primeros,Tofu Misoshiru,,assets/dishes/s110.webp,,False,False
+mediodia,5,S111,primeros,Misoshiru,,assets/dishes/s111-centered.webp,,False,False
+mediodia,6,UD141,segundos,Tonkatsu Ramen,,assets/dishes/ud141.webp,,False,False
+mediodia,6,M157,segundos,Katsudon,,assets/dishes/lunch-m157.webp,,False,False
+mediodia,6,M156,segundos,Teriyaki de pollo con arroz,,assets/dishes/lunch-m156.webp,,False,False
+mediodia,6,M155,segundos,Yakisoba,,assets/dishes/lunch-m155.webp,,False,False
+mediodia,6,M158,segundos,Pollo estilo Thai,,assets/dishes/lunch-m158.webp,,False,False
+mediodia,6,CR139,segundos,Langostinos Ebi Chili,,assets/dishes/cr139.webp,,False,False
+mediodia,7,UD163,segundos,Duck Chow Mein,,assets/dishes/lunch-ud163.webp,,False,False
+mediodia,7,DR106,segundos,Kamo Donburi,,assets/dishes/lunch-dr106.webp,,False,False
+mediodia,7,DR104,segundos,Gyudon,,assets/dishes/lunch-dr104.webp,,False,False
+mediodia,7,CR128,segundos,Yakiniku,,assets/dishes/cr128.webp,,False,False
+mediodia,7,MR131,segundos,Ika Syogayaki,,assets/dishes/mr131.webp,,False,False
+mediodia,7,M161,segundos,Donburi salmón teriyaki,,assets/dishes/lunch-m161.webp,,False,False
+mediodia,8,CM170,sushi,Mix Sushi Hoso,,assets/dishes/lunch-cm170.webp,,False,False
+mediodia,8,CM171,sushi,Mix Samo Ebi,,assets/dishes/lunch-cm171.webp,,False,False
+mediodia,8,CM172,sushi,Mix Samo Hoso,,assets/dishes/lunch-cm172.webp,,False,False
+mediodia,8,CM173,sushi,Mix Hosomaki,,assets/dishes/lunch-cm173.webp,,False,False
+mediodia,8,CM174,sushi,Mix Max,,assets/dishes/lunch-cm174.webp,,False,False
+mediodia,8,CM175,sushi,Mix Sashimi,,assets/dishes/lunch-cm175.webp,,False,False
+bebidas,,SA301,sake,Sake Mio,16.8,assets/drinks/sa301-wide.webp,,,False
+bebidas,,SA302,sake,Shogun,10.8,assets/drinks/sa302-wide.webp,,,False
+bebidas,,SA303,sake,Kubota Senju,18.5,assets/drinks/sa303-wide.webp,,,False
+bebidas,,SA304,sake,Hanaawaka,14.8,assets/drinks/sa304-wide.webp,,,False
+bebidas,,SA306,sake,Mutsu Hassen,28.8,assets/drinks/sa306-wide.webp,,,False
+bebidas,,SA307,sake,Ozeki,10.8,assets/drinks/sa307-wide.webp,,,False
+bebidas,,201,refrescos,Agua · 50 cl,2.8,,,,False
+bebidas,,202,refrescos,Agua con gas Solán de Cabras · 33 cl,3.2,,,,False
+bebidas,,203,refrescos,Refresco · 35 cl,3.5,,,,False
+bebidas,,200,refrescos,Nestea / Aquarius · 35 cl,3.8,,,,False
+bebidas,,205,refrescos,Zumo de botella · 20 cl,2.8,,,,False
+bebidas,,206,refrescos,Tónica japonesa · Yuzu Ocha,3.5,,,,False
+bebidas,,242,refrescos,Ramune · Melón o fresa,4.5,assets/drinks/242.webp,,,False
+bebidas,,210,cervezas,Caña de cerveza · 33 cl,2.8,,,,False
+bebidas,,211,cervezas,Cerveza grande · 50 cl,4.9,,,,False
+bebidas,,213,cervezas,San Miguel 1516 / Sin alcohol,3.5,,,,False
+bebidas,,214,cervezas,Estrella Galicia · 33 cl,3.5,,,,False
+bebidas,,216,cervezas,Sapporo japonesa · 33 cl,3.8,,,,False
+bebidas,,218,cervezas,Alhambra Reserva 1925 · 33 cl,3.5,,,,False
+bebidas,,219,tintos,Copa de vino de la casa,3.1,,,,False
+bebidas,,207,tintos,Tinto de verano / Sangría,4.5,assets/drinks/207-wide.webp,,,False
+bebidas,,208,tintos,Jarra de tinto de verano / Sangría,12.5,assets/drinks/208-wide.webp,,,False
+bebidas,,220,tintos,Vino de la casa · Rioja,11.8,,,,False
+bebidas,,221,tintos,Añares · Rioja Crianza,12.8,,,,False
+bebidas,,222,tintos,Viña Valoria · Rioja Crianza,16.8,,,,False
+bebidas,,223,tintos,Valdubón Crianza · Ribera del Duero,25.5,,,,False
+bebidas,,224,tintos,Lambrusco Monteberin,12.5,,,,False
+bebidas,,500,tintos,Fuentespina · Ribera del Duero,14.5,,,,False
+bebidas,,501,tintos,Muga · Rioja,29.8,,,,False
+bebidas,,225,blancos,Copa de vino de la casa,3.1,,,,False
+bebidas,,226,blancos,Vino de la casa · Rioja,11.8,,,,False
+bebidas,,227,blancos,Diamante · Rioja,14.5,,,,False
+bebidas,,228,blancos,Finca Ariadna · Verdejo · Rueda,16.8,,,,False
+bebidas,,230,blancos,Marina Alta · Alicante,15.5,,,,False
+bebidas,,232,rosados,Copa de vino de la casa,3.1,,,,False
+bebidas,,233,rosados,Vino de la casa · Rioja,11.8,,,,False
+bebidas,,235,rosados,Lambrusco Monteberin,12.5,,,,False
+bebidas,,236,cavas,Freixenet Extra Brut,15.1,,,,False
+bebidas,,237,cavas,Freixenet Barroco Reserva,21.8,,,,False
+bebidas,,238,cavas,Freixenet Brut Rosé,18.1,,,,False
+bebidas,,239,cafes,Café,1.8,,,,False
+bebidas,,240,cafes,"Té japonés, jazmín o infusiones",2.5,,,,False
+bebidas,,241,cafes,Café con Baileys,3,,,,False
+bebidas,,209,copas,Martini blanco / Rosado,5.5,,,,False
+bebidas,,243,copas,Bacardi Carta Blanca,5.5,,,,False
+bebidas,,244,copas,Glenfiddich · 15 years old,6.5,,,,False
+bebidas,,245,copas,Baileys Original,5.5,,,,False
+bebidas,,246,copas,El Afilador · Licor de hierbas,5.5,,,,False
+bebidas,,247,copas,El Afilador · Tradicional,5.5,,,,False
+bebidas,,248,copas,Mediterráneo · Limoncello,5.5,,,,False
+bebidas,,249,copas,Brugal Añejo · Ron,5.5,,,,False
+bebidas,,250,copas,Veterano,5.5,,,,False
+bebidas,,251,copas,Chivas Regal · Whisky,6.5,,,,False
+bebidas,,252,copas,The Chita · Whisky japonés,11.9,,,,False
+bebidas,,253,cocteles,JinZu · Gin & Tonic,8,assets/drinks/253-wide.webp,,,False
+bebidas,,254,cocteles,Gordon’s · Pink Tonic,7,,,,False
+bebidas,,255,cocteles,Tanqueray · London Dry Gin & Tonic,7,,,,False
+bebidas,,256,cocteles,Tanqueray · Rangpur & Tonic,8,,,,False
+bebidas,,257,cocteles,Mojito,7,assets/drinks/257-wide.webp,,,False
+bebidas,,258,cocteles,San Francisco · Sin alcohol,7,assets/drinks/258-wide.webp,,,False
+bebidas,,259,cocteles,Rojo Frutal · Sin alcohol,8,assets/drinks/259-wide.webp,,,False
+bebidas,,260,cocteles,Ginger Gin & Tonic,8.5,assets/drinks/260.webp,,,False
+bebidas,,261,cocteles,Classic Gin & Tonic,8.5,assets/drinks/261.webp,,,False
+bebidas,,262,cocteles,Plum Gin & Tonic,8.5,assets/drinks/262.webp,,,False
+bebidas,,263,cocteles,Lemon Gin & Tonic,8.5,assets/drinks/263.webp,,,False
+mediodia,,helado-con-gyoza,postres,Helado con gyoza,,assets/dishes/lunch-helado-con-gyoza.webp,,False,False

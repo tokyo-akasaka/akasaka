@@ -1,0 +1,74 @@
+{
+  "tool": "image_gen (built-in)",
+  "cocktails": [
+    {
+      "ref": "207",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-47effc72-cd08-4b84-b90c-5b4b37290643.png",
+      "savedAsset": "assets/drinks/207-wide.webp"
+    },
+    {
+      "ref": "208",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-3e469b2f-bd08-4f80-b3ac-3bb990c643b0.png",
+      "savedAsset": "assets/drinks/208-wide.webp"
+    },
+    {
+      "ref": "253",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-2089af2d-2bea-4929-a744-c398ff287afd.png",
+      "savedAsset": "assets/drinks/253-wide.webp"
+    },
+    {
+      "ref": "257",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-f6009b92-e7f3-425e-9c4f-822586cf5d67.png",
+      "savedAsset": "assets/drinks/257-wide.webp"
+    },
+    {
+      "ref": "258",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-bd6221ed-db0f-4ebd-9d91-ca75704cc747.png",
+      "savedAsset": "assets/drinks/258-wide.webp"
+    },
+    {
+      "ref": "259",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-a8d6fab5-f406-49a2-840b-287ef1395b73.png",
+      "savedAsset": "assets/drinks/259-wide.webp"
+    }
+  ],
+  "instructions": "Extend original scenery seamlessly left and right to a landscape 16:9 photo, preserve the entire glass, garnish and base; no bars, collage or duplicate blurred panels. Remove promotional background lettering on 258 and 259; preserve JINZU branding on 253.",
+  "sake": [
+    {
+      "ref": "SA301",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-96f8e51a-80d5-413c-aa90-a6f26c3ce997.png",
+      "prompt": "Use case: precise-object-edit / high-resolution restaurant product photography. Attached image is the exact product reference for Mio sparkling sake: cobalt blue slender bottle with blue label and silver cap. Recreate this SAME single sake bottle faithfully as a sharp realistic high resolution professional photograph, preserving its shape, proportions, glass color, cap, label design, brand identity and Japanese calligraphy from the reference. Improve photographic detail without inventing a different brand or variant. Replace the white cutout background with a continuous elegant Japanese restaurant interior: dark stone tabletop, warm soft wood details and subtle natural soft light, out of focus scenery. ONE LANDSCAPE 16:9 photo filling every edge with actual scenery. Whole upright bottle centered, cap and base both visible, taking up 78% of frame height, comfortable empty space above and below. Crisp and readable front label, realistic reflections and contact shadow. No additional bottles, no glasses, no promotional typography, no white borders, no side bars, no collage, no blur applied to the bottle.",
+      "savedAsset": "assets/drinks/sa301-wide.webp"
+    },
+    {
+      "ref": "SA302",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-77f82a90-55d5-4174-99f7-53120ab937ff.png",
+      "prompt": "Use case: precise-object-edit / high-resolution restaurant product photography. Attached image is the exact product reference for Shogun: small clear pale turquoise bottle, silver cap and ivory label with large black Japanese calligraphy. Recreate this SAME single sake bottle faithfully as a sharp realistic high resolution professional photograph, preserving its shape, proportions, glass color, cap, label design, brand identity and Japanese calligraphy from the reference. Improve photographic detail without inventing a different brand or variant. Replace the white cutout background with a continuous elegant Japanese restaurant interior: dark stone tabletop, warm soft wood details and subtle natural soft light, out of focus scenery. ONE LANDSCAPE 16:9 photo filling every edge with actual scenery. Whole upright bottle centered, cap and base both visible, taking up 78% of frame height, comfortable empty space above and below. Crisp and readable front label, realistic reflections and contact shadow. No additional bottles, no glasses, no promotional typography, no white borders, no side bars, no collage, no blur applied to the bottle.",
+      "savedAsset": "assets/drinks/sa302-wide.webp"
+    },
+    {
+      "ref": "SA303",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-71e33efa-53ff-47c6-9124-2d2df1c022f7.png",
+      "prompt": "Use case: precise-object-edit / high-resolution restaurant product photography. Attached image is the exact product reference for Kubota Senju: amber squat bottle with pale green cap and ivory calligraphic label. Recreate this SAME single sake bottle faithfully as a sharp realistic high resolution professional photograph, preserving its shape, proportions, glass color, cap, label design, brand identity and Japanese calligraphy from the reference. Improve photographic detail without inventing a different brand or variant. Replace the white cutout background with a continuous elegant Japanese restaurant interior: dark stone tabletop, warm soft wood details and subtle natural soft light, out of focus scenery. ONE LANDSCAPE 16:9 photo filling every edge with actual scenery. Whole upright bottle centered, cap and base both visible, taking up 78% of frame height, comfortable empty space above and below. Crisp and readable front label, realistic reflections and contact shadow. No additional bottles, no glasses, no promotional typography, no white borders, no side bars, no collage, no blur applied to the bottle.",
+      "savedAsset": "assets/drinks/sa303-wide.webp"
+    },
+    {
+      "ref": "SA304",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-4f0ee539-9e03-45f8-b367-a266198365a3.png",
+      "prompt": "Use case: precise-object-edit / high-resolution restaurant product photography. Attached image is the exact product reference for Hana-awaka sparkling sake: slender pink bottle and pink cap. Recreate this SAME single sake bottle faithfully as a sharp realistic high resolution professional photograph, preserving its shape, proportions, glass color, cap, label design, brand identity and Japanese calligraphy from the reference. Improve photographic detail without inventing a different brand or variant. Replace the white cutout background with a continuous elegant Japanese restaurant interior: dark stone tabletop, warm soft wood details and subtle natural soft light, out of focus scenery. ONE LANDSCAPE 16:9 photo filling every edge with actual scenery. Whole upright bottle centered, cap and base both visible, taking up 78% of frame height, comfortable empty space above and below. Crisp and readable front label, realistic reflections and contact shadow. No additional bottles, no glasses, no promotional typography, no white borders, no side bars, no collage, no blur applied to the bottle.",
+      "savedAsset": "assets/drinks/sa304-wide.webp"
+    },
+    {
+      "ref": "SA306",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-3a9b12b2-c486-4356-aaf9-50c8c82435b1.png",
+      "prompt": "Use case: precise-object-edit / high-resolution restaurant product photography. Attached image is the exact product reference for Mutsu Hassen: green glass bottle with black cap and white calligraphic label. Recreate this SAME single sake bottle faithfully as a sharp realistic high resolution professional photograph, preserving its shape, proportions, glass color, cap, label design, brand identity and Japanese calligraphy from the reference. Improve photographic detail without inventing a different brand or variant. Replace the white cutout background with a continuous elegant Japanese restaurant interior: dark stone tabletop, warm soft wood details and subtle natural soft light, out of focus scenery. ONE LANDSCAPE 16:9 photo filling every edge with actual scenery. Whole upright bottle centered, cap and base both visible, taking up 78% of frame height, comfortable empty space above and below. Crisp and readable front label, realistic reflections and contact shadow. No additional bottles, no glasses, no promotional typography, no white borders, no side bars, no collage, no blur applied to the bottle.",
+      "savedAsset": "assets/drinks/sa306-wide.webp"
+    },
+    {
+      "ref": "SA307",
+      "path": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-1eab5352-586a-4079-b6bf-4855913458ad.png",
+      "prompt": "Use case: precise-object-edit / high-resolution restaurant product photography. Attached image is the exact product reference for Ozeki: brown glass bottle, pale yellow cap and gold label with red circular emblem. Recreate this SAME single sake bottle faithfully as a sharp realistic high resolution professional photograph, preserving its shape, proportions, glass color, cap, label design, brand identity and Japanese calligraphy from the reference. Improve photographic detail without inventing a different brand or variant. Replace the white cutout background with a continuous elegant Japanese restaurant interior: dark stone tabletop, warm soft wood details and subtle natural soft light, out of focus scenery. ONE LANDSCAPE 16:9 photo filling every edge with actual scenery. Whole upright bottle centered, cap and base both visible, taking up 78% of frame height, comfortable empty space above and below. Crisp and readable front label, realistic reflections and contact shadow. No additional bottles, no glasses, no promotional typography, no white borders, no side bars, no collage, no blur applied to the bottle.",
+      "savedAsset": "assets/drinks/sa307-wide.webp"
+    }
+  ]
+}

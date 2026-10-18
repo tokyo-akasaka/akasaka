@@ -93,7 +93,9 @@
         "es": "Espumoso, suave, no muy dulce y aromático. 5 % vol · 300 ml.",
         "en": "Sparkling, smooth, lightly sweet and aromatic. 5% ABV · 300 ml."
       },
-      "price": 16.8
+      "price": 16.8,
+      "image": "assets/drinks/sa301-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "sake",
@@ -106,7 +108,9 @@
         "es": "Sabor suave, fácil de beber. 14 % vol · 180 ml.",
         "en": "Smooth and easy to drink. 14% ABV · 180 ml."
       },
-      "price": 10.8
+      "price": 10.8,
+      "image": "assets/drinks/sa302-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "sake",
@@ -119,7 +123,9 @@
         "es": "Sake seco. 15 % vol · 300 ml.",
         "en": "Dry sake. 15% ABV · 300 ml."
       },
-      "price": 18.5
+      "price": 18.5,
+      "image": "assets/drinks/sa303-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "sake",
@@ -132,7 +138,9 @@
         "es": "Sake espumoso, refrescante, ligero y dulce. 7 % vol · 250 ml.",
         "en": "Sparkling sake, refreshing, light and sweet. 7% ABV · 250 ml."
       },
-      "price": 14.8
+      "price": 14.8,
+      "image": "assets/drinks/sa304-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "sake",
@@ -145,7 +153,9 @@
         "es": "Seco, con umami. 15 % vol · 300 ml.",
         "en": "Dry, with umami. 15% ABV · 300 ml."
       },
-      "price": 28.8
+      "price": 28.8,
+      "image": "assets/drinks/sa306-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "sake",
@@ -158,7 +168,9 @@
         "es": "Jarra de 300 ml. 15 % vol.",
         "en": "300 ml carafe. 15% ABV."
       },
-      "price": 10.8
+      "price": 10.8,
+      "image": "assets/drinks/sa307-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "refrescos",
@@ -249,7 +261,8 @@
         "es": "",
         "en": ""
       },
-      "price": 4.5
+      "price": 4.5,
+      "image": "assets/drinks/242.webp"
     },
     {
       "category": "cervezas",
@@ -353,7 +366,9 @@
         "es": "",
         "en": ""
       },
-      "price": 4.5
+      "price": 4.5,
+      "image": "assets/drinks/207-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "tintos",
@@ -366,7 +381,9 @@
         "es": "",
         "en": ""
       },
-      "price": 12.5
+      "price": 12.5,
+      "image": "assets/drinks/208-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "tintos",
@@ -805,7 +822,9 @@
         "es": "Pomelo y manzana verde.",
         "en": "Grapefruit and green apple."
       },
-      "price": 8
+      "price": 8,
+      "image": "assets/drinks/253-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "cocteles",
@@ -857,7 +876,9 @@
         "es": "Bacardi, azúcar, lima y hojas de menta.",
         "en": "Bacardi, sugar, lime and mint leaves."
       },
-      "price": 7
+      "price": 7,
+      "image": "assets/drinks/257-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "cocteles",
@@ -870,7 +891,9 @@
         "es": "Zumo de piña, naranja, limón, melocotón, granadina y azúcar.",
         "en": "Pineapple, orange, lemon and peach juice, grenadine and sugar."
       },
-      "price": 7
+      "price": 7,
+      "image": "assets/drinks/258-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "cocteles",
@@ -883,7 +906,9 @@
         "es": "Puré de frutas rojas, clavo, canela y zumo de lima.",
         "en": "Red fruit purée, cloves, cinnamon and lime juice."
       },
-      "price": 8
+      "price": 8,
+      "image": "assets/drinks/259-wide.webp",
+      "imageFit": "wide"
     },
     {
       "category": "cocteles",
@@ -896,7 +921,8 @@
         "es": "Roku Gin, tónica y jengibre.",
         "en": "Roku Gin, tonic and ginger."
       },
-      "price": 8.5
+      "price": 8.5,
+      "image": "assets/drinks/260.webp"
     },
     {
       "category": "cocteles",
@@ -909,7 +935,8 @@
         "es": "Roku Gin, tónica y lima.",
         "en": "Roku Gin, tonic and lime."
       },
-      "price": 8.5
+      "price": 8.5,
+      "image": "assets/drinks/261.webp"
     },
     {
       "category": "cocteles",
@@ -922,7 +949,8 @@
         "es": "Roku Gin, tónica y ciruela japonesa.",
         "en": "Roku Gin, tonic and Japanese plum."
       },
-      "price": 8.5
+      "price": 8.5,
+      "image": "assets/drinks/262.webp"
     },
     {
       "category": "cocteles",
@@ -935,7 +963,8 @@
         "es": "Roku Gin, tónica y limón.",
         "en": "Roku Gin, tonic and lemon."
       },
-      "price": 8.5
+      "price": 8.5,
+      "image": "assets/drinks/263.webp"
     }
   ]
 }

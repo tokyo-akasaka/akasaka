@@ -3,7 +3,8 @@
     "reference": "E6",
     "category": "entrantes",
     "price": 5.8,
-    "image": "assets/dishes/e6.webp",
+    "image": "assets/dishes/e6-focus.webp",
+    "isNew": true,
     "name": {
       "es": "Cha Giò Hai San",
       "en": "Cha Giò Hai San"
@@ -22,16 +23,18 @@
       "egg",
       "fish"
     ],
-    "sourcePage": 2,
     "buffetStars": 2,
     "twoPersons": true,
-    "isNew": true
+    "sourcePage": 2,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
   },
   {
     "reference": "E2",
     "category": "entrantes",
     "price": 4.8,
     "image": "assets/dishes/e2.webp",
+    "isNew": false,
     "name": {
       "es": "Sushi Quingo",
       "en": "Sushi Quingo"
@@ -51,19 +54,19 @@
       "milk",
       "sulphites"
     ],
-    "sourcePage": 2,
     "buffetStars": 0,
     "twoPersons": false,
-    "isNew": false
+    "sourcePage": 2
   },
   {
     "reference": "E3",
     "category": "entrantes",
-    "price": 5,
+    "price": 5.0,
     "image": "assets/dishes/e3.webp",
+    "isNew": true,
     "name": {
       "es": "Gyoza vegetal",
-      "en": "Vegetable gyoza"
+      "en": "Vegetable Gyoza"
     },
     "description": {
       "es": "Empanadillas japonesas rellenas de verduras con mayonesa picante.",
@@ -79,16 +82,571 @@
       "egg",
       "soy"
     ],
-    "sourcePage": 2,
     "buffetStars": 0,
     "twoPersons": false,
-    "isNew": true
+    "sourcePage": 2
+  },
+  {
+    "reference": "E4",
+    "category": "entrantes",
+    "price": 7.8,
+    "image": "assets/dishes/e4.webp",
+    "isNew": false,
+    "name": {
+      "es": "Tiras de pollo",
+      "en": "Chicken strips"
+    },
+    "description": {
+      "es": "Pollo con salsa chili.",
+      "en": "Chicken with chili sauce."
+    },
+    "portion": {
+      "es": "5 uds.",
+      "en": "5 pcs."
+    },
+    "allergens": [
+      "gluten",
+      "milk",
+      "egg",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 2
+  },
+  {
+    "reference": "E5",
+    "category": "entrantes",
+    "price": 5.8,
+    "image": "assets/dishes/e5.webp",
+    "isNew": false,
+    "name": {
+      "es": "Duck Harumaki",
+      "en": "Duck Harumaki"
+    },
+    "description": {
+      "es": "Rollito crujiente de pato con salsa hoisin.",
+      "en": "Crispy duck roll with hoisin sauce."
+    },
+    "portion": {
+      "es": "5 uds.",
+      "en": "5 pcs."
+    },
+    "allergens": [
+      "gluten",
+      "sulphites",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 2
+  },
+  {
+    "reference": "E1",
+    "category": "entrantes",
+    "price": 5.0,
+    "image": "assets/dishes/e1.webp",
+    "isNew": false,
+    "name": {
+      "es": "Takoyaki",
+      "en": "Takoyaki"
+    },
+    "description": {
+      "es": "Bolitas de pulpo con salsa takoyaki.",
+      "en": "Octopus balls with takoyaki sauce."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "gluten",
+      "sesame",
+      "egg",
+      "molluscs",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 2
+  },
+  {
+    "reference": "E7",
+    "category": "entrantes",
+    "price": 7.5,
+    "image": "assets/dishes/e7-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Ebi Kimono",
+      "en": "Ebi Kimono"
+    },
+    "description": {
+      "es": "Gambas en kimono.",
+      "en": "Prawns in kimono."
+    },
+    "portion": {
+      "es": "5 uds.",
+      "en": "5 pcs."
+    },
+    "allergens": [
+      "gluten",
+      "sesame",
+      "egg",
+      "crustaceans"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 3,
+    "imagePosition": "50% 50%",
+    "imageFilter": "saturate(.95)"
+  },
+  {
+    "reference": "E8",
+    "category": "entrantes",
+    "price": 8.0,
+    "image": "assets/dishes/e8-two.webp",
+    "isNew": true,
+    "name": {
+      "es": "Okonomiyaki brochetas",
+      "en": "Okonomiyaki skewers"
+    },
+    "description": {
+      "es": "Pulpo, col japonesa, huevo, cebolleta, salsa okonomiyaki, mayonesa japonesa, katsuobushi y aonori.",
+      "en": "Octopus, Japanese cabbage, egg, spring onion, okonomiyaki sauce, Japanese mayonnaise, katsuobushi and aonori."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "gluten",
+      "egg",
+      "sulphites",
+      "soy",
+      "molluscs"
+    ],
+    "buffetStars": 1,
+    "twoPersons": true,
+    "sourcePage": 3,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.14,
+    "imageOffsetX": 12
+  },
+  {
+    "reference": "E11",
+    "category": "entrantes",
+    "price": 5.8,
+    "image": "assets/dishes/e11-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Edamame",
+      "en": "Edamame"
+    },
+    "description": {
+      "es": "Soja verde con sal.",
+      "en": "Green soybeans with salt."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 3,
+    "imagePosition": "50% 50%",
+    "imageFilter": "saturate(.94)"
+  },
+  {
+    "reference": "ES12",
+    "category": "entrantes",
+    "price": 12.8,
+    "image": "assets/dishes/es12-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Maguro Abokado",
+      "en": "Maguro Abokado"
+    },
+    "description": {
+      "es": "Ensalada mezclum con atún, aguacate, salsa de la casa y yuzu.",
+      "en": "Mesclun salad with tuna, avocado and house sauce with yuzu."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "sulphites",
+      "sesame",
+      "fish",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 3,
+    "imagePosition": "50% 50%",
+    "imageFilter": "saturate(.9)"
+  },
+  {
+    "reference": "ES13",
+    "category": "entrantes",
+    "price": 11.8,
+    "image": "assets/dishes/es13.webp",
+    "isNew": false,
+    "name": {
+      "es": "Ebi Shake Sarada",
+      "en": "Ebi Shake Sarada"
+    },
+    "description": {
+      "es": "Ensalada mezclum con salmón y gambas, salsa de la casa con yuzu.",
+      "en": "Mesclun salad with salmon and shrimp, house sauce with yuzu."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy",
+      "fish",
+      "gluten",
+      "sesame",
+      "sulphites",
+      "crustaceans",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 3
+  },
+  {
+    "reference": "ES14",
+    "category": "entrantes",
+    "price": 5.8,
+    "image": "assets/dishes/es14.webp",
+    "isNew": false,
+    "name": {
+      "es": "Wakame Sarada",
+      "en": "Wakame Sarada"
+    },
+    "description": {
+      "es": "Ensalada de alga.",
+      "en": "Seaweed salad."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 3
+  },
+  {
+    "reference": "ES10",
+    "category": "entrantes",
+    "price": 8.0,
+    "image": "assets/dishes/es10.webp",
+    "isNew": true,
+    "name": {
+      "es": "Imo Mochi",
+      "en": "Imo Mochi"
+    },
+    "description": {
+      "es": "Bolas de patata al estilo japonés rellenas de queso.",
+      "en": "Japanese-style potato balls filled with cheese."
+    },
+    "portion": {
+      "es": "4 uds.",
+      "en": "4 pcs."
+    },
+    "allergens": [
+      "soy",
+      "fish",
+      "sesame",
+      "gluten",
+      "egg"
+    ],
+    "buffetStars": 2,
+    "twoPersons": true,
+    "sourcePage": 4
+  },
+  {
+    "reference": "ES17",
+    "category": "entrantes",
+    "price": 11.8,
+    "image": "assets/dishes/es17-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Shake Abokado",
+      "en": "Shake Abokado"
+    },
+    "description": {
+      "es": "Ensalada mezclum; salmón, aguacate, salsa de la casa y yuzu.",
+      "en": "Mesclun salad; salmon and avocado and house sauce with yuzu."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy",
+      "fish",
+      "egg",
+      "gluten",
+      "sesame",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 4,
+    "imagePosition": "50% 50%",
+    "imageFilter": "saturate(.9)"
+  },
+  {
+    "reference": "ES18",
+    "category": "entrantes",
+    "price": 10.8,
+    "image": "assets/dishes/es18-original.webp",
+    "isNew": true,
+    "name": {
+      "es": "Wakame Abokado",
+      "en": "Wakame Abokado"
+    },
+    "description": {
+      "es": "Ensalada mezclum con wakame y aguacate.",
+      "en": "Mixed leaf salad with wakame and avocado."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy",
+      "sulphites",
+      "egg",
+      "mustard",
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 4,
+    "imagePosition": "50% 50%",
+    "imageFilter": "saturate(1.08) brightness(1.04)"
+  },
+  {
+    "reference": "ES20",
+    "category": "entrantes",
+    "price": 6.5,
+    "image": "assets/dishes/es20.webp",
+    "isNew": false,
+    "name": {
+      "es": "Gyoza Tori",
+      "en": "Gyoza Tori"
+    },
+    "description": {
+      "es": "Ravioli frito de pollo y verduras con salsa de curry.",
+      "en": "Fried chicken and vegetable ravioli with curry sauce."
+    },
+    "portion": {
+      "es": "4 uds.",
+      "en": "4 pcs."
+    },
+    "allergens": [
+      "soy",
+      "gluten",
+      "sulphites",
+      "milk",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 4
+  },
+  {
+    "reference": "E21",
+    "category": "entrantes",
+    "price": 6.8,
+    "image": "assets/dishes/e21.webp",
+    "isNew": true,
+    "name": {
+      "es": "Gyoza de la casa",
+      "en": "House Gyoza"
+    },
+    "description": {
+      "es": "Empanadillas artesanales con carne picada y verduras.",
+      "en": "Handmade dumplings with minced meat and vegetables."
+    },
+    "portion": {
+      "es": "4 uds.",
+      "en": "4 pcs."
+    },
+    "allergens": [
+      "soy",
+      "egg",
+      "gluten",
+      "sulphites"
+    ],
+    "buffetStars": 2,
+    "twoPersons": true,
+    "sourcePage": 4
+  },
+  {
+    "reference": "GY22",
+    "category": "entrantes",
+    "price": 6.2,
+    "image": "assets/dishes/gy22.webp",
+    "isNew": false,
+    "name": {
+      "es": "Butaman",
+      "en": "Butaman"
+    },
+    "description": {
+      "es": "Ravioli con carne.",
+      "en": "Ravioli with meat."
+    },
+    "portion": {
+      "es": "4 uds.",
+      "en": "4 pcs."
+    },
+    "allergens": [
+      "soy",
+      "sulphites",
+      "gluten",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 5
+  },
+  {
+    "reference": "GY23",
+    "category": "entrantes",
+    "price": 8.8,
+    "image": "assets/dishes/gy23.webp",
+    "isNew": true,
+    "name": {
+      "es": "Dimsum Hakao",
+      "en": "Dimsum Hakao"
+    },
+    "description": {
+      "es": "Hakao cantonés con gamba picada y caldo dashi no moto.",
+      "en": "Cantonese har gow dumplings with minced prawns in dashi broth."
+    },
+    "portion": {
+      "es": "3 uds.",
+      "en": "3 pcs."
+    },
+    "allergens": [
+      "soy",
+      "crustaceans",
+      "egg",
+      "gluten",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 5
+  },
+  {
+    "reference": "GY26",
+    "category": "entrantes",
+    "price": 6.8,
+    "image": "assets/dishes/gy26-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Gwa Bao (Angus)",
+      "en": "Gwa Bao (Angus)"
+    },
+    "description": {
+      "es": "Gwa bao de ternera con rúcula y mayonesa picante.",
+      "en": "Beef gwa bao with rocket and spicy mayonnaise."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "sulphites",
+      "milk",
+      "egg"
+    ],
+    "buffetStars": 1,
+    "twoPersons": false,
+    "sourcePage": 5,
+    "imagePosition": "50% 50%",
+    "imageFilter": "brightness(1.12) contrast(.88)"
+  },
+  {
+    "reference": "GY25",
+    "category": "entrantes",
+    "price": 5.8,
+    "image": "assets/dishes/gy25.webp",
+    "isNew": false,
+    "name": {
+      "es": "Gwa Bao (pato)",
+      "en": "Duck Gwa Bao"
+    },
+    "description": {
+      "es": "Gwa bao de pato con rúcula.",
+      "en": "Duck gwa bao with rocket."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "milk",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 5
+  },
+  {
+    "reference": "E28",
+    "category": "entrantes",
+    "price": 6.5,
+    "image": "assets/dishes/e28-original.webp",
+    "isNew": true,
+    "name": {
+      "es": "Wantun frito",
+      "en": "Fried wontons"
+    },
+    "description": {
+      "es": "Rellenos de queso Philadelphia y surimi.",
+      "en": "Filled with Philadelphia cream cheese and surimi."
+    },
+    "portion": {
+      "es": "4 uds.",
+      "en": "4 pcs."
+    },
+    "allergens": [
+      "soy",
+      "egg",
+      "gluten",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 5,
+    "imagePosition": "50% 50%",
+    "imageFilter": "sepia(.08) saturate(1.05) hue-rotate(-5deg)"
   },
   {
     "reference": "S112",
     "category": "sopa",
     "price": 5.8,
     "image": "assets/dishes/s112.webp",
+    "isNew": false,
     "name": {
       "es": "Espinaca Misoshiru",
       "en": "Espinaca Misoshiru"
@@ -105,16 +663,16 @@
       "soy",
       "sesame"
     ],
-    "sourcePage": 6,
     "buffetStars": 0,
     "twoPersons": false,
-    "isNew": false
+    "sourcePage": 6
   },
   {
     "reference": "S110",
     "category": "sopa",
     "price": 5.5,
     "image": "assets/dishes/s110.webp",
+    "isNew": false,
     "name": {
       "es": "Tofu Misoshiru",
       "en": "Tofu Misoshiru"
@@ -131,16 +689,16 @@
       "soy",
       "sesame"
     ],
-    "sourcePage": 6,
     "buffetStars": 0,
     "twoPersons": false,
-    "isNew": false
+    "sourcePage": 6
   },
   {
     "reference": "S111",
     "category": "sopa",
-    "price": 8,
-    "image": "assets/dishes/s111.webp",
+    "price": 8.0,
+    "image": "assets/dishes/s111-centered.webp",
+    "isNew": true,
     "name": {
       "es": "Misoshiru",
       "en": "Misoshiru"
@@ -157,16 +715,18 @@
       "soy",
       "molluscs"
     ],
-    "sourcePage": 6,
     "buffetStars": 0,
     "twoPersons": false,
-    "isNew": true
+    "sourcePage": 6,
+    "imagePosition": "50% 50%",
+    "imageFilter": "saturate(.94)"
   },
   {
     "reference": "UD140",
     "category": "ramen",
     "price": 10.9,
     "image": "assets/dishes/ud140.webp",
+    "isNew": false,
     "name": {
       "es": "Miso Udon",
       "en": "Miso Udon"
@@ -184,16 +744,16 @@
       "egg",
       "soy"
     ],
-    "sourcePage": 6,
     "buffetStars": 0,
     "twoPersons": false,
-    "isNew": false
+    "sourcePage": 6
   },
   {
     "reference": "UD141",
     "category": "ramen",
     "price": 10.2,
     "image": "assets/dishes/ud141.webp",
+    "isNew": false,
     "name": {
       "es": "Tonkatsu Ramen",
       "en": "Tonkatsu Ramen"
@@ -211,16 +771,16 @@
       "egg",
       "soy"
     ],
-    "sourcePage": 6,
     "buffetStars": 0,
     "twoPersons": false,
-    "isNew": false
+    "sourcePage": 6
   },
   {
     "reference": "UD147",
     "category": "ramen",
     "price": 10.8,
     "image": "assets/dishes/ud147.webp",
+    "isNew": false,
     "name": {
       "es": "Miso Ramen-Chasu",
       "en": "Miso Ramen-Chasu"
@@ -238,24 +798,24 @@
       "egg",
       "gluten"
     ],
-    "sourcePage": 6,
     "buffetStars": 0,
     "twoPersons": false,
-    "isNew": false
+    "sourcePage": 6
   },
   {
     "reference": "SM107",
     "category": "poke",
-    "price": 14,
+    "price": 14.0,
+    "image": "assets/dishes/sm107.webp",
+    "isNew": true,
     "name": {
       "es": "Poke Salmón Lava · Onsen Tamago",
       "en": "Lava Salmon Poke · Onsen Tamago"
     },
     "description": {
-      "es": "Salmón flameado, arroz, salsa teriyaki, mayonesa japonesa, tobiko, sésamo, alga nori y onsen tamago.",
-      "en": "Flame-seared salmon, rice, teriyaki sauce, Japanese mayonnaise, tobiko, sesame, nori and onsen tamago."
+      "es": "Salmón flameado, arroz, salsa teriyaki, mayonesa japonesa, tobiko, sésamo, alga nori y onsen tamago. Huevo japonés con yema cremosa.",
+      "en": "Flame-seared salmon, rice, teriyaki sauce, Japanese mayonnaise, tobiko, sesame, nori and onsen tamago. Japanese-style egg with a creamy yolk."
     },
-    "image": "assets/dishes/sm107.webp",
     "portion": {
       "es": "",
       "en": ""
@@ -270,37 +830,43 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 7,
-    "reviewPending": false,
-    "isNew": true
+    "reviewPending": false
   },
   {
     "reference": "SM109",
     "category": "poke",
     "price": 14.8,
+    "image": "assets/dishes/sm109.webp",
+    "isNew": true,
     "name": {
       "es": "Unagi Poke",
       "en": "Unagi Poke"
     },
     "description": {
-      "es": "Angula, tipico, cebollino, arroz, sésamo. Receta del borrador pendiente de confirmar.",
+      "es": "Angula, tipico, cebollino, arroz, sésamo.",
       "en": "Recipe awaiting confirmation: the Spanish and English descriptions in the draft do not match."
     },
-    "image": "assets/dishes/sm109.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "fish",
+      "soy",
+      "gluten",
+      "sulphites",
+      "sesame"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
-    "sourcePage": 7,
-    "reviewPending": true,
-    "isNew": true
+    "sourcePage": 7
   },
   {
     "reference": "SM108",
     "category": "poke",
     "price": 14.8,
+    "image": "assets/dishes/sm108.webp",
+    "isNew": false,
     "name": {
       "es": "Poke Salmón",
       "en": "Salmon Poke"
@@ -309,22 +875,27 @@
       "es": "Salmón, aguacate, arroz, salsa yuzu y wasabi, wakame y sésamo negro.",
       "en": "Salmon, avocado, rice, yuzu and wasabi sauce, wakame and black sesame."
     },
-    "image": "assets/dishes/sm108.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "soy",
+      "egg",
+      "gluten",
+      "sulphites"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 7,
-    "reviewPending": true,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "UD143",
     "category": "arroz",
     "price": 10.9,
+    "image": "assets/dishes/ud143.webp",
+    "isNew": false,
     "name": {
       "es": "Udon",
       "en": "Udon"
@@ -333,22 +904,27 @@
       "es": "Con carne y verduras.",
       "en": "With meat and vegetables."
     },
-    "image": "assets/dishes/ud143.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "sesame",
+      "soy",
+      "sulphites"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 8,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "UD144",
     "category": "arroz",
     "price": 15.2,
+    "image": "assets/dishes/ud144.webp",
+    "isNew": false,
     "name": {
       "es": "Duck Chow Mein",
       "en": "Duck Chow Mein"
@@ -357,22 +933,28 @@
       "es": "Tallarines con pato asado.",
       "en": "Noodles with roast duck."
     },
-    "image": "assets/dishes/ud144.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "sesame",
+      "soy"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 8,
     "reviewPending": false,
-    "isNew": false
+    "imagePosition": "50% 50%",
+    "imageZoom": 1
   },
   {
     "reference": "UD142",
     "category": "arroz",
     "price": 11.2,
+    "image": "assets/dishes/ud142.webp",
+    "isNew": false,
     "name": {
       "es": "Yakisoba",
       "en": "Yakisoba"
@@ -381,22 +963,120 @@
       "es": "Tallarines con gambas y verdura mixta.",
       "en": "Noodles with prawns and mixed vegetables."
     },
-    "image": "assets/dishes/ud142.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "soy",
+      "sesame",
+      "gluten",
+      "crustaceans"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 8,
     "reviewPending": false,
-    "isNew": false
+    "imagePosition": "50% 50%",
+    "imageZoom": 1
+  },
+  {
+    "reference": "UD146",
+    "category": "arroz",
+    "price": 10.0,
+    "image": "assets/dishes/ud146-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Fideos de arroz",
+      "en": "Rice noodles"
+    },
+    "description": {
+      "es": "Fideos de arroz con brotes de soja, cebollino y huevo.",
+      "en": "Rice noodles with bean sprouts, chives and egg."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "sulphites",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 8,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.3
+  },
+  {
+    "reference": "UD145",
+    "category": "arroz",
+    "price": 10.8,
+    "image": "assets/dishes/ud145-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Pato con arroz",
+      "en": "Duck with rice"
+    },
+    "description": {
+      "es": "Arroz salteado con pato, cebollino, shiitake y huevo.",
+      "en": "Stir-fried rice with duck, chives, shiitake and egg."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "egg",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 8,
+    "imagePosition": "50% 42%",
+    "imageFilter": "none",
+    "imageZoom": 1.22
+  },
+  {
+    "reference": "UD148",
+    "category": "arroz",
+    "price": 14.8,
+    "image": "assets/dishes/ud148-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Arroz trufado",
+      "en": "Truffle rice"
+    },
+    "description": {
+      "es": "Arroz con salchicha japonesa, shiitake, cebollino y salsa de trufa.",
+      "en": "Rice with Japanese sausage, shiitake, chives and truffle sauce."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy",
+      "egg",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 8,
+    "imagePosition": "50% 50%",
+    "imageFilter": "saturate(1.12) brightness(1.03)",
+    "imageZoom": 1.7825,
+    "imageOffsetX": -20
   },
   {
     "reference": "SH30",
     "category": "nigiri",
-    "price": 6,
+    "price": 6.0,
+    "image": "assets/dishes/sh30-crop-original.webp",
+    "isNew": false,
     "name": {
       "es": "Maguro",
       "en": "Maguro"
@@ -405,7 +1085,6 @@
       "es": "Atún.",
       "en": "Tuna."
     },
-    "image": "assets/dishes/sh30.webp",
     "portion": {
       "es": "2 uds.",
       "en": "2 pcs."
@@ -417,12 +1096,16 @@
     "twoPersons": false,
     "sourcePage": 9,
     "reviewPending": false,
-    "isNew": false
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.1
   },
   {
     "reference": "SH31",
     "category": "nigiri",
-    "price": 5,
+    "price": 5.0,
+    "image": "assets/dishes/sh31-crop-original.webp",
+    "isNew": false,
     "name": {
       "es": "Shake",
       "en": "Shake"
@@ -431,7 +1114,6 @@
       "es": "Salmón.",
       "en": "Salmon."
     },
-    "image": "assets/dishes/sh31.webp",
     "portion": {
       "es": "2 uds.",
       "en": "2 pcs."
@@ -443,12 +1125,16 @@
     "twoPersons": false,
     "sourcePage": 9,
     "reviewPending": false,
-    "isNew": false
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.1
   },
   {
     "reference": "SH32",
     "category": "nigiri",
-    "price": 5,
+    "price": 5.0,
+    "image": "assets/dishes/sh32-crop-original.webp",
+    "isNew": false,
     "name": {
       "es": "Ebi",
       "en": "Ebi"
@@ -457,7 +1143,6 @@
       "es": "Gamba cocida.",
       "en": "Cooked prawn."
     },
-    "image": "assets/dishes/sh32.webp",
     "portion": {
       "es": "2 uds.",
       "en": "2 pcs."
@@ -469,12 +1154,626 @@
     "twoPersons": false,
     "sourcePage": 9,
     "reviewPending": false,
-    "isNew": false
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH33",
+    "category": "nigiri",
+    "price": 5.0,
+    "image": "assets/dishes/sh33-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Neto",
+      "en": "Neto"
+    },
+    "description": {
+      "es": "Dorada con salsa cítrica de yuzu verde.",
+      "en": "Sea bream with green yuzu citrus sauce."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 9,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.1
+  },
+  {
+    "reference": "SH34",
+    "category": "nigiri",
+    "price": 4.8,
+    "image": "assets/dishes/sh34-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Hokkigai",
+      "en": "Hokkigai"
+    },
+    "description": {
+      "es": "Fasolari.",
+      "en": "Fasolari."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "molluscs"
+    ],
+    "buffetStars": 1,
+    "twoPersons": false,
+    "sourcePage": 9,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.1
+  },
+  {
+    "reference": "SH35",
+    "category": "nigiri",
+    "price": 5.0,
+    "image": "assets/dishes/sh35-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Shake Aburi",
+      "en": "Shake Aburi"
+    },
+    "description": {
+      "es": "Salmón flameado.",
+      "en": "Seared salmon."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 9,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH36",
+    "category": "nigiri",
+    "price": 8.0,
+    "image": "assets/dishes/sh36-crop-original.webp",
+    "isNew": true,
+    "name": {
+      "es": "Bigene atún",
+      "en": "Bigene tuna"
+    },
+    "description": {
+      "es": "Atún con tartar de atún picante.",
+      "en": "Tuna with spicy tuna tartare."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish"
+    ],
+    "buffetStars": 1,
+    "twoPersons": true,
+    "sourcePage": 9,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH37",
+    "category": "nigiri",
+    "price": 5.0,
+    "image": "assets/dishes/sh37-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Masago",
+      "en": "Masago"
+    },
+    "description": {
+      "es": "Huevas de capelán.",
+      "en": "Capelin roe."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 9,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.15,
+    "imageOffsetY": -18,
+    "imageOffsetX": -8
+  },
+  {
+    "reference": "SH38",
+    "category": "nigiri",
+    "price": 6.0,
+    "image": "assets/dishes/sh38-fondo-nigiri.webp",
+    "isNew": false,
+    "name": {
+      "es": "Bigene salmón",
+      "en": "Bigene salmon"
+    },
+    "description": {
+      "es": "Salmón flameado con mayonesa picante y pistacho.",
+      "en": "Seared salmon with spicy mayonnaise and pistachio."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 9,
+    "reviewPending": false,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.22
+  },
+  {
+    "reference": "SH39",
+    "category": "nigiri",
+    "price": 5.0,
+    "image": "assets/dishes/sh39-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Corvina",
+      "en": "Corvina"
+    },
+    "description": {
+      "es": "Corvina con salsa teriyaki y trufa.",
+      "en": "Meagre with teriyaki sauce and truffle."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish",
+      "gluten",
+      "soy"
+    ],
+    "buffetStars": 1,
+    "twoPersons": false,
+    "sourcePage": 9,
+    "reviewPending": false,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH40",
+    "category": "nigiri",
+    "price": 5.0,
+    "image": "assets/dishes/sh40-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Tamagoyaki",
+      "en": "Tamagoyaki"
+    },
+    "description": {
+      "es": "Tortilla japonesa con mayonesa flameada.",
+      "en": "Japanese omelette with seared mayonnaise."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "egg",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 9,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH41",
+    "category": "nigiri",
+    "price": 5.0,
+    "image": "assets/dishes/sh41-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Ika",
+      "en": "Ika"
+    },
+    "description": {
+      "es": "Calamares flameados.",
+      "en": "Seared squid."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "molluscs"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 9,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.15
+  },
+  {
+    "reference": "SH42",
+    "category": "nigiri",
+    "price": 6.0,
+    "image": "assets/dishes/sh42-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Aburi Maguro",
+      "en": "Aburi Maguro"
+    },
+    "description": {
+      "es": "Atún flameado con crema de burrata y salsa teriyaki.",
+      "en": "Seared tuna with burrata cream and teriyaki sauce."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH43",
+    "category": "nigiri",
+    "price": 6.0,
+    "image": "assets/dishes/sh43-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Unagi",
+      "en": "Unagi"
+    },
+    "description": {
+      "es": "Anguila kabayaki.",
+      "en": "Kabayaki eel."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "gluten",
+      "soy"
+    ],
+    "buffetStars": 1,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.15
+  },
+  {
+    "reference": "SH044",
+    "category": "nigiri",
+    "price": 5.5,
+    "image": "assets/dishes/sh044-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Tobikko",
+      "en": "Tobikko"
+    },
+    "description": {
+      "es": "Huevas de pez volador.",
+      "en": "Flying fish roe."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH45",
+    "category": "nigiri",
+    "price": 5.0,
+    "image": "assets/dishes/sh45-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Saba",
+      "en": "Saba"
+    },
+    "description": {
+      "es": "Caballa.",
+      "en": "Mackerel."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.1
+  },
+  {
+    "reference": "SH46",
+    "category": "nigiri",
+    "price": 6.0,
+    "image": "assets/dishes/sh46-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Tako",
+      "en": "Tako"
+    },
+    "description": {
+      "es": "Pulpo.",
+      "en": "Octopus."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "molluscs"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.1
+  },
+  {
+    "reference": "SH47",
+    "category": "nigiri",
+    "price": 8.0,
+    "image": "assets/dishes/sh47-fondo-nigiri.webp",
+    "isNew": false,
+    "name": {
+      "es": "Ikura",
+      "en": "Ikura"
+    },
+    "description": {
+      "es": "Salmón con huevas de salmón.",
+      "en": "Salmon with salmon roe."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish"
+    ],
+    "buffetStars": 1,
+    "twoPersons": true,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.22
+  },
+  {
+    "reference": "SH48",
+    "category": "nigiri",
+    "price": 8.0,
+    "image": "assets/dishes/sh48-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Amaebi",
+      "en": "Amaebi"
+    },
+    "description": {
+      "es": "Gambón crudo.",
+      "en": "Raw king prawn."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "crustaceans",
+      "sulphites"
+    ],
+    "buffetStars": 1,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH49",
+    "category": "nigiri",
+    "price": 6.0,
+    "image": "assets/dishes/sh49-crop-original.webp",
+    "isNew": true,
+    "name": {
+      "es": "Aburi mantequilla",
+      "en": "Aburi butterfish"
+    },
+    "description": {
+      "es": "Pez mantequilla flameado con tartar de pez mantequilla y salsa de trufa.",
+      "en": "Seared butterfish with butterfish tartare and truffle sauce."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "fish",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.15
+  },
+  {
+    "reference": "SH50",
+    "category": "nigiri",
+    "price": 5.0,
+    "image": "assets/dishes/sh50-crop-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Kanikama",
+      "en": "Kanikama"
+    },
+    "description": {
+      "es": "Surimi flameado con mayonesa.",
+      "en": "Seared surimi with mayonnaise."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "crustaceans",
+      "molluscs",
+      "fish",
+      "egg",
+      "gluten",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH56",
+    "category": "nigiri",
+    "price": 4.5,
+    "image": "assets/dishes/sh56-inari.webp",
+    "isNew": false,
+    "name": {
+      "es": "Inari",
+      "en": "Inari"
+    },
+    "description": {
+      "es": "Saquito de tofu relleno de arroz marinado.",
+      "en": "Tofu pouch filled with marinated rice."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "soy",
+      "sulphites",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 60%",
+    "imageFilter": "none",
+    "imageZoom": 1.22,
+    "imageOffsetX": 10
+  },
+  {
+    "reference": "SH57",
+    "category": "nigiri",
+    "price": 15.0,
+    "image": "assets/dishes/sh57-crop-original.webp",
+    "isNew": true,
+    "name": {
+      "es": "Nigiri Mix",
+      "en": "Nigiri Mix"
+    },
+    "description": {
+      "es": "Wagyu con trufa, calamar, gamba, toro y topping de kisu.",
+      "en": "Wagyu with truffle, squid, prawn, toro and kisu topping."
+    },
+    "portion": {
+      "es": "5 uds.",
+      "en": "5 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "soy",
+      "crustaceans",
+      "molluscs"
+    ],
+    "buffetStars": 1,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "SH58",
+    "category": "nigiri",
+    "price": 5.0,
+    "image": "assets/dishes/sh58-centered-original.webp",
+    "isNew": true,
+    "name": {
+      "es": "Vieira",
+      "en": "Scallop"
+    },
+    "description": {
+      "es": "Vieiras flameadas con salsa de ají amarillo y panko.",
+      "en": "Seared scallops with yellow ají sauce and panko."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": [
+      "molluscs",
+      "egg",
+      "gluten",
+      "sulphites"
+    ],
+    "buffetStars": 1,
+    "twoPersons": false,
+    "sourcePage": 10,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
   },
   {
     "reference": "HM79",
     "category": "hosomaki",
-    "price": 6,
+    "price": 6.0,
+    "image": "assets/dishes/hm79-centered-original.webp",
+    "isNew": false,
     "name": {
       "es": "Shake Abokado",
       "en": "Shake Abokado"
@@ -483,7 +1782,6 @@
       "es": "Mini rollo con aguacate y salmón.",
       "en": "Mini roll with avocado and salmon."
     },
-    "image": "assets/dishes/hm79.webp",
     "portion": {
       "es": "6 uds.",
       "en": "6 pcs."
@@ -495,12 +1793,15 @@
     "twoPersons": false,
     "sourcePage": 11,
     "reviewPending": false,
-    "isNew": false
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
   },
   {
     "reference": "HM80",
     "category": "hosomaki",
-    "price": 5,
+    "price": 5.0,
+    "image": "assets/dishes/hm80-centered-original.webp",
+    "isNew": false,
     "name": {
       "es": "Abokado Maki",
       "en": "Avocado Maki"
@@ -509,7 +1810,6 @@
       "es": "Mini rollo con aguacate.",
       "en": "Mini roll with avocado."
     },
-    "image": "assets/dishes/hm80.webp",
     "portion": {
       "es": "6 uds.",
       "en": "6 pcs."
@@ -519,12 +1819,15 @@
     "twoPersons": false,
     "sourcePage": 11,
     "reviewPending": false,
-    "isNew": false
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
   },
   {
     "reference": "HM81",
     "category": "hosomaki",
-    "price": 5,
+    "price": 5.0,
+    "image": "assets/dishes/hm81-centered-original.webp",
+    "isNew": false,
     "name": {
       "es": "Kappa Maki",
       "en": "Kappa Maki"
@@ -533,7 +1836,6 @@
       "es": "Mini rollo con pepino.",
       "en": "Mini roll with cucumber."
     },
-    "image": "assets/dishes/hm81.webp",
     "portion": {
       "es": "6 uds.",
       "en": "6 pcs."
@@ -543,12 +1845,216 @@
     "twoPersons": false,
     "sourcePage": 11,
     "reviewPending": false,
-    "isNew": false
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "HM82",
+    "category": "hosomaki",
+    "price": 8.0,
+    "image": "assets/dishes/hm82-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Tekka Maki",
+      "en": "Tekka Maki"
+    },
+    "description": {
+      "es": "Mini rollo con atún.",
+      "en": "Mini roll with tuna."
+    },
+    "portion": {
+      "es": "6 uds.",
+      "en": "6 pcs."
+    },
+    "allergens": [
+      "fish"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 11,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "HM83",
+    "category": "hosomaki",
+    "price": 10.0,
+    "image": "assets/dishes/hm83-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Ichigo Tempura Maki",
+      "en": "Ichigo Tempura Maki"
+    },
+    "description": {
+      "es": "Mini rollo - tempura con salmón, philadelphia y fresas.",
+      "en": "Mini roll - tempura with salmon, philadelphia and strawberries."
+    },
+    "portion": {
+      "es": "6 uds.",
+      "en": "6 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "egg",
+      "gluten",
+      "milk",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 11,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "HM84",
+    "category": "hosomaki",
+    "price": 8.0,
+    "image": "assets/dishes/hm84-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Ebi Shake",
+      "en": "Ebi Shake"
+    },
+    "description": {
+      "es": "Mini rollo con gambas y salmón.",
+      "en": "Mini roll with salmon and prawns."
+    },
+    "portion": {
+      "es": "6 uds.",
+      "en": "6 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 11,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "HM85",
+    "category": "hosomaki",
+    "price": 10.0,
+    "image": "assets/dishes/hm85-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Osomaki",
+      "en": "Osomaki"
+    },
+    "description": {
+      "es": "Mini rollo en tempura con salmón y cebolla.",
+      "en": "Mini tempura roll with salmon and onion."
+    },
+    "portion": {
+      "es": "6 uds.",
+      "en": "6 pcs."
+    },
+    "allergens": [
+      "fish"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 11,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "HM86",
+    "category": "hosomaki",
+    "price": 8.0,
+    "image": "assets/dishes/hm86-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Spicy Tuna Maki",
+      "en": "Spicy Tuna Maki"
+    },
+    "description": {
+      "es": "Mini rollo con atún picante.",
+      "en": "Mini roll with spicy tuna."
+    },
+    "portion": {
+      "es": "6 uds.",
+      "en": "6 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 11,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "HM87",
+    "category": "hosomaki",
+    "price": 6.0,
+    "image": "assets/dishes/hm87-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Shake Maki",
+      "en": "Shake Maki"
+    },
+    "description": {
+      "es": "Mini rollo con salmón.",
+      "en": "Mini roll with salmon."
+    },
+    "portion": {
+      "es": "6 uds.",
+      "en": "6 pcs."
+    },
+    "allergens": [
+      "fish"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 11,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "HM77",
+    "category": "hosomaki",
+    "price": 12.0,
+    "image": "assets/dishes/hm77-centered-original.webp",
+    "isNew": true,
+    "name": {
+      "es": "Maki Volcano",
+      "en": "Maki Volcano"
+    },
+    "description": {
+      "es": "Pollo crujiente en tempura con cheddar, mayonesa picante y masago.",
+      "en": "Crispy tempura chicken with cheddar, spicy mayonnaise and masago."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "fish",
+      "milk",
+      "egg",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 11,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none",
+    "imageZoom": 1.08
   },
   {
     "reference": "TK51",
     "category": "temaki",
     "price": 5.8,
+    "image": "assets/dishes/tk51.webp",
+    "isNew": false,
     "name": {
       "es": "Ebi Ten Aguacate Temaki",
       "en": "Prawn Tempura & Avocado Temaki"
@@ -557,46 +2063,53 @@
       "es": "Temaki de tempura de gamba y aguacate.",
       "en": "Prawn tempura and avocado temaki."
     },
-    "image": "assets/dishes/tk51.webp",
     "portion": {
-      "es": "1 uds.",
-      "en": "1 pcs."
+      "es": "1 ud.",
+      "en": "1 pc."
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "crustaceans",
+      "egg"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 12,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "TK52",
     "category": "temaki",
     "price": 5.5,
+    "image": "assets/dishes/tk52.webp",
+    "isNew": false,
     "name": {
       "es": "Spicy Shake Temaki",
       "en": "Spicy Shake Temaki"
     },
     "description": {
-      "es": "Temaki de salmón picante (o atún).",
-      "en": "Spicy salmon temaki (or tuna)."
+      "es": "Temaki de salmón picante o atún.",
+      "en": "Spicy salmon or tuna temaki."
     },
-    "image": "assets/dishes/tk52.webp",
     "portion": {
-      "es": "1 uds.",
-      "en": "1 pcs."
+      "es": "1 ud.",
+      "en": "1 pc."
     },
-    "allergens": null,
+    "allergens": [
+      "fish",
+      "sulphites"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 12,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "TK53",
     "category": "temaki",
     "price": 7.8,
+    "image": "assets/dishes/tk53.webp",
+    "isNew": false,
     "name": {
       "es": "Maguro California Temaki",
       "en": "Maguro California Temaki"
@@ -605,22 +2118,78 @@
       "es": "Atún, aguacate, pepino, masago, ensalada, salsa y sésamo.",
       "en": "Tuna, avocado, cucumber, masago, salad, sauce and sesame."
     },
-    "image": "assets/dishes/tk53.webp",
     "portion": {
-      "es": "1 uds.",
-      "en": "1 pcs."
+      "es": "1 ud.",
+      "en": "1 pc."
     },
-    "allergens": null,
+    "allergens": [
+      "fish",
+      "sesame",
+      "gluten",
+      "sulphites"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 12,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
+  },
+  {
+    "reference": "TK54",
+    "category": "temaki",
+    "price": 5.8,
+    "image": "assets/dishes/tk54.webp",
+    "isNew": false,
+    "name": {
+      "es": "Shake Avokado",
+      "en": "Shake Avokado"
+    },
+    "description": {
+      "es": "Temaki con salmón y aguacate.",
+      "en": "Temaki with salmon and avocado."
+    },
+    "portion": {
+      "es": "1 ud.",
+      "en": "1 pc."
+    },
+    "allergens": [
+      "fish"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 12
+  },
+  {
+    "reference": "TK55",
+    "category": "temaki",
+    "price": 8.0,
+    "image": "assets/dishes/tk55.webp",
+    "isNew": true,
+    "name": {
+      "es": "Spicy Tuna Especial",
+      "en": "Special Spicy Tuna"
+    },
+    "description": {
+      "es": "Mini rollo con atún picante.",
+      "en": "Mini roll with spicy tuna."
+    },
+    "portion": {
+      "es": "3 uds.",
+      "en": "3 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 12
   },
   {
     "reference": "RS60",
     "category": "rollitos",
-    "price": 12,
+    "price": 12.0,
+    "image": "assets/dishes/rs60.webp",
+    "isNew": false,
     "name": {
       "es": "Cheddar Roll",
       "en": "Cheddar Roll"
@@ -629,46 +2198,54 @@
       "es": "Surimi, aguacate, cheddar flameado, mayonesa y teriyaki.",
       "en": "Surimi, avocado, flame-seared cheddar, mayonnaise and teriyaki."
     },
-    "image": "assets/dishes/rs60.webp",
     "portion": {
       "es": "8 uds.",
       "en": "8 pcs."
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "milk",
+      "crustaceans",
+      "sesame",
+      "soy"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 13,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "RS61",
     "category": "rollitos",
-    "price": 10,
+    "price": 10.0,
+    "image": "assets/dishes/rs61.webp",
+    "isNew": false,
     "name": {
       "es": "Rollo vegetal",
-      "en": "Vegetable Roll"
+      "en": "Vegetable roll"
     },
     "description": {
-      "es": "Aguacate y mango.",
-      "en": "Avocado and mango."
+      "es": "Rollo de aguacate y mango.",
+      "en": "Avocado and mango roll."
     },
-    "image": "assets/dishes/rs61.webp",
     "portion": {
       "es": "8 uds.",
       "en": "8 pcs."
     },
-    "allergens": null,
+    "allergens": [
+      "sesame"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 13,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "RS62",
     "category": "rollitos",
     "price": 7.8,
+    "image": "assets/dishes/rs62.webp",
+    "isNew": false,
     "name": {
       "es": "New Futomaki",
       "en": "New Futomaki"
@@ -677,94 +2254,603 @@
       "es": "Rollo crujiente en tempura con aguacate, salmón y queso Philadelphia, con reducción de teriyaki.",
       "en": "Crispy tempura roll with avocado, salmon and Philadelphia cream cheese, with a teriyaki reduction."
     },
-    "image": "assets/dishes/rs62.webp",
     "portion": {
       "es": "4 uds.",
       "en": "4 pcs."
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "milk",
+      "crustaceans",
+      "sesame",
+      "soy",
+      "egg"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 13,
+    "reviewPending": false
+  },
+  {
+    "reference": "RS63",
+    "category": "rollitos",
+    "price": 14.0,
+    "image": "assets/dishes/rs63.webp",
+    "isNew": false,
+    "name": {
+      "es": "Rollo tropical",
+      "en": "Tropical roll"
+    },
+    "description": {
+      "es": "Sashimi de salmón y mango, relleno de aguacate, surimi picado y masago rojo y negro, con salsa de mango.",
+      "en": "Salmon and mango sashimi, filled with avocado, chopped surimi and red and black masago, with mango sauce."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "gluten",
+      "fish",
+      "crustaceans",
+      "sulphites",
+      "sesame",
+      "soy",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 13
+  },
+  {
+    "reference": "RS64",
+    "category": "rollitos",
+    "price": 15.0,
+    "image": "assets/dishes/rs64.webp",
+    "isNew": false,
+    "name": {
+      "es": "Rollo hawaiano",
+      "en": "Hawaiian roll"
+    },
+    "description": {
+      "es": "Rollo California relleno de surimi picado y aguacate, cubierto con atún fresco.",
+      "en": "California roll filled with chopped surimi and avocado, topped with fresh tuna."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "fish",
+      "gluten",
+      "sesame",
+      "crustaceans"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 13
+  },
+  {
+    "reference": "RS65",
+    "category": "rollitos",
+    "price": 10.0,
+    "image": "assets/dishes/rs65.webp",
+    "isNew": false,
+    "name": {
+      "es": "California",
+      "en": "California"
+    },
+    "description": {
+      "es": "Uramaki de surimi picado y aguacate.",
+      "en": "Uramaki with chopped surimi and avocado."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "crustaceans",
+      "gluten",
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 13
+  },
+  {
+    "reference": "RS66",
+    "category": "rollitos",
+    "price": 12.0,
+    "image": "assets/dishes/rs66-centered.webp",
+    "isNew": true,
+    "name": {
+      "es": "Espacial Banzai",
+      "en": "Espacial Banzai"
+    },
+    "description": {
+      "es": "Tartar de pez mantequilla con salsa de trufa.",
+      "en": "Butterfish tartare with truffle sauce."
+    },
+    "portion": {
+      "es": "6 uds.",
+      "en": "6 pcs."
+    },
+    "allergens": [
+      "fish",
+      "soy",
+      "sulphites",
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 14,
     "reviewPending": false,
-    "isNew": false
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "RS67",
+    "category": "rollitos",
+    "price": 10.8,
+    "image": "assets/dishes/rs67.webp",
+    "isNew": false,
+    "name": {
+      "es": "Supaidaroru",
+      "en": "Supaidaroru"
+    },
+    "description": {
+      "es": "Langostino frito, surimi picado, masago y salsa teriyaki.",
+      "en": "Fried king prawn, chopped surimi, masago and teriyaki sauce."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "fish",
+      "soy",
+      "crustaceans",
+      "sesame",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 14
+  },
+  {
+    "reference": "RS68",
+    "category": "rollitos",
+    "price": 11.8,
+    "image": "assets/dishes/rs68.webp",
+    "isNew": false,
+    "name": {
+      "es": "Cho Cho Roru",
+      "en": "Cho Cho Roru"
+    },
+    "description": {
+      "es": "Surimi picado y aguacate, cubierto de aguacate y fresas con salsa teriyaki.",
+      "en": "Chopped surimi and avocado, topped with avocado and strawberries with teriyaki sauce."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "gluten",
+      "crustaceans",
+      "sesame",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 14
+  },
+  {
+    "reference": "RS69",
+    "category": "rollitos",
+    "price": 10.8,
+    "image": "assets/dishes/rs69.webp",
+    "isNew": false,
+    "name": {
+      "es": "Sake Waka",
+      "en": "Sake Waka"
+    },
+    "description": {
+      "es": "Aguacate, salmón y Philadelphia.",
+      "en": "Avocado, salmon and Philadelphia cream cheese."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "sesame",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 14,
+    "reviewPending": false
+  },
+  {
+    "reference": "RS70",
+    "category": "rollitos",
+    "price": 12.0,
+    "image": "assets/dishes/rs70.webp",
+    "isNew": false,
+    "name": {
+      "es": "Diablo salmón",
+      "en": "Diablo Salmon"
+    },
+    "description": {
+      "es": "Salmón picante, cubierto con salmón.",
+      "en": "Spicy salmon topped with salmon."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 14
+  },
+  {
+    "reference": "RS71",
+    "category": "rollitos",
+    "price": 14.8,
+    "image": "assets/dishes/rs71.webp",
+    "isNew": false,
+    "name": {
+      "es": "Toro Aburi Roll",
+      "en": "Toro Aburi Roll"
+    },
+    "description": {
+      "es": "Ventresca de atún flameada, cangrejo y aguacate.",
+      "en": "Seared tuna belly, crab and avocado."
+    },
+    "portion": {
+      "es": "4 uds.",
+      "en": "4 pcs."
+    },
+    "allergens": [
+      "fish",
+      "soy",
+      "sesame",
+      "gluten"
+    ],
+    "buffetStars": 1,
+    "twoPersons": true,
+    "sourcePage": 14
+  },
+  {
+    "reference": "RS72",
+    "category": "rollitos",
+    "price": 9.8,
+    "image": "assets/dishes/rs72.webp",
+    "isNew": false,
+    "name": {
+      "es": "Sake Waka",
+      "en": "Sake Waka"
+    },
+    "description": {
+      "es": "Aguacate, tofu frito, tartar de salmón y cebolla crujiente.",
+      "en": "Avocado, fried tofu, salmon tartare and crispy onion."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "fish",
+      "soy",
+      "sulphites",
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 15,
+    "reviewPending": false
+  },
+  {
+    "reference": "RS73",
+    "category": "rollitos",
+    "price": 9.8,
+    "image": "assets/dishes/rs73.webp",
+    "isNew": false,
+    "name": {
+      "es": "Banzai",
+      "en": "Banzai"
+    },
+    "description": {
+      "es": "Tempura de langostinos y surimi picado envuelto en granos de tempura, masago y salsa teriyaki.",
+      "en": "King prawn tempura and chopped surimi wrapped in tempura crumbs, with masago and teriyaki sauce."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "egg",
+      "soy",
+      "crustaceans",
+      "sesame",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 15
+  },
+  {
+    "reference": "RS74",
+    "category": "rollitos",
+    "price": 14.0,
+    "image": "assets/dishes/rs74.webp",
+    "isNew": false,
+    "name": {
+      "es": "Arcoíris",
+      "en": "Rainbow roll"
+    },
+    "description": {
+      "es": "Rollo mixto de atún, salmón, pez mantequilla y gamba, relleno de aguacate, cangrejo y mayonesa.",
+      "en": "Mixed tuna, salmon, butterfish and prawn roll, filled with avocado, crab and mayonnaise."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 15
+  },
+  {
+    "reference": "RS75",
+    "category": "rollitos",
+    "price": 12.0,
+    "image": "assets/dishes/rs75.webp",
+    "isNew": false,
+    "name": {
+      "es": "Rollo sésamo",
+      "en": "Sesame roll"
+    },
+    "description": {
+      "es": "Rollo de Philadelphia y salmón envuelto en sésamo negro.",
+      "en": "Philadelphia cream cheese and salmon roll wrapped in black sesame."
+    },
+    "portion": {
+      "es": "6 uds.",
+      "en": "6 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "sesame",
+      "milk"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 15
+  },
+  {
+    "reference": "RS76",
+    "category": "rollitos",
+    "price": 12.0,
+    "image": "assets/dishes/rs76-centered.webp",
+    "isNew": false,
+    "name": {
+      "es": "Diablo atún",
+      "en": "Diablo Tuna"
+    },
+    "description": {
+      "es": "Atún picante envuelto en sésamo tostado, con kimuchi y mayonesa.",
+      "en": "Spicy tuna wrapped in toasted sesame with kimuchi and mayonnaise."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "sesame",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 15,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "RS78",
+    "category": "rollitos",
+    "price": 12.0,
+    "image": "assets/dishes/rs78.webp",
+    "isNew": false,
+    "name": {
+      "es": "Katsuobushi Roll",
+      "en": "Katsuobushi Roll"
+    },
+    "description": {
+      "es": "Tartar de atún picante y katsusushi.",
+      "en": "Spicy tuna tartare with Katsu Sushi."
+    },
+    "portion": {
+      "es": "8 uds.",
+      "en": "8 pcs."
+    },
+    "allergens": [
+      "fish",
+      "sulphites",
+      "sesame",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 15,
+    "reviewPending": false
   },
   {
     "reference": "CR90",
     "category": "carpaccio",
-    "price": 14,
+    "price": 14.0,
+    "image": "assets/dishes/cr90.webp",
+    "isNew": true,
     "name": {
       "es": "Carpaccio de corvina",
-      "en": "Meagre Carpaccio"
+      "en": "Meagre carpaccio"
     },
     "description": {
       "es": "Corvina con salsa de ají amarillo al vinagre.",
       "en": "Meagre with yellow ají and vinegar sauce."
     },
-    "image": "assets/dishes/cr90.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "soy",
+      "sesame",
+      "sulphites"
+    ],
     "buffetStars": 1,
     "twoPersons": true,
     "sourcePage": 16,
-    "reviewPending": false,
-    "isNew": true
+    "reviewPending": true
   },
   {
     "reference": "CR91",
     "category": "carpaccio",
-    "price": 12,
+    "price": 12.0,
+    "image": "assets/dishes/cr91.webp",
+    "isNew": true,
     "name": {
       "es": "Carpaccio de salmón",
-      "en": "Salmon Carpaccio"
+      "en": "Salmon carpaccio"
     },
     "description": {
       "es": "Finas láminas de salmón fresco con ponzu aromático y cebolla frita crujiente.",
       "en": "Thinly sliced fresh salmon with aromatic ponzu and crispy fried onions."
     },
-    "image": "assets/dishes/cr91.webp",
     "portion": {
       "es": "4 uds.",
       "en": "4 pcs."
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "fish",
+      "soy",
+      "sulphites"
+    ],
     "buffetStars": 2,
     "twoPersons": true,
     "sourcePage": 16,
-    "reviewPending": false,
-    "isNew": true
+    "reviewPending": false
   },
   {
     "reference": "CR97",
     "category": "carpaccio",
-    "price": 12,
+    "price": 12.0,
+    "image": "assets/dishes/cr97.webp",
+    "isNew": true,
     "name": {
       "es": "Carpaccio de pez mantequilla",
-      "en": "Butterfish Carpaccio"
+      "en": "Butterfish carpaccio"
     },
     "description": {
       "es": "Con salsa ponzu y tobiko.",
       "en": "With ponzu sauce and tobiko."
     },
-    "image": "assets/dishes/cr97.webp",
     "portion": {
       "es": "4 uds.",
       "en": "4 pcs."
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "fish",
+      "egg",
+      "soy",
+      "sulphites"
+    ],
     "buffetStars": 2,
     "twoPersons": true,
     "sourcePage": 16,
-    "reviewPending": false,
-    "isNew": true
+    "reviewPending": false
+  },
+  {
+    "reference": "CR93",
+    "category": "carpaccio",
+    "price": 14.0,
+    "image": "assets/dishes/cr93.webp",
+    "isNew": true,
+    "name": {
+      "es": "Carpaccio de atún",
+      "en": "Tuna carpaccio"
+    },
+    "description": {
+      "es": "Carpaccio de atún con salsa Kewpie y ají amarillo.",
+      "en": "Tuna carpaccio with Kewpie and yellow ají sauce."
+    },
+    "portion": {
+      "es": "4 uds.",
+      "en": "4 pcs."
+    },
+    "allergens": [
+      "gluten",
+      "soy",
+      "sesame",
+      "sulphites"
+    ],
+    "buffetStars": 1,
+    "twoPersons": true,
+    "sourcePage": 16,
+    "reviewPending": false
+  },
+  {
+    "reference": "CR96",
+    "category": "carpaccio",
+    "price": 14.0,
+    "image": "assets/dishes/cr96.webp",
+    "isNew": false,
+    "name": {
+      "es": "Tataki de wagyu",
+      "en": "Wagyu tataki"
+    },
+    "description": {
+      "es": "Wagyu nacional con salsa ponzu.",
+      "en": "Spanish wagyu with ponzu sauce."
+    },
+    "portion": {
+      "es": "4 uds.",
+      "en": "4 pcs."
+    },
+    "allergens": [
+      "gluten",
+      "soy",
+      "sulphites"
+    ],
+    "buffetStars": 1,
+    "twoPersons": true,
+    "sourcePage": 16
   },
   {
     "reference": "SM92",
     "category": "sashimi",
     "price": 10.8,
+    "image": "assets/dishes/sm92.webp",
+    "isNew": false,
     "name": {
       "es": "Shake Sashimi",
       "en": "Salmon Sashimi"
@@ -773,7 +2859,6 @@
       "es": "Sashimi de salmón.",
       "en": "Salmon sashimi."
     },
-    "image": "assets/dishes/sm92.webp",
     "portion": {
       "es": "6 uds.",
       "en": "6 pcs."
@@ -784,13 +2869,14 @@
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 17,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "SM95",
     "category": "sashimi",
     "price": 14.8,
+    "image": "assets/dishes/sm95.webp",
+    "isNew": false,
     "name": {
       "es": "Sashimi Mix",
       "en": "Sashimi Mix"
@@ -799,7 +2885,6 @@
       "es": "Atún 2 uds., salmón 2 uds. y pescado blanco 2 uds.",
       "en": "Tuna 2 pcs., salmon 2 pcs. and white fish 2 pcs."
     },
-    "image": "assets/dishes/sm95.webp",
     "portion": {
       "es": "6 uds.",
       "en": "6 pcs."
@@ -810,85 +2895,102 @@
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 17,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "94",
     "category": "tartar",
     "price": 10.8,
+    "image": "assets/dishes/94-centered-original.webp",
+    "isNew": true,
     "name": {
       "es": "Tartar Sake Negi",
-      "en": "Salmon & Negi Tartare"
+      "en": "Sake Negi tartare"
     },
     "description": {
       "es": "Tartar de salmón con almendras y negi.",
       "en": "Salmon tartare with almonds and negi."
     },
-    "image": "assets/dishes/94.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "soy",
+      "sesame",
+      "egg",
+      "sulphites"
+    ],
     "buffetStars": 1,
     "twoPersons": false,
     "sourcePage": 17,
-    "reviewPending": true,
-    "isNew": true
+    "reviewPending": false,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
   },
   {
     "reference": "E10",
     "category": "tartar",
-    "price": 18,
+    "price": 18.0,
+    "image": "assets/dishes/e10.webp",
+    "isNew": true,
     "name": {
       "es": "Tartar de salmón",
-      "en": "Salmon Tartare"
+      "en": "Salmon tartare"
     },
     "description": {
       "es": "Tartar de salmón con salsa de trufa, tobiko negro y láminas crujientes.",
       "en": "Salmon tartare with truffle sauce, black tobiko and crispy sheets."
     },
-    "image": "assets/dishes/e10.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "fish",
+      "soy",
+      "sulphites"
+    ],
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 17,
-    "reviewPending": true,
-    "isNew": true
+    "reviewPending": false
   },
   {
     "reference": "CR118",
     "category": "carnes",
     "price": 9.8,
+    "image": "assets/dishes/cr118.webp",
+    "isNew": false,
     "name": {
       "es": "Teriyaki de pollo",
-      "en": "Chicken Teriyaki"
+      "en": "Chicken teriyaki"
     },
     "description": {
       "es": "Pollo, arroz blanco, cebolla y salsa teriyaki.",
       "en": "Chicken, white rice, onion and teriyaki sauce."
     },
-    "image": "assets/dishes/cr118.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "soy",
+      "sesame"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 18,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "CR126",
     "category": "carnes",
     "price": 5.5,
+    "image": "assets/dishes/cr126.webp",
+    "isNew": false,
     "name": {
       "es": "Yakitori",
       "en": "Yakitori"
@@ -897,46 +2999,246 @@
       "es": "Brochetas de pollo en salsa teriyaki.",
       "en": "Chicken skewers in teriyaki sauce."
     },
-    "image": "assets/dishes/cr126.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "soy",
+      "sesame",
+      "gluten"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 18,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "CR119",
     "category": "carnes",
     "price": 8.8,
+    "image": "assets/dishes/cr119.webp",
+    "isNew": false,
     "name": {
-      "es": "Pinchos secreto",
-      "en": "Secreto Pork Skewers"
+      "es": "Pinchos de secreto",
+      "en": "Pork secreto skewers"
     },
     "description": {
       "es": "Secreto de cerdo.",
-      "en": "Secreto pork."
+      "en": "Pork secreto skewers."
     },
-    "image": "assets/dishes/cr119.webp",
     "portion": {
       "es": "2 uds.",
       "en": "2 pcs."
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "sesame",
+      "soy"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 18,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
+  },
+  {
+    "reference": "CR128",
+    "category": "carnes",
+    "price": 14.8,
+    "image": "assets/dishes/cr128.webp",
+    "isNew": false,
+    "name": {
+      "es": "Yakiniku",
+      "en": "Yakiniku"
+    },
+    "description": {
+      "es": "Entrecot de ternera con salsa yakiniku.",
+      "en": "Beef entrecôte with yakiniku sauce."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "sesame",
+      "soy"
+    ],
+    "buffetStars": 2,
+    "twoPersons": false,
+    "sourcePage": 18,
+    "reviewPending": false
+  },
+  {
+    "reference": "CR129",
+    "category": "carnes",
+    "price": 14.0,
+    "image": "assets/dishes/cr129.webp",
+    "isNew": false,
+    "name": {
+      "es": "Pollo estilo Thai",
+      "en": "Thai-style chicken"
+    },
+    "description": {
+      "es": "Pollo con salsa de curry picante y arroz opcional.",
+      "en": "Chicken with spicy curry sauce and optional rice."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 18
+  },
+  {
+    "reference": "CR117",
+    "category": "carnes",
+    "price": 14.8,
+    "image": "assets/dishes/cr117.webp",
+    "isNew": false,
+    "name": {
+      "es": "Pato al curry",
+      "en": "Duck curry"
+    },
+    "description": {
+      "es": "Pato al curry.",
+      "en": "Duck curry."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 19
+  },
+  {
+    "reference": "CR120",
+    "category": "carnes",
+    "price": 14.8,
+    "image": "assets/dishes/cr120.webp",
+    "isNew": false,
+    "name": {
+      "es": "Pato teriyaki",
+      "en": "Duck teriyaki"
+    },
+    "description": {
+      "es": "Pato con salsa de sésamo.",
+      "en": "Duck with sesame sauce."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy",
+      "sesame",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 19,
+    "reviewPending": false
+  },
+  {
+    "reference": "CR124",
+    "category": "carnes",
+    "price": 9.8,
+    "image": "assets/dishes/cr124.webp",
+    "isNew": false,
+    "name": {
+      "es": "Chikin Teriyaki",
+      "en": "Chikin Teriyaki"
+    },
+    "description": {
+      "es": "Muslo de pollo a la plancha con salsa teriyaki.",
+      "en": "Grilled chicken thigh with teriyaki sauce."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "sesame",
+      "soy",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 19
+  },
+  {
+    "reference": "CR125",
+    "category": "carnes",
+    "price": 9.8,
+    "image": "assets/dishes/cr125.webp",
+    "isNew": false,
+    "name": {
+      "es": "Chikin Katsu",
+      "en": "Chikin Katsu"
+    },
+    "description": {
+      "es": "Pechuga de pollo empanada.",
+      "en": "Breaded chicken breast."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "sesame",
+      "soy",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 19
+  },
+  {
+    "reference": "CR123",
+    "category": "carnes",
+    "price": 10.8,
+    "image": "assets/dishes/cr123.webp",
+    "isNew": false,
+    "name": {
+      "es": "Tori Karaage",
+      "en": "Tori Karaage"
+    },
+    "description": {
+      "es": "Bocados de pollo con jengibre y ajo.",
+      "en": "Chicken bites with ginger and garlic."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy",
+      "gluten",
+      "sesame",
+      "egg",
+      "sulphites"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 19
   },
   {
     "reference": "MR131",
     "category": "pescado",
     "price": 14.8,
+    "image": "assets/dishes/mr131.webp",
+    "isNew": true,
     "name": {
       "es": "Ika Syogayaki",
       "en": "Ika Syogayaki"
@@ -945,22 +3247,26 @@
       "es": "Calamares a la plancha en salsa de jengibre shoga.",
       "en": "Grilled squid in shoga ginger sauce."
     },
-    "image": "assets/dishes/mr131.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "sesame",
+      "molluscs"
+    ],
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 20,
-    "reviewPending": false,
-    "isNew": true
+    "reviewPending": false
   },
   {
     "reference": "MR132",
     "category": "pescado",
     "price": 12.8,
+    "image": "assets/dishes/mr132.webp",
+    "isNew": false,
     "name": {
       "es": "Shake",
       "en": "Shake"
@@ -969,70 +3275,227 @@
       "es": "Salmón a la plancha en salsa teriyaki.",
       "en": "Grilled salmon with teriyaki sauce."
     },
-    "image": "assets/dishes/mr132.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "soy",
+      "sesame",
+      "gluten"
+    ],
     "buffetStars": 2,
     "twoPersons": false,
     "sourcePage": 20,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "CR133",
     "category": "pescado",
-    "price": 14,
+    "price": 14.0,
+    "image": "assets/dishes/cr133.webp",
+    "isNew": true,
     "name": {
       "es": "Gallineta en tempura",
-      "en": "Red Scorpionfish Tempura"
+      "en": "Tempura red scorpionfish"
     },
     "description": {
       "es": "Tempura crujiente con salsa cremosa de sésamo y miso.",
       "en": "Crispy tempura with creamy sesame and miso sauce."
     },
-    "image": "assets/dishes/cr133.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "fish",
+      "soy",
+      "sesame",
+      "gluten",
+      "egg"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 20,
-    "reviewPending": false,
-    "isNew": true
+    "reviewPending": false
+  },
+  {
+    "reference": "MR135",
+    "category": "pescado",
+    "price": 12.8,
+    "image": "assets/dishes/mr135.webp",
+    "isNew": false,
+    "name": {
+      "es": "Maguro Syogayaki",
+      "en": "Maguro Syogayaki"
+    },
+    "description": {
+      "es": "Atún fresco a la plancha con salsa de jengibre y soja.",
+      "en": "Grilled fresh tuna with ginger and soy sauce."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "fish",
+      "gluten",
+      "sesame",
+      "soy"
+    ],
+    "buffetStars": 2,
+    "twoPersons": false,
+    "sourcePage": 20
+  },
+  {
+    "reference": "MR136",
+    "category": "pescado",
+    "price": 10.8,
+    "image": "assets/dishes/mr136.webp",
+    "isNew": false,
+    "name": {
+      "es": "Ebi Tempura",
+      "en": "Ebi Tempura"
+    },
+    "description": {
+      "es": "Tempura de gambas.",
+      "en": "Shrimp tempura."
+    },
+    "portion": {
+      "es": "4 uds.",
+      "en": "4 pcs."
+    },
+    "allergens": [
+      "crustaceans",
+      "gluten",
+      "egg",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 21
+  },
+  {
+    "reference": "CR138",
+    "category": "pescado",
+    "price": 14.0,
+    "image": "assets/dishes/cr138.webp",
+    "isNew": true,
+    "name": {
+      "es": "Langostinos Ebi Chili",
+      "en": "Ebi Chili prawns"
+    },
+    "description": {
+      "es": "Verduras de temporada con salsa de chili.",
+      "en": "Seasonal vegetables with chili sauce."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy",
+      "sesame",
+      "gluten",
+      "crustaceans"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 21,
+    "reviewPending": false
+  },
+  {
+    "reference": "CR139",
+    "category": "pescado",
+    "price": 14.0,
+    "image": "assets/dishes/cr139.webp",
+    "isNew": true,
+    "name": {
+      "es": "Langostinos estilo Thai",
+      "en": "Thai-style king prawns"
+    },
+    "description": {
+      "es": "Langostinos con salsa de curry picante y arroz opcional.",
+      "en": "King prawns with spicy curry sauce and optional rice."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "soy",
+      "sesame",
+      "gluten",
+      "crustaceans"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 21
+  },
+  {
+    "reference": "MR137",
+    "category": "pescado",
+    "price": 10.8,
+    "image": "assets/dishes/mr137-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Langostino rebozado",
+      "en": "Battered king prawns"
+    },
+    "description": {
+      "es": "Langostinos rebozados.",
+      "en": "Battered king prawns."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "crustaceans",
+      "egg",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 21,
+    "imagePosition": "50% 40%",
+    "imageFilter": "none"
   },
   {
     "reference": "PS180",
     "category": "postres",
     "price": 7.8,
+    "image": "assets/dishes/ps180.webp",
+    "isNew": false,
     "name": {
       "es": "Makis helados",
-      "en": "Ice Cream Makis"
+      "en": "Maki ice cream"
     },
     "description": {
       "es": "Helado con forma de makis. Sabores variados.",
       "en": "Maki-shaped ice cream. Assorted flavours."
     },
-    "image": "assets/dishes/ps180.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "sesame",
+      "sulphites",
+      "egg"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 22,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "PS181",
     "category": "postres",
     "price": 5.5,
+    "image": "assets/dishes/ps181.webp",
+    "isNew": false,
     "name": {
       "es": "Dorayaki",
       "en": "Dorayaki"
@@ -1041,40 +3504,368 @@
       "es": "Bizcocho japonés relleno de azuki dulce. 70 g.",
       "en": "Japanese sponge cake filled with sweet azuki beans. 70 g."
     },
-    "image": "assets/dishes/ps181.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "gluten",
+      "sesame",
+      "soy"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 22,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
   },
   {
     "reference": "PS182",
     "category": "postres",
     "price": 7.8,
+    "image": "assets/dishes/ps182.webp",
+    "isNew": false,
     "name": {
       "es": "Mousse de chocolate",
-      "en": "Chocolate Mousse"
+      "en": "Chocolate mousse"
     },
     "description": {
       "es": "Pastel de mousse de chocolate.",
       "en": "Chocolate mousse cake."
     },
-    "image": "assets/dishes/ps182.webp",
     "portion": {
       "es": "",
       "en": ""
     },
-    "allergens": null,
+    "allergens": [
+      "peanuts",
+      "egg",
+      "gluten",
+      "milk",
+      "soy"
+    ],
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 22,
-    "reviewPending": false,
-    "isNew": false
+    "reviewPending": false
+  },
+  {
+    "reference": "PS185",
+    "category": "postres",
+    "price": 8.0,
+    "image": "assets/dishes/ps185-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Trufas japonesas",
+      "en": "Japanese truffles"
+    },
+    "description": {
+      "es": "Trufas de té verde y sake.",
+      "en": "Green tea and sake truffles."
+    },
+    "portion": {
+      "es": "5 uds.",
+      "en": "5 pcs."
+    },
+    "allergens": [
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 22,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "PS186",
+    "category": "postres",
+    "price": 6.8,
+    "image": "assets/dishes/ps186-centered-original.webp",
+    "isNew": false,
+    "name": {
+      "es": "Tiramisú nuevo estilo",
+      "en": "New-style tiramisu"
+    },
+    "description": {
+      "es": "Tiramisú de té verde.",
+      "en": "Green tea tiramisu."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten",
+      "milk",
+      "sulphites",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 22,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
+  },
+  {
+    "reference": "PS191",
+    "category": "postres",
+    "price": 6.8,
+    "image": "assets/dishes/ps191.webp",
+    "isNew": false,
+    "name": {
+      "es": "Piña",
+      "en": "Pineapple"
+    },
+    "description": {
+      "es": "Fruta natural.",
+      "en": "Fresh fruit."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 22
+  },
+  {
+    "reference": "PS187",
+    "category": "postres",
+    "price": 6.8,
+    "image": "assets/dishes/ps187.webp",
+    "isNew": false,
+    "name": {
+      "es": "Yuzu Sorbet",
+      "en": "Yuzu Sorbet"
+    },
+    "description": {
+      "es": "El yuzu es un cítrico que crece en Japón.",
+      "en": "Yuzu is a citrus fruit grown in Japan."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "milk",
+      "sulphites",
+      "egg"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 23
+  },
+  {
+    "reference": "PS188",
+    "category": "postres",
+    "price": 5.8,
+    "image": "assets/dishes/ps188.webp",
+    "isNew": false,
+    "name": {
+      "es": "Gari Sorbet",
+      "en": "Gari Sorbet"
+    },
+    "description": {
+      "es": "Helado de jengibre.",
+      "en": "Ginger ice cream."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "milk"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 23
+  },
+  {
+    "reference": "PS189",
+    "category": "postres",
+    "price": 8.0,
+    "image": "assets/dishes/ps189.webp",
+    "isNew": false,
+    "name": {
+      "es": "Goma Ice",
+      "en": "Goma Ice"
+    },
+    "description": {
+      "es": "Helado japonés de sésamo negro.",
+      "en": "Japanese black sesame ice cream."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "milk",
+      "sesame"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 23
+  },
+  {
+    "reference": "PS190",
+    "category": "postres",
+    "price": 4.8,
+    "image": "assets/dishes/ps190.webp",
+    "isNew": false,
+    "name": {
+      "es": "Maccha Ice",
+      "en": "Maccha Ice"
+    },
+    "description": {
+      "es": "Helado de té verde.",
+      "en": "Green tea ice cream."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "peanuts",
+      "egg",
+      "gluten",
+      "milk",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 23
+  },
+  {
+    "reference": "PS192",
+    "category": "postres",
+    "price": 5.8,
+    "image": "assets/dishes/ps192.webp",
+    "isNew": false,
+    "name": {
+      "es": "Daifuku Aka",
+      "en": "Daifuku Aka"
+    },
+    "description": {
+      "es": "Mochi rojo relleno de judía roja.",
+      "en": "Red mochi filled with red beans."
+    },
+    "portion": {
+      "es": "90 g",
+      "en": "90 g"
+    },
+    "allergens": [
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 23
+  },
+  {
+    "reference": "PS193",
+    "category": "postres",
+    "price": 8.5,
+    "image": "assets/dishes/ps193.webp",
+    "isNew": false,
+    "name": {
+      "es": "Huevo de chocolate blanco y mango",
+      "en": "White chocolate & mango egg"
+    },
+    "description": {
+      "es": "Mousse de chocolate blanco con coulis de mango.",
+      "en": "White chocolate mousse with mango coulis."
+    },
+    "portion": {
+      "es": "95 g",
+      "en": "95 g"
+    },
+    "allergens": [
+      "milk",
+      "soy",
+      "egg",
+      "gluten"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 23
+  },
+  {
+    "reference": "PS194",
+    "category": "postres",
+    "price": 8.0,
+    "image": "assets/dishes/ps194.webp",
+    "isNew": false,
+    "name": {
+      "es": "Soufflé de chocolate",
+      "en": "Chocolate soufflé"
+    },
+    "description": {
+      "es": "Bizcocho de chocolate relleno de chocolate líquido.",
+      "en": "Chocolate sponge cake filled with liquid chocolate."
+    },
+    "portion": {
+      "es": "90 g",
+      "en": "90 g"
+    },
+    "allergens": [
+      "egg",
+      "milk"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 24
+  },
+  {
+    "reference": "PS195",
+    "category": "postres",
+    "price": 8.0,
+    "image": "assets/dishes/ps195.webp",
+    "isNew": false,
+    "name": {
+      "es": "Convento de Baileys",
+      "en": "Baileys Convento"
+    },
+    "description": {
+      "es": "Barquillos de chocolate y almendra rellenos de mousse de Baileys o de mousse de té verde y piñones.",
+      "en": "Chocolate and almond wafers filled with Baileys mousse or green tea and pine nut mousse."
+    },
+    "portion": {
+      "es": "",
+      "en": ""
+    },
+    "allergens": [
+      "milk",
+      "egg",
+      "gluten",
+      "sulphites",
+      "soy"
+    ],
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 24
+  },
+  {
+    "reference": "PS184",
+    "category": "postres",
+    "price": 6.8,
+    "image": "assets/dishes/ps184.webp",
+    "isNew": false,
+    "name": {
+      "es": "Mochi de helado",
+      "en": "Mochi ice cream"
+    },
+    "description": {
+      "es": "Elige el sabor: té verde, yuzu, vainilla, mango, chocolate o frambuesa.",
+      "en": "Choose a flavour: green tea, yuzu, vanilla, mango, chocolate or raspberry."
+    },
+    "portion": {
+      "es": "2 uds.",
+      "en": "2 pcs."
+    },
+    "allergens": null,
+    "buffetStars": 0,
+    "twoPersons": false,
+    "sourcePage": 24
   }
 ]

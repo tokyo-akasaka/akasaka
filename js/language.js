@@ -2,6 +2,7 @@ export const translations = {
   es: {
     newDish: "Novedad",
     allergenAdvice: "Consulta los alérgenos con el personal.",
+    noAllergens: "Sin alérgenos",
     shareDish: "Compartir plato",
     share: "Compartir",
     shareCopied: "Enlace copiado",
@@ -29,7 +30,7 @@ export const translations = {
     close: "Cerrar ×",
     loading: "Cargando carta…",
     tax: "Precios con IVA incluido.",
-    sampleTitle: "Diseño en revisión V0.1.1",
+    sampleTitle: "Diseño en revisión V1.0.0",
     dishes: "platos",
     reference: "Ref.",
     allergens: "Alérgenos",
@@ -64,6 +65,7 @@ export const translations = {
   en: {
     newDish: "New",
     allergenAdvice: "Please check allergens with staff.",
+    noAllergens: "No allergens",
     shareDish: "Share dish",
     share: "Share",
     shareCopied: "Link copied",
@@ -91,7 +93,7 @@ export const translations = {
     close: "Close ×",
     loading: "Loading menu…",
     tax: "Prices include VAT.",
-    sampleTitle: "Design under review V0.1.1",
+    sampleTitle: "Design under review V1.0.0",
     dishes: "dishes",
     reference: "Ref.",
     allergens: "Allergens",

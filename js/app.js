@@ -1,3 +1,4 @@
+import {sharedDishImages} from './dish-images.js';
 import {buildDishShareData,shareDish} from './share.js';
 import {createReader,describeDish} from './audio.js';
 import {translations,initialLanguage,applyLanguage,trackHeader} from './language.js';
@@ -59,9 +60,9 @@ function renderSummary(){
  }
 }
 function cardFor(dish,index){
- const card=node('article',`dish-card${mode==='drinks'?' drink-card':''}`);card.id=`dish-${dish.reference}`;card.setAttribute('aria-labelledby',`dish-title-${dish.reference}`);
- if(dish.image){const media=node('div','dish-media'),image=node('img');image.src=dish.image;image.alt=dish.name[language];image.width=900;image.height=675;image.loading=index===0?'eager':'lazy';image.decoding='async';media.append(image);card.append(media);}
- const body=node('div','dish-body'),meta=node('div','dish-meta');meta.append(node('span','reference',`${t().reference} ${dish.reference}`));
+ const card=node('article',`dish-card${mode==='drinks'?' drink-card':''}`);card.id=`dish-${dish.reference}`;card.dataset.category=dish.category;if(dish.imageFit)card.dataset.imageFit=dish.imageFit;card.setAttribute('aria-labelledby',`dish-title-${dish.reference}`);
+ if(dish.image){const media=node('div','dish-media'),image=node('img');if(dish.imageAspect)media.style.setProperty('--photo-aspect',dish.imageAspect);image.src=dish.image;if(dish.imagePosition)image.style.objectPosition=dish.imagePosition;if(dish.imageFilter)image.style.filter=dish.imageFilter;if(dish.imageZoom||dish.imageOffsetX||dish.imageOffsetY)image.style.transform=`translate(${dish.imageOffsetX||0}px, ${dish.imageOffsetY||0}px) scale(${dish.imageZoom||1})`;image.alt=dish.name[language];image.width=900;image.height=675;image.loading=index===0?'eager':'lazy';image.decoding='async';media.append(image);card.append(media);}
+ const body=node('div','dish-body'),meta=node('div','dish-meta');if(dish.showReference!==false)meta.append(node('span','reference',`${t().reference} ${dish.reference}`));
  if(dish.portion?.[language])meta.append(node('span','portion',dish.portion[language]));
  if(mode==='buffet'){
   if(dish.buffetStars){const stars=node('button','buffet-stars',dish.buffetStars===1?'✱':'✱✱');stars.type='button';stars.setAttribute('aria-label',`${dish.buffetStars===1?t().starOne:t().starTwo} ${t().notIncluded}`);stars.title=stars.getAttribute('aria-label');stars.addEventListener('click',openConditions);meta.append(stars);}
@@ -76,8 +77,12 @@ function cardFor(dish,index){
  if(mode!=='drinks'){
   const allergies=node('div','allergens');allergies.id=`allergens-${dish.reference}`;allergies.hidden=true;allergies.setAttribute('role','region');allergies.setAttribute('aria-label',`${t().allergens}: ${dish.name[language]}`);
   if(dish.allergens===null||dish.allergens===undefined){allergies.append(node('p','allergen-pending',t().allergensPending));}
-  else if(dish.allergens.length){allergies.setAttribute('aria-label',t().allergens);const list=node('ul','allergen-list');dish.allergens.forEach(id=>list.append(node('li','',data.allergens[id][language])));allergies.append(list);}
-  if(!allergies.childNodes.length)allergies.append(node('p','allergen-pending',t().allergenAdvice));
+  else if(dish.allergens.length){allergies.setAttribute('aria-label',t().allergens);const list=node('ul','allergen-list');dish.allergens.forEach(id=>{
+   const allergen=data.allergens[id],label=allergen[language],item=node('li');item.title=label;
+   const icon=node('img');icon.src=allergen.icon;icon.alt='';icon.width=36;icon.height=36;
+   item.append(icon,node('span','allergen-name',label));list.append(item);
+  });allergies.append(list);}
+  if(!allergies.childNodes.length)allergies.append(node('p','allergen-none',t().noAllergens));
   body.append(allergies);
  }
  if(mode==='carta'){
@@ -121,7 +126,7 @@ function render(){
  document.querySelector('#conditions-open').hidden=mode!=='buffet';
  renderSummary();renderConditions();
  const categories=mode==='drinks'?data.drinks.categories:mode==='lunch'?data.lunch.categories:data.categories.filter(c=>mode!=='buffet'||c.id!=='postres');
- const dishes=mode==='drinks'?data.drinks.dishes:mode==='lunch'?data.lunch.dishes:data.menu;
+ const dishes=mode==='drinks'?data.drinks.dishes:mode==='lunch'?sharedDishImages(data.lunch.dishes,data.menu):data.menu;
  topNav.replaceChildren();rail.replaceChildren();host.replaceChildren();
  categories.forEach(category=>{
   const items=dishes.filter(d=>d.category===category.id);if(!items.length)return;
@@ -149,23 +154,23 @@ applyLanguage(language);trackHeader();
 document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>{language=button.dataset.language;if(data)render();else applyLanguage(language);document.querySelector('#language-status').textContent=t().changed;}));
 try{
  const names=['menu','categories','allergens','drinks','lunch','buffet'];const values=await Promise.all(names.map(async name=>{const response=await fetch(`data/${name}.json`);if(!response.ok)throw new Error(name);return response.json();}));data=Object.fromEntries(names.map((name,index)=>[name,values[index]]));render();
- requestAnimationFrame(()=>requestAnimationFrame(followAnchor));
+ requestAnimationFrame(()=>requestAnimationFrame(()=>followAnchor()));
 }catch(error){host.replaceChildren(node('p','load-error',t().error));host.setAttribute('aria-busy','false');console.error('Menu load failed',error);}
 
 // Las tarjetas se generan después del fetch: resolvemos el ancla al terminar.
 let highlightTimer;
-function followAnchor(){
+function followAnchor(behavior='instant'){
  let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{return;}
  if(!id.startsWith('dish-')&&!id.startsWith('group-'))return;
  const target=document.getElementById(id);if(!target)return;
- target.scrollIntoView({behavior:'instant',block:'start'});
+ target.scrollIntoView({behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':behavior,block:'start'});
  if(id.startsWith('dish-')){
   document.querySelectorAll('.shared-dish').forEach(card=>card.classList.remove('shared-dish'));
   target.classList.add('shared-dish');clearTimeout(highlightTimer);highlightTimer=setTimeout(()=>target.classList.remove('shared-dish'),3500);
  }
  updateActive();
 }
-window.addEventListener('hashchange',()=>{if(data)followAnchor();});
+window.addEventListener('hashchange',()=>{if(data)followAnchor('smooth');});
 function showShareLink(url){
  let shareDialog=document.querySelector('#share-dialog');
  if(!shareDialog){shareDialog=node('dialog');shareDialog.id='share-dialog';document.body.append(shareDialog);}

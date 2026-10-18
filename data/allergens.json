@@ -1,42 +1,72 @@
 {
   "gluten": {
     "es": "Gluten",
-    "en": "Gluten"
+    "en": "Gluten",
+    "icon": "assets/allergens/gluten.svg"
   },
   "sesame": {
     "es": "Sésamo",
-    "en": "Sesame"
+    "en": "Sesame",
+    "icon": "assets/allergens/sesame.svg"
   },
   "egg": {
     "es": "Huevo",
-    "en": "Egg"
+    "en": "Egg",
+    "icon": "assets/allergens/egg.svg"
   },
   "milk": {
     "es": "Lácteos",
-    "en": "Milk"
+    "en": "Milk",
+    "icon": "assets/allergens/milk.svg"
   },
   "sulphites": {
     "es": "Sulfitos",
-    "en": "Sulphites"
+    "en": "Sulphites",
+    "icon": "assets/allergens/sulphites.svg"
   },
   "mustard": {
     "es": "Mostaza",
-    "en": "Mustard"
+    "en": "Mustard",
+    "icon": "assets/allergens/mustard.svg"
   },
   "soy": {
     "es": "Soja",
-    "en": "Soy"
+    "en": "Soy",
+    "icon": "assets/allergens/soy.svg"
   },
   "fish": {
     "es": "Pescado",
-    "en": "Fish"
+    "en": "Fish",
+    "icon": "assets/allergens/fish.svg"
   },
   "molluscs": {
     "es": "Moluscos",
-    "en": "Molluscs"
+    "en": "Molluscs",
+    "icon": "assets/allergens/molluscs.svg"
   },
   "crustaceans": {
     "es": "Crustáceos",
-    "en": "Crustaceans"
+    "en": "Crustaceans",
+    "icon": "assets/allergens/crustaceans.svg"
+  },
+  "peanuts": {
+    "es": "Cacahuetes",
+    "en": "Peanuts",
+    "icon": "assets/allergens/peanuts.svg"
+  },
+  "nuts": {
+    "es": "Frutos de cáscara",
+    "en": "Nuts",
+    "icon": "assets/allergens/nuts.svg"
+  },
+  "celery": {
+    "es": "Apio",
+    "en": "Celery",
+    "icon": "assets/allergens/celery.svg"
+  },
+  "lupins": {
+    "es": "Altramuces",
+    "en": "Lupins",
+    "icon": "assets/allergens/lupins.svg"
   }
 }

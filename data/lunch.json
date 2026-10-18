@@ -4,8 +4,8 @@
     "en": "Monday to Friday, excluding public holidays."
   },
   "choice": {
-    "es": "Elige 2 primeros + 1 segundo. Incluye 1 bebida y 1 helado o café.",
-    "en": "Choose 2 starters + 1 main. Includes 1 drink and 1 ice cream or coffee."
+    "es": "Elige 2 primeros + 1 segundo. Incluye 1 bebida y 1 postre o café.",
+    "en": "Choose 2 starters + 1 main. Includes 1 drink and 1 dessert or coffee."
   },
   "prices": {
     "standard": 16.9,
@@ -35,6 +35,14 @@
         "en": "Mains · Sushi"
       },
       "icon": "sushi"
+    },
+    {
+      "id": "postres",
+      "name": {
+        "es": "Postre",
+        "en": "Dessert"
+      },
+      "icon": "dessert"
     }
   ],
   "dishes": [
@@ -49,7 +57,6 @@
         "es": "Rollitos de marisco.",
         "en": "Seafood rolls."
       },
-      "image": "assets/dishes/lunch-e6.webp",
       "portion": {
         "es": "4 uds. · Para 2 personas",
         "en": "4 pcs. · For 2 people"
@@ -57,7 +64,11 @@
       "twoPersons": true,
       "allergens": null,
       "sourcePage": 2,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "E6",
+      "image": "assets/dishes/e6-focus.webp",
+      "imagePosition": "50% 50%",
+      "imageFilter": "none"
     },
     {
       "reference": "E2",
@@ -70,7 +81,6 @@
         "es": "Bolas de arroz frito con queso.",
         "en": "Fried rice balls with cheese."
       },
-      "image": "assets/dishes/lunch-e2.webp",
       "portion": {
         "es": "2 uds.",
         "en": "2 pcs."
@@ -84,7 +94,9 @@
         "sulphites"
       ],
       "sourcePage": 2,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "E2",
+      "image": "assets/dishes/e2.webp"
     },
     {
       "reference": "E21",
@@ -97,7 +109,6 @@
         "es": "Empanadillas hechas a mano con carne picada y verduras.",
         "en": "Handmade dumplings with minced meat and vegetables."
       },
-      "image": "assets/dishes/lunch-e21.webp",
       "portion": {
         "es": "4 uds. · Para 2 personas",
         "en": "4 pcs. · For 2 people"
@@ -105,7 +116,9 @@
       "twoPersons": true,
       "allergens": null,
       "sourcePage": 2,
-      "isNew": true
+      "isNew": true,
+      "imageReference": "E21",
+      "image": "assets/dishes/e21.webp"
     },
     {
       "reference": "E3",
@@ -118,7 +131,6 @@
         "es": "Empanadillas japonesas rellenas de verduras con mayonesa picante.",
         "en": "Japanese dumplings filled with mixed vegetables and spicy mayonnaise."
       },
-      "image": "assets/dishes/lunch-e3.webp",
       "portion": {
         "es": "4 uds.",
         "en": "4 pcs."
@@ -131,7 +143,9 @@
         "soy"
       ],
       "sourcePage": 2,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "E3",
+      "image": "assets/dishes/e3.webp"
     },
     {
       "reference": "ES20",
@@ -144,7 +158,6 @@
         "es": "Raviolis fritos de pollo y verduras con salsa de curry.",
         "en": "Fried chicken and vegetable ravioli with curry sauce."
       },
-      "image": "assets/dishes/lunch-es20.webp",
       "portion": {
         "es": "4 uds.",
         "en": "4 pcs."
@@ -152,7 +165,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 2,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "ES20",
+      "image": "assets/dishes/es20.webp"
     },
     {
       "reference": "E5",
@@ -186,7 +201,6 @@
         "es": "Gambas en kimono.",
         "en": "Prawns in kimono."
       },
-      "image": "assets/dishes/lunch-e7.webp",
       "portion": {
         "es": "4 uds.",
         "en": "4 pcs."
@@ -194,7 +208,11 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 3,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "E7",
+      "image": "assets/dishes/e7-original.webp",
+      "imagePosition": "50% 50%",
+      "imageFilter": "saturate(.95)"
     },
     {
       "reference": "E4",
@@ -207,7 +225,6 @@
         "es": "Pollo con salsa chili.",
         "en": "Chicken with chili sauce."
       },
-      "image": "assets/dishes/lunch-e4.webp",
       "portion": {
         "es": "4 uds.",
         "en": "4 pcs."
@@ -215,7 +232,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 3,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "E4",
+      "image": "assets/dishes/e4.webp"
     },
     {
       "reference": "E28",
@@ -228,7 +247,6 @@
         "es": "Rellenos de queso Philadelphia y surimi.",
         "en": "Filled with Philadelphia cream cheese and surimi."
       },
-      "image": "assets/dishes/lunch-e28.webp",
       "portion": {
         "es": "4 uds.",
         "en": "4 pcs."
@@ -236,7 +254,11 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 3,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "E28",
+      "image": "assets/dishes/e28-original.webp",
+      "imagePosition": "50% 50%",
+      "imageFilter": "sepia(.08) saturate(1.05) hue-rotate(-5deg)"
     },
     {
       "reference": "E1",
@@ -249,7 +271,6 @@
         "es": "Bolitas de pulpo con salsa takoyaki.",
         "en": "Octopus balls with takoyaki sauce."
       },
-      "image": "assets/dishes/lunch-e1.webp",
       "portion": {
         "es": "2 uds.",
         "en": "2 pcs."
@@ -263,7 +284,9 @@
         "soy"
       ],
       "sourcePage": 3,
-      "isNew": true
+      "isNew": true,
+      "imageReference": "E1",
+      "image": "assets/dishes/e1.webp"
     },
     {
       "reference": "GY22",
@@ -276,7 +299,6 @@
         "es": "Raviolis con carne.",
         "en": "Dumplings with meat."
       },
-      "image": "assets/dishes/lunch-gy22.webp",
       "portion": {
         "es": "3 uds.",
         "en": "3 pcs."
@@ -284,7 +306,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 3,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "GY22",
+      "image": "assets/dishes/gy22.webp"
     },
     {
       "reference": "GY23",
@@ -297,7 +321,6 @@
         "es": "Hakao cantonés relleno de gamba picada, en caldo katsuobushi.",
         "en": "Cantonese har gow dumplings filled with minced prawn, in katsuobushi broth."
       },
-      "image": "assets/dishes/lunch-gy23.webp",
       "portion": {
         "es": "3 uds.",
         "en": "3 pcs."
@@ -305,7 +328,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 3,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "GY23",
+      "image": "assets/dishes/gy23.webp"
     },
     {
       "reference": "ES13",
@@ -318,7 +343,6 @@
         "es": "Ensalada mezclum con salmón y gambas, con salsa de la casa y yuzu.",
         "en": "Mixed leaf salad with salmon and prawns, house sauce and yuzu."
       },
-      "image": "assets/dishes/lunch-es13.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -326,7 +350,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 4,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "ES13",
+      "image": "assets/dishes/es13.webp"
     },
     {
       "reference": "ES14",
@@ -339,7 +365,6 @@
         "es": "Ensalada de algas.",
         "en": "Seaweed salad."
       },
-      "image": "assets/dishes/lunch-es14.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -347,7 +372,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 4,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "ES14",
+      "image": "assets/dishes/es14.webp"
     },
     {
       "reference": "ES17",
@@ -360,7 +387,6 @@
         "es": "Ensalada mezclum con salmón, aguacate, salsa de la casa y yuzu.",
         "en": "Mixed leaf salad with salmon, avocado, house sauce and yuzu."
       },
-      "image": "assets/dishes/lunch-es17.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -368,7 +394,11 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 4,
-      "isNew": true
+      "isNew": true,
+      "imageReference": "ES17",
+      "image": "assets/dishes/es17-original.webp",
+      "imagePosition": "50% 50%",
+      "imageFilter": "saturate(.9)"
     },
     {
       "reference": "ES18",
@@ -381,7 +411,6 @@
         "es": "Ensalada mezclum con wakame y aguacate.",
         "en": "Mixed leaf salad with wakame and avocado."
       },
-      "image": "assets/dishes/lunch-es18.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -389,7 +418,11 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 4,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "ES18",
+      "image": "assets/dishes/es18-original.webp",
+      "imagePosition": "50% 50%",
+      "imageFilter": "saturate(1.08) brightness(1.04)"
     },
     {
       "reference": "ES12",
@@ -402,7 +435,6 @@
         "es": "Ensalada mezclum con atún, aguacate, salsa de la casa y yuzu.",
         "en": "Mixed leaf salad with tuna, avocado, house sauce and yuzu."
       },
-      "image": "assets/dishes/lunch-es12.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -410,7 +442,11 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 4,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "ES12",
+      "image": "assets/dishes/es12-original.webp",
+      "imagePosition": "50% 50%",
+      "imageFilter": "saturate(.9)"
     },
     {
       "reference": "E11",
@@ -423,7 +459,6 @@
         "es": "Soja verde con sal.",
         "en": "Green soybeans with salt."
       },
-      "image": "assets/dishes/lunch-e11.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -431,7 +466,11 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 4,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "E11",
+      "image": "assets/dishes/e11-original.webp",
+      "imagePosition": "50% 50%",
+      "imageFilter": "saturate(.94)"
     },
     {
       "reference": "S112",
@@ -444,7 +483,6 @@
         "es": "Sopa de miso con espinaca.",
         "en": "Miso soup with spinach."
       },
-      "image": "assets/dishes/lunch-s112.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -452,7 +490,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 5,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "S112",
+      "image": "assets/dishes/s112.webp"
     },
     {
       "reference": "S110",
@@ -465,7 +505,6 @@
         "es": "Sopa de miso con tofu.",
         "en": "Miso soup with tofu."
       },
-      "image": "assets/dishes/lunch-s110.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -473,7 +512,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 5,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "S110",
+      "image": "assets/dishes/s110.webp"
     },
     {
       "reference": "S111",
@@ -486,7 +527,6 @@
         "es": "Sopa de miso con almejas y algas.",
         "en": "Miso soup with clams and seaweed."
       },
-      "image": "assets/dishes/lunch-s111.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -494,7 +534,11 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 5,
-      "isNew": true
+      "isNew": true,
+      "imageReference": "S111",
+      "image": "assets/dishes/s111-centered.webp",
+      "imagePosition": "50% 50%",
+      "imageFilter": "saturate(.94)"
     },
     {
       "reference": "UD141",
@@ -507,7 +551,6 @@
         "es": "Ramen con pechuga de pollo rebozada y narutomaki.",
         "en": "Ramen with breaded chicken breast and narutomaki."
       },
-      "image": "assets/dishes/lunch-ud141.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -515,7 +558,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 6,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "UD141",
+      "image": "assets/dishes/ud141.webp"
     },
     {
       "reference": "M157",
@@ -549,7 +594,6 @@
         "es": "Pollo, cebolla y salsa teriyaki con arroz.",
         "en": "Chicken, onion and teriyaki sauce with rice."
       },
-      "image": "assets/dishes/lunch-m156.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -557,7 +601,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 6,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "CR118",
+      "image": "assets/dishes/cr118.webp"
     },
     {
       "reference": "M155",
@@ -570,7 +616,6 @@
         "es": "Tallarines con gambas y verduras mixtas.",
         "en": "Noodles with prawns and mixed vegetables."
       },
-      "image": "assets/dishes/lunch-m155.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -578,7 +623,11 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 6,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "UD142",
+      "image": "assets/dishes/ud142.webp",
+      "imagePosition": "50% 50%",
+      "imageZoom": 1
     },
     {
       "reference": "M158",
@@ -591,7 +640,6 @@
         "es": "Pollo con salsa de curry picante. Arroz opcional.",
         "en": "Chicken with spicy curry sauce. Rice optional."
       },
-      "image": "assets/dishes/lunch-m158.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -599,7 +647,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 6,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "CR129",
+      "image": "assets/dishes/cr129.webp"
     },
     {
       "reference": "CR139",
@@ -612,7 +662,6 @@
         "es": "Verduras de temporada con salsa de chili.",
         "en": "Seasonal vegetables with chili sauce."
       },
-      "image": "assets/dishes/lunch-cr139.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -620,7 +669,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 6,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "CR138",
+      "image": "assets/dishes/cr138.webp"
     },
     {
       "reference": "UD163",
@@ -633,7 +684,6 @@
         "es": "Pato con tallarines y verduras.",
         "en": "Duck with noodles and vegetables."
       },
-      "image": "assets/dishes/lunch-ud163.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -641,7 +691,11 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 7,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "UD144",
+      "image": "assets/dishes/ud144.webp",
+      "imagePosition": "50% 50%",
+      "imageZoom": 1
     },
     {
       "reference": "DR106",
@@ -696,7 +750,6 @@
         "es": "Entrecot de ternera con salsa yakiniku.",
         "en": "Beef entrecôte with yakiniku sauce."
       },
-      "image": "assets/dishes/lunch-cr128.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -704,7 +757,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 7,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "CR128",
+      "image": "assets/dishes/cr128.webp"
     },
     {
       "reference": "MR131",
@@ -717,7 +772,6 @@
         "es": "Calamares a la plancha en salsa de jengibre shoga.",
         "en": "Grilled squid in shoga ginger sauce."
       },
-      "image": "assets/dishes/lunch-mr131.webp",
       "portion": {
         "es": "",
         "en": ""
@@ -725,7 +779,9 @@
       "twoPersons": false,
       "allergens": null,
       "sourcePage": 7,
-      "isNew": false
+      "isNew": false,
+      "imageReference": "MR131",
+      "image": "assets/dishes/mr131.webp"
     },
     {
       "reference": "M161",
@@ -873,6 +929,29 @@
       "allergens": null,
       "sourcePage": 8,
       "isNew": false
+    },
+    {
+      "reference": "helado-con-gyoza",
+      "showReference": false,
+      "category": "postres",
+      "name": {
+        "es": "Helado con gyoza",
+        "en": "Ice cream with gyoza"
+      },
+      "description": {
+        "es": "Helado acompañado de gyoza.",
+        "en": "Ice cream served with gyoza."
+      },
+      "image": "assets/dishes/lunch-helado-con-gyoza.webp",
+      "portion": {
+        "es": "",
+        "en": ""
+      },
+      "twoPersons": false,
+      "allergens": null,
+      "isNew": false,
+      "sourceType": "manual",
+      "sourceImage": "helado con gyoza.png"
     }
   ]
 }

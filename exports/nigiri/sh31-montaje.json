@@ -1,0 +1,13 @@
+{
+  "method": "Recorte alfa manual y composición convencional con Pillow. Sin generación de pescado ni ajustes de color.",
+  "source": "assets/dishes/sh31-original.webp",
+  "background": "assets/templates/fondo-nigiri.png",
+  "cutout": "exports/nigiri/sh31-recorte-original.png",
+  "print": "exports/nigiri/sh31-fondo-nigiri.png",
+  "webCandidate": "assets/dishes/sh31-cutout.webp",
+  "script": "scripts/compose_sh31_cutout.py",
+  "size": [
+    1672,
+    941
+  ]
+}

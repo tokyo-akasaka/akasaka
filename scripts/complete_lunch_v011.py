@@ -75,5 +75,5 @@ def main():
    portions={'es':f'{qty} uds.' if qty else '', 'en':f'{qty} pcs.' if qty else ''}
    if two:portions={lang:text+(' · Para 2 personas' if lang=='es' else ' · For 2 people') for lang,text in portions.items()}
    dishes.append({'reference':ref,'category':'primeros' if page<=5 else 'segundos' if page<=7 else 'sushi','name':{'es':es,'en':en},'description':{'es':desc,'en':english},'image':asset,'portion':portions,'twoPersons':two,'allergens':VERIFIED.get(ref),'sourcePage':page})
- data['dishes']=dishes;target.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');print('Mediodía:',len(dishes),'platos')
+ data['dishes']=dishes+[dish for dish in data['dishes'] if dish.get('sourceType')=='manual'];target.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n');print('Mediodía:',len(dishes),'platos')
 if __name__=='__main__':main()

@@ -25,6 +25,7 @@ export function describeDish(dish,{language='es',mode='carta',allergens={},text=
   if(mode!=='drinks'){
     if(dish.allergens?.length)lines.push(`${en?'Allergens':'Alérgenos'}: ${dish.allergens.map(id=>allergens[id]?.[language]).filter(Boolean).join(', ')}.`);
     else if(dish.allergens==null)lines.push(text.allergensPending);
+    else lines.push(text.noAllergens||(en?'No allergens':'Sin alérgenos'));
   }
   return lines.filter(Boolean).join('. ').replace(/\.+/g,'.').replace(/\.\s*\./g,'.').replace(/\s+/g,' ').trim();
 }

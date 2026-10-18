@@ -19,8 +19,8 @@ def main():
  clean={'S111':(6,'Im3'),'SM107':(7,'Im7'),'SM109':(7,'Im8'),'CR90':(16,'Im1'),'CR91':(16,'Im2'),'CR97':(16,'Im3'),'94':(17,'Im8'),'E10':(17,'Im9'),'MR131':(20,'Im1'),'CR133':(20,'Im3')}
  target=ROOT/'data/menu.json';menu=json.loads(target.read_text());new={'E6','E3',*clean}
  for dish in menu:
-  dish['isNew']=dish['reference'] in new
-  if dish['reference'] in clean:extract(reader,*clean[dish['reference']],dish['image'])
+  if dish['reference'] in new:dish['isNew']=True
+  if dish['reference'] in clean and 'imageFilter' not in dish:extract(reader,*clean[dish['reference']],dish['image'])
  target.write_text(json.dumps(menu,ensure_ascii=False,indent=2)+'\n')
  lunchpath=ROOT/'material_base/AKASAKA MEDIODIA BORRADOR 20261011.pdf';lr=PdfReader(lunchpath)
  target=ROOT/'data/lunch.json';lunch=json.loads(target.read_text());new={'E21','E1','ES17','S111'}

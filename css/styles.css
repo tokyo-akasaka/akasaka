@@ -295,3 +295,27 @@ body:has(.audio-dock:not([hidden])){padding-bottom:110px}
 
 /* Esquina superior izquierda de la foto igual al marco de la tarjeta. */
 .dish-visual .dish-media{border-top-left-radius:var(--radius)}
+
+/* Bebidas: encuadre cercano del vaso o botella dentro de la tarjeta. */
+.drink-card .dish-media img{object-fit:cover;object-position:center 65%}
+
+/* Alérgenos: SVG originales y nombre accesible en el idioma elegido. */
+.menu-page .dish-body .allergen-list{gap:8px;align-items:start}
+.menu-page .allergen-list li{display:flex;flex-direction:column;align-items:center;gap:3px;width:54px;padding:2px 0;background:transparent;border-radius:0;color:var(--muted);text-align:center}
+.allergen-list img{display:block;width:36px;height:36px;object-fit:contain}
+.allergen-name{font-size:9px;line-height:1.25;overflow-wrap:anywhere}
+:root[data-theme="dark"] .allergen-list img{filter:brightness(0) invert(1)}
+
+.allergen-none{font-size:10px;line-height:1.6;color:var(--muted);margin:0}
+
+/* Fotos de copas ampliadas: el propio escenario llena todo el encuadre. */
+.drink-card[data-image-fit="wide"] .dish-media{aspect-ratio:16/9;height:auto}
+.drink-card[data-image-fit="wide"] .dish-media img{object-fit:cover;object-position:center top}
+
+/* Fondo blanco original de Ikura: se muestran las dos piezas completas. */
+.dish-card[data-image-fit="whole-on-white"] .dish-media{background:#fff}
+.dish-card[data-image-fit="whole-on-white"] .dish-media img{object-fit:contain}
+
+/* Fotografías originales que deben verse más alejadas dentro de su marco. */
+.dish-card[data-image-fit="original-zoom-out"] .dish-media img{object-fit:contain}
+
