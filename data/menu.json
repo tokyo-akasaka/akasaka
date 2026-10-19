@@ -697,7 +697,7 @@
     "reference": "S111",
     "category": "sopa",
     "price": 8.0,
-    "image": "assets/dishes/s111-centered.webp",
+    "image": "assets/dishes/s111-sopa-almejas.webp",
     "isNew": true,
     "name": {
       "es": "Misoshiru",
@@ -718,8 +718,8 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 6,
-    "imagePosition": "50% 50%",
-    "imageFilter": "saturate(.94)"
+    "imagePosition": "50% 35%",
+    "imageFilter": "none"
   },
   {
     "reference": "UD140",

@@ -536,9 +536,9 @@
       "sourcePage": 5,
       "isNew": true,
       "imageReference": "S111",
-      "image": "assets/dishes/s111-centered.webp",
-      "imagePosition": "50% 50%",
-      "imageFilter": "saturate(.94)"
+      "image": "assets/dishes/s111-sopa-almejas.webp",
+      "imagePosition": "50% 35%",
+      "imageFilter": "none"
     },
     {
       "reference": "UD141",

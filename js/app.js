@@ -153,7 +153,7 @@ let queued=false;window.addEventListener('scroll',()=>{if(!queued){queued=true;r
 applyLanguage(language);trackHeader();
 document.querySelectorAll('[data-language]').forEach(button=>button.addEventListener('click',()=>{language=button.dataset.language;if(data)render();else applyLanguage(language);document.querySelector('#language-status').textContent=t().changed;}));
 try{
- const names=['menu','categories','allergens','drinks','lunch','buffet'];const values=await Promise.all(names.map(async name=>{const response=await fetch(`data/${name}.json`);if(!response.ok)throw new Error(name);return response.json();}));data=Object.fromEntries(names.map((name,index)=>[name,values[index]]));render();
+ const names=['menu','categories','allergens','drinks','lunch','buffet'];const values=await Promise.all(names.map(async name=>{const response=await fetch(`data/${name}.json`,{cache:'no-store'});if(!response.ok)throw new Error(name);return response.json();}));data=Object.fromEntries(names.map((name,index)=>[name,values[index]]));render();
  requestAnimationFrame(()=>requestAnimationFrame(()=>followAnchor()));
 }catch(error){host.replaceChildren(node('p','load-error',t().error));host.setAttribute('aria-busy','false');console.error('Menu load failed',error);}
 

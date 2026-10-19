@@ -76,20 +76,16 @@
     },
     {
       "reference": "S111",
-      "source": "material_base/carta_indesign/Links/WhatsApp Image 2026-10-08 at 16.24.57.jpeg",
-      "image": "assets/dishes/s111-centered.webp",
-      "position": "50% 50%",
-      "filter": "saturate(.94)",
+      "source": "material_base/carta_indesign/Links/sopa almejas.jpeg",
+      "image": "assets/dishes/s111-sopa-almejas.webp",
       "extractPhotoBounds": [
         0,
-        274,
-        1282,
-        1075
+        540,
+        1200,
+        1300
       ],
-      "generated": true,
-      "generatedSource": "/Users/basiliocristov/.codex/generated_images/01a13be8-a346-7fe2-9b34-b9d549d3bfea/exec-d564ba4d-a139-4f6d-8ff4-40424f0c317c.png",
-      "referenceAsset": "assets/dishes/s111-original.webp",
-      "prompt": "Use case: precise-object-edit, reframing only. Edit the attached photograph of S111 miso soup with clams. Keep the SAME soup, identical clam arrangement and clam count, seaweed, pale cream-yellow broth, same rustic dark ceramic bowl with cream and green glazed marking, same lighting and restrained natural colors. Correct ONLY framing: the bowl currently runs off left and bottom and is off-center. Reframe as a landscape 16:9 photograph with the bowl centered horizontally and vertically, showing its whole left and right rim and comfortably its front edge, occupying approximately 85% of frame width and 85% height, with balanced small margins on both sides. Extend the existing plain slate-blue tabletop naturally as needed, recovering cropped ceramic edges without adding food. Keep the same camera angle and close-up perspective. Do not change the bowl design, ingredients, colors, lighting or background style. No extra clams, no spoon, no chopsticks, no props, no borders, no text, no green color cast, no oversaturation, no advertising styling. Realistic food photography."
+      "position": "50% 35%",
+      "filter": "none"
     },
     {
       "reference": "UD148",

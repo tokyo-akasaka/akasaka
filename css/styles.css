@@ -291,7 +291,7 @@ body:has(.audio-dock:not([hidden])){padding-bottom:110px}
 
 /* Novedad como elemento independiente del recorte de la foto. */
 .dish-visual{position:relative;--new-badge-top:6px;--new-badge-left:-2px}
-.new-badge{position:absolute;top:var(--new-badge-top);left:var(--new-badge-left);width:54px;height:auto;z-index:1;pointer-events:none;object-fit:contain}
+.new-badge{position:absolute;top:var(--new-badge-top);left:var(--new-badge-left);width:33px;height:auto;z-index:1;pointer-events:none;object-fit:contain}
 
 /* Esquina superior izquierda de la foto igual al marco de la tarjeta. */
 .dish-visual .dish-media{border-top-left-radius:var(--radius)}
@@ -319,3 +319,31 @@ body:has(.audio-dock:not([hidden])){padding-bottom:110px}
 /* Fotografías originales que deben verse más alejadas dentro de su marco. */
 .dish-card[data-image-fit="original-zoom-out"] .dish-media img{object-fit:contain}
 
+
+/* Compact spacing between reference, dish name and description in every mode. */
+.menu-page .dish-body .dish-meta{margin-bottom:2px}
+.menu-page .dish-body .dish-heading{margin:0}
+.menu-page .dish-body .description{margin:3px 0 4px;line-height:1.4}
+
+/* Shorter sticky header, with a compact navigation row. */
+.masthead .header-inner{min-height:84px;padding-top:8px;padding-bottom:8px}
+.masthead .brand img{width:150px;height:64px}
+.masthead .mode-bar{min-height:36px;padding-top:3px;padding-bottom:5px}
+@media(max-width:759px){
+ .masthead .header-inner{min-height:54px;padding-top:3px;padding-bottom:3px}
+ .masthead .brand img{width:110px;height:44px}
+ .masthead .mode-bar{min-height:32px;padding-top:2px;padding-bottom:4px}
+}
+@media(max-width:359px){.masthead .brand img{width:100px;height:44px}}
+
+/* Mobile spacing matched to the reviewed compact card. */
+@media(max-width:599px){
+ .menu-page .dish-body .dish-heading{gap:23px;margin-top:-8px;margin-bottom:-10px}
+}
+
+.menu-page .dish-card .dish-body{padding-bottom:5px}
+
+/* Keep cards at their content height with a minimal bottom inset. */
+.menu-page .menu-grid{align-items:start}
+.menu-page .dish-card .dish-body{flex:0 0 auto;min-height:0;padding-bottom:2px}
+.menu-page .dish-card .dish-body>.description:last-of-type{margin-bottom:0}
