@@ -101,3 +101,6 @@ Revisión final del grupo nigiri: por indicación del usuario se recuperan exclu
 ### Revisión de encuadres con originales y PDF
 
 Recuperados y centrados los originales de HM77 y HM79–HM87, 94 y MR137. SH39 y SH56 conservan el tamaño habitual de caja, con recortes del original centrados en las piezas. Ajustados SH37, SH044 y SH58; ampliados SH38 y SH47 (recorte inferior limpio). UD148 desplazado 20 px hacia la derecha respecto al ajuste anterior. Se conservan los originales y los encuadres se documentan en ajustes-fotos.json.
+
+
+Referencias intercambiadas: Poke Salmón Lava pasa de SM107 a SM108; Poke Salmón pasa de SM108 a SM107. Se conservan fotos y datos de cada plato.

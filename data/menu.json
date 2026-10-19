@@ -414,7 +414,7 @@
     "category": "entrantes",
     "price": 10.8,
     "image": "assets/dishes/es18-original.webp",
-    "isNew": true,
+    "isNew": false,
     "name": {
       "es": "Wakame Abokado",
       "en": "Wakame Abokado"
@@ -530,7 +530,7 @@
     "category": "entrantes",
     "price": 8.8,
     "image": "assets/dishes/gy23.webp",
-    "isNew": true,
+    "isNew": false,
     "name": {
       "es": "Dimsum Hakao",
       "en": "Dimsum Hakao"
@@ -803,10 +803,10 @@
     "sourcePage": 6
   },
   {
-    "reference": "SM107",
+    "reference": "SM108",
     "category": "poke",
     "price": 14.0,
-    "image": "assets/dishes/sm107.webp",
+    "image": "assets/dishes/sm108-poke-salmon-lava.webp",
     "isNew": true,
     "name": {
       "es": "Poke Salmón Lava · Onsen Tamago",
@@ -830,7 +830,9 @@
     "buffetStars": 0,
     "twoPersons": false,
     "sourcePage": 7,
-    "reviewPending": false
+    "reviewPending": false,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
   },
   {
     "reference": "SM109",
@@ -862,7 +864,7 @@
     "sourcePage": 7
   },
   {
-    "reference": "SM108",
+    "reference": "SM107",
     "category": "poke",
     "price": 14.8,
     "image": "assets/dishes/sm108.webp",
@@ -1161,15 +1163,15 @@
     "reference": "SH33",
     "category": "nigiri",
     "price": 5.0,
-    "image": "assets/dishes/sh33-crop-original.webp",
+    "image": "assets/dishes/sh33-dorada-ciruela.webp",
     "isNew": false,
     "name": {
       "es": "Neto",
       "en": "Neto"
     },
     "description": {
-      "es": "Dorada con salsa cítrica de yuzu verde.",
-      "en": "Sea bream with green yuzu citrus sauce."
+      "es": "Dorada con salsa de ciruela.",
+      "en": "Sea bream with plum sauce."
     },
     "portion": {
       "es": "2 uds.",
@@ -1182,8 +1184,7 @@
     "twoPersons": false,
     "sourcePage": 9,
     "imagePosition": "50% 50%",
-    "imageFilter": "none",
-    "imageZoom": 1.1
+    "imageFilter": "none"
   },
   {
     "reference": "SH34",
@@ -1217,15 +1218,15 @@
     "reference": "SH35",
     "category": "nigiri",
     "price": 5.0,
-    "image": "assets/dishes/sh35-crop-original.webp",
+    "image": "assets/dishes/sh35-salmon-flameado.webp",
     "isNew": false,
     "name": {
       "es": "Shake Aburi",
       "en": "Shake Aburi"
     },
     "description": {
-      "es": "Salmón flameado.",
-      "en": "Seared salmon."
+      "es": "Salmón flameado con salsa teriyaki.",
+      "en": "Flame-seared salmon with teriyaki sauce."
     },
     "portion": {
       "es": "2 uds.",
@@ -2737,12 +2738,12 @@
     "image": "assets/dishes/cr91.webp",
     "isNew": true,
     "name": {
-      "es": "Carpaccio de salmón",
-      "en": "Salmon carpaccio"
+      "es": "Carpaccio de salmón y pez mantequilla",
+      "en": "Salmon and butterfish carpaccio"
     },
     "description": {
-      "es": "Finas láminas de salmón fresco con ponzu aromático y cebolla frita crujiente.",
-      "en": "Thinly sliced fresh salmon with aromatic ponzu and crispy fried onions."
+      "es": "Carpaccio de finas láminas de salmón fresco y pez mantequilla, aderezado con ponzu aromático y cebolla frita crujiente.",
+      "en": "Carpaccio of thinly sliced fresh salmon and butterfish, dressed with aromatic ponzu and crispy fried onion."
     },
     "portion": {
       "es": "4 uds.",
@@ -2763,11 +2764,11 @@
     "reference": "CR97",
     "category": "carpaccio",
     "price": 12.0,
-    "image": "assets/dishes/cr97.webp",
+    "image": "assets/dishes/cr97-carpaccio-gambon.webp",
     "isNew": true,
     "name": {
-      "es": "Carpaccio de pez mantequilla",
-      "en": "Butterfish carpaccio"
+      "es": "Carpaccio de gambón",
+      "en": "King prawn carpaccio"
     },
     "description": {
       "es": "Con salsa ponzu y tobiko.",
@@ -2782,26 +2783,29 @@
       "fish",
       "egg",
       "soy",
-      "sulphites"
+      "sulphites",
+      "crustaceans"
     ],
     "buffetStars": 2,
     "twoPersons": true,
     "sourcePage": 16,
-    "reviewPending": false
+    "reviewPending": false,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
   },
   {
     "reference": "CR93",
     "category": "carpaccio",
     "price": 14.0,
-    "image": "assets/dishes/cr93.webp",
+    "image": "assets/dishes/cr93-tataki-atun.webp",
     "isNew": true,
     "name": {
-      "es": "Carpaccio de atún",
-      "en": "Tuna carpaccio"
+      "es": "Tataki de atún",
+      "en": "Tuna tataki"
     },
     "description": {
-      "es": "Carpaccio de atún con salsa Kewpie y ají amarillo.",
-      "en": "Tuna carpaccio with Kewpie and yellow ají sauce."
+      "es": "Tataki de atún con salsa Kewpie y leche de soja.",
+      "en": "Tuna tataki with Kewpie mayonnaise and soy milk sauce."
     },
     "portion": {
       "es": "4 uds.",
@@ -2816,7 +2820,9 @@
     "buffetStars": 1,
     "twoPersons": true,
     "sourcePage": 16,
-    "reviewPending": false
+    "reviewPending": false,
+    "imagePosition": "50% 50%",
+    "imageFilter": "none"
   },
   {
     "reference": "CR96",
@@ -2901,7 +2907,7 @@
     "reference": "94",
     "category": "tartar",
     "price": 10.8,
-    "image": "assets/dishes/94-centered-original.webp",
+    "image": "assets/dishes/94-tartar-sake-negi.webp",
     "isNew": true,
     "name": {
       "es": "Tartar Sake Negi",
@@ -2926,7 +2932,7 @@
     "twoPersons": false,
     "sourcePage": 17,
     "reviewPending": false,
-    "imagePosition": "50% 50%",
+    "imagePosition": "50% 75%",
     "imageFilter": "none"
   },
   {

@@ -27,9 +27,9 @@ carta,6,S111,sopa,Misoshiru,8.0,assets/dishes/s111-centered.webp,0,False,False
 carta,6,UD140,ramen,Miso Udon,10.9,assets/dishes/ud140.webp,0,False,False
 carta,6,UD141,ramen,Tonkatsu Ramen,10.2,assets/dishes/ud141.webp,0,False,False
 carta,6,UD147,ramen,Miso Ramen-Chasu,10.8,assets/dishes/ud147.webp,0,False,False
-carta,7,SM107,poke,Poke Salmón Lava · Onsen Tamago,14.0,assets/dishes/sm107.webp,0,False,False
+carta,7,SM108,poke,Poke Salmón Lava · Onsen Tamago,14.0,assets/dishes/sm108-poke-salmon-lava.webp,0,False,False
 carta,7,SM109,poke,Unagi Poke,14.8,assets/dishes/sm109.webp,0,False,True
-carta,7,SM108,poke,Poke Salmón,14.8,assets/dishes/sm108.webp,0,False,True
+carta,7,SM107,poke,Poke Salmón,14.8,assets/dishes/sm108.webp,0,False,True
 carta,8,UD143,arroz,Udon,10.9,assets/dishes/ud143.webp,0,False,False
 carta,8,UD144,arroz,Duck Chow Mein,15.2,assets/dishes/ud144.webp,0,False,False
 carta,8,UD142,arroz,Yakisoba,11.2,assets/dishes/ud142.webp,0,False,False
@@ -94,13 +94,13 @@ carta,15,RS75,rollitos,Rollo sésamo,12.0,assets/dishes/rs75.webp,0,False,False
 carta,15,RS76,rollitos,Diablo atún,12.0,assets/dishes/rs76-centered.webp,0,False,False
 carta,15,RS78,rollitos,Katsuobushi Roll,12.0,assets/dishes/rs78.webp,0,False,True
 carta,16,CR90,carpaccio,Carpaccio de corvina,14.0,assets/dishes/cr90.webp,1,True,True
-carta,16,CR91,carpaccio,Carpaccio de salmón,12.0,assets/dishes/cr91.webp,2,True,False
-carta,16,CR97,carpaccio,Carpaccio de pez mantequilla,12.0,assets/dishes/cr97.webp,2,True,False
-carta,16,CR93,carpaccio,Carpaccio de atún,14.0,assets/dishes/cr93.webp,1,True,True
+carta,16,CR91,carpaccio,Carpaccio de salmón y pez mantequilla,12.0,assets/dishes/cr91.webp,2,True,False
+carta,16,CR97,carpaccio,Carpaccio de gambón,12.0,assets/dishes/cr97-carpaccio-gambon.webp,2,True,False
+carta,16,CR93,carpaccio,Tataki de atún,14.0,assets/dishes/cr93-tataki-atun.webp,1,True,True
 carta,16,CR96,carpaccio,Tataki de wagyu,14.0,assets/dishes/cr96.webp,1,True,False
 carta,17,SM92,sashimi,Shake Sashimi,10.8,assets/dishes/sm92.webp,2,False,False
 carta,17,SM95,sashimi,Sashimi Mix,14.8,assets/dishes/sm95.webp,2,False,False
-carta,17,94,tartar,Tartar Sake Negi,10.8,assets/dishes/94-centered-original.webp,1,False,True
+carta,17,94,tartar,Tartar Sake Negi,10.8,assets/dishes/94-tartar-sake-negi.webp,1,False,True
 carta,17,E10,tartar,Tartar de salmón,18.0,assets/dishes/e10.webp,2,False,True
 carta,18,CR118,carnes,Teriyaki de pollo,9.8,assets/dishes/cr118.webp,0,False,False
 carta,18,CR126,carnes,Yakitori,5.5,assets/dishes/cr126.webp,0,False,False

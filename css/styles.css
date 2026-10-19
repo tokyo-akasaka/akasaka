@@ -347,3 +347,10 @@ body:has(.audio-dock:not([hidden])){padding-bottom:110px}
 .menu-page .menu-grid{align-items:start}
 .menu-page .dish-card .dish-body{flex:0 0 auto;min-height:0;padding-bottom:2px}
 .menu-page .dish-card .dish-body>.description:last-of-type{margin-bottom:0}
+
+/* Desktop cards align by row and reserve two description lines. */
+@media(min-width:760px){
+ .menu-page .menu-grid{align-items:stretch}
+ .menu-page .dish-card .dish-body{flex:1 0 auto;padding-bottom:14px}
+ .menu-page .dish-card .description{min-height:2.8em}
+}

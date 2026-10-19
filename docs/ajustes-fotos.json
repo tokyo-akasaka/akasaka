@@ -155,17 +155,16 @@
     },
     {
       "reference": "SH33",
-      "source": "material_base/carta_indesign/Links/convertido en lubina salsa verde.JPG",
-      "image": "assets/dishes/sh33-crop-original.webp",
-      "position": "50% 50%",
-      "filter": "none",
+      "source": "material_base/carta_indesign/Links/sh33-dorada-ciruela.jpg",
+      "image": "assets/dishes/sh33-dorada-ciruela.webp",
       "extractPhotoBounds": [
-        25,
-        77,
-        681,
-        498
+        10,
+        50,
+        815,
+        503
       ],
-      "zoom": 1.1
+      "position": "50% 50%",
+      "filter": "none"
     },
     {
       "reference": "SH34",
@@ -183,16 +182,16 @@
     },
     {
       "reference": "SH35",
-      "source": "material_base/carta_indesign/Links/SALMON A LA PLANCHA.psd",
-      "image": "assets/dishes/sh35-crop-original.webp",
-      "position": "50% 50%",
-      "filter": "none",
+      "source": "material_base/carta_indesign/Links/sh35-salmon-flameado.jpg",
+      "image": "assets/dishes/sh35-salmon-flameado.webp",
       "extractPhotoBounds": [
-        27,
-        83,
-        732,
-        536
-      ]
+        15,
+        70,
+        878,
+        555
+      ],
+      "position": "50% 50%",
+      "filter": "none"
     },
     {
       "reference": "SH36",
@@ -640,16 +639,16 @@
     },
     {
       "reference": "94",
-      "source": "material_base/carta_indesign/Links/WhatsApp Image 2026-10-04 at 20.59.42.jpeg",
-      "image": "assets/dishes/94-centered-original.webp",
-      "position": "50% 50%",
-      "filter": "none",
+      "source": "material_base/carta_indesign/Links/94-tartar-sake-negi.jpg",
+      "image": "assets/dishes/94-tartar-sake-negi.webp",
       "extractPhotoBounds": [
-        0,
-        90,
-        1234,
-        830
-      ]
+        50,
+        800,
+        1100,
+        1391
+      ],
+      "position": "50% 75%",
+      "filter": "none"
     },
     {
       "reference": "MR137",
@@ -686,6 +685,45 @@
         415,
         700,
         809
+      ],
+      "position": "50% 50%",
+      "filter": "none"
+    },
+    {
+      "reference": "SM108",
+      "source": "material_base/carta_indesign/Links/poke salmon lava.jpeg",
+      "image": "assets/dishes/sm108-poke-salmon-lava.webp",
+      "extractPhotoBounds": [
+        0,
+        860,
+        1100,
+        1479
+      ],
+      "position": "50% 50%",
+      "filter": "none"
+    },
+    {
+      "reference": "CR97",
+      "source": "material_base/carta_indesign/Links/carpacho de gambon.jpeg",
+      "image": "assets/dishes/cr97-carpaccio-gambon.webp",
+      "extractPhotoBounds": [
+        0,
+        900,
+        1200,
+        1510
+      ],
+      "position": "50% 50%",
+      "filter": "none"
+    },
+    {
+      "reference": "CR93",
+      "source": "material_base/carta_indesign/Links/cr93-tataki-atun.jpg",
+      "image": "assets/dishes/cr93-tataki-atun.webp",
+      "extractPhotoBounds": [
+        48,
+        135,
+        1183,
+        774
       ],
       "position": "50% 50%",
       "filter": "none"
