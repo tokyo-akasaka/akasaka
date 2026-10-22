@@ -1611,7 +1611,7 @@
       "sulphites"
     ],
     "buffetStars": 1,
-    "twoPersons": false,
+    "twoPersons": true,
     "sourcePage": 10,
     "imagePosition": "50% 50%",
     "imageFilter": "none"
@@ -2764,7 +2764,7 @@
     "reference": "CR97",
     "category": "carpaccio",
     "price": 12.0,
-    "image": "assets/dishes/cr97-carpaccio-gambon.webp",
+    "image": "assets/dishes/cr97-foto-20261022.webp",
     "isNew": true,
     "name": {
       "es": "Carpaccio de gambón",
@@ -2786,7 +2786,7 @@
       "sulphites",
       "crustaceans"
     ],
-    "buffetStars": 2,
+    "buffetStars": 1,
     "twoPersons": true,
     "sourcePage": 16,
     "reviewPending": false,
@@ -2797,7 +2797,7 @@
     "reference": "CR93",
     "category": "carpaccio",
     "price": 14.0,
-    "image": "assets/dishes/cr93-tataki-atun.webp",
+    "image": "assets/dishes/cr93-foto-20261022.webp",
     "isNew": true,
     "name": {
       "es": "Tataki de atún",
@@ -2817,7 +2817,7 @@
       "sesame",
       "sulphites"
     ],
-    "buffetStars": 1,
+    "buffetStars": 2,
     "twoPersons": true,
     "sourcePage": 16,
     "reviewPending": false,

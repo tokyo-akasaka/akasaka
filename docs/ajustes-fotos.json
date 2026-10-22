@@ -704,26 +704,26 @@
     },
     {
       "reference": "CR97",
-      "source": "material_base/carta_indesign/Links/carpacho de gambon.jpeg",
-      "image": "assets/dishes/cr97-carpaccio-gambon.webp",
+      "source": "material_base/carta_indesign/Links/carpacho de gambon 97.jpeg",
+      "image": "assets/dishes/cr97-foto-20261022.webp",
       "extractPhotoBounds": [
         0,
-        900,
-        1200,
-        1510
+        1000,
+        1150,
+        1600
       ],
       "position": "50% 50%",
       "filter": "none"
     },
     {
       "reference": "CR93",
-      "source": "material_base/carta_indesign/Links/cr93-tataki-atun.jpg",
-      "image": "assets/dishes/cr93-tataki-atun.webp",
+      "source": "material_base/carta_indesign/Links/tataki de atun 93.jpeg",
+      "image": "assets/dishes/cr93-foto-20261022.webp",
       "extractPhotoBounds": [
-        48,
-        135,
-        1183,
-        774
+        0,
+        790,
+        1150,
+        1437
       ],
       "position": "50% 50%",
       "filter": "none"
