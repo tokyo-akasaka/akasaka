@@ -101,7 +101,7 @@ carta,16,CR96,carpaccio,Tataki de wagyu,14.0,assets/dishes/cr96.webp,1,True,Fals
 carta,17,SM92,sashimi,Shake Sashimi,10.8,assets/dishes/sm92.webp,2,False,False
 carta,17,SM95,sashimi,Sashimi Mix,14.8,assets/dishes/sm95.webp,2,False,False
 carta,17,94,tartar,Tartar Sake Negi,10.8,assets/dishes/94-tartar-sake-negi.webp,1,False,True
-carta,17,E10,tartar,Tartar de salmón,18.0,assets/dishes/e10.webp,2,False,True
+carta,17,TA98,tartar,Tartar de salmón,18.0,assets/dishes/e10.webp,2,False,True
 carta,18,CR118,carnes,Teriyaki de pollo,9.8,assets/dishes/cr118.webp,0,False,False
 carta,18,CR126,carnes,Yakitori,5.5,assets/dishes/cr126.webp,0,False,False
 carta,18,CR119,carnes,Pinchos de secreto,8.8,assets/dishes/cr119.webp,0,False,False
