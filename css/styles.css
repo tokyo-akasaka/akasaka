@@ -354,3 +354,17 @@ body:has(.audio-dock:not([hidden])){padding-bottom:110px}
  .menu-page .dish-card .dish-body{flex:1 0 auto;padding-bottom:14px}
  .menu-page .dish-card .description{min-height:2.8em}
 }
+
+/* Beverage names need their full height, including names spanning several lines. */
+.menu-page .drink-card .dish-body .dish-heading{margin:0;gap:10px;align-items:baseline;flex-shrink:0}
+.menu-page .drink-card .dish-heading h3{font-size:19px;line-height:1.2;min-width:0;overflow-wrap:break-word}
+.menu-page .drink-card .dish-heading .price{flex-shrink:0}
+.menu-page .drink-card .dish-body .dish-meta{margin-bottom:3px;flex-shrink:0}
+.menu-page .drink-card .dish-body{padding-bottom:8px}
+@media(max-width:759px){
+ .menu-page .drink-card .dish-heading h3{font-size:16px;line-height:1.25}
+ .menu-page .drink-card .dish-heading .price{font-size:14px}
+}
+
+.menu-page .drink-card{height:auto;min-height:0;align-self:start}
+.menu-page .drink-card .dish-body{flex:0 0 auto;height:auto;min-height:0;padding-top:7px;padding-bottom:7px}
