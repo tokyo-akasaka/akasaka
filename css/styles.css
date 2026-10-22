@@ -382,3 +382,38 @@ body:has(.audio-dock:not([hidden])){padding-bottom:110px}
 @media(max-width:759px){
  .menu-page .section-heading h2{font-size:22px}
 }
+
+/* Text-only drinks: price below the speaker, descriptions across the full card. */
+.menu-page .drink-card.text-only-card .dish-body{padding-right:12px}
+.menu-page .drink-card.text-only-card .dish-meta{padding-right:48px}
+.menu-page .drink-card.text-only-card .dish-body .dish-heading{display:grid;grid-template-columns:minmax(0,1fr) 60px;align-items:start;min-height:40px;gap:10px}
+.menu-page .drink-card.text-only-card .dish-heading .price{justify-self:end;align-self:end;text-align:right}
+.menu-page .drink-card.text-only-card .description,
+.menu-page .drink-card.text-only-card .serving-prices{width:100%;max-width:none;min-width:0;overflow-wrap:break-word}
+
+/* Home choices stay near the top, including inside short embedded viewports. */
+.home-page .home-main{min-height:0;justify-content:flex-start;width:min(calc(100% - 32px),460px);padding:20px 0 12px}
+.home-page .home-welcome{font-size:22px;line-height:1.25;margin:0 0 16px}
+.home-page .experience-menu{gap:10px}
+.home-page .experience-button{min-height:76px;padding:14px 18px;gap:14px}
+.home-page .experience-button>img{width:30px;height:30px}
+.home-page .experience-button>span:nth-child(2){min-width:0}
+.home-page .experience-button strong{font-size:14px;letter-spacing:.06em}
+.home-page .experience-button small{font-size:11px;line-height:1.35;margin-top:4px}
+.home-page footer{width:min(calc(100% - 32px),460px);margin:0 auto;padding:12px 0 16px}
+@media(max-width:759px){
+ .home-page .home-main{padding-top:14px}
+ .home-page .home-welcome{font-size:19px;margin-bottom:12px}
+ .home-page .experience-menu{gap:8px}
+ .home-page .experience-button{min-height:66px;padding:10px 13px;gap:12px}
+ .home-page .experience-button strong{font-size:13px}
+ .home-page .experience-button small{font-size:10px}
+ .home-page .experience-button>img{width:27px;height:27px}
+}
+@media(max-height:600px){
+ .home-page .home-main{padding-top:10px;padding-bottom:6px}
+ .home-page .home-welcome{font-size:18px;margin-bottom:10px}
+ .home-page .experience-menu{gap:7px}
+ .home-page .experience-button{min-height:58px;padding-top:8px;padding-bottom:8px}
+ .home-page footer{padding-top:7px;padding-bottom:8px}
+}
