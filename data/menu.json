@@ -1553,7 +1553,7 @@
     "allergens": [
       "molluscs"
     ],
-    "buffetStars": 0,
+    "buffetStars": 1,
     "twoPersons": false,
     "sourcePage": 10,
     "imagePosition": "50% 50%",
@@ -1764,7 +1764,7 @@
       "sulphites"
     ],
     "buffetStars": 1,
-    "twoPersons": false,
+    "twoPersons": true,
     "sourcePage": 10,
     "imagePosition": "50% 50%",
     "imageFilter": "none"
@@ -2898,7 +2898,7 @@
     "allergens": [
       "fish"
     ],
-    "buffetStars": 2,
+    "buffetStars": 1,
     "twoPersons": false,
     "sourcePage": 17,
     "reviewPending": false
@@ -2929,7 +2929,7 @@
       "sulphites"
     ],
     "buffetStars": 1,
-    "twoPersons": false,
+    "twoPersons": true,
     "sourcePage": 17,
     "reviewPending": false,
     "imagePosition": "50% 75%",
@@ -2960,7 +2960,7 @@
       "sulphites"
     ],
     "buffetStars": 1,
-    "twoPersons": false,
+    "twoPersons": true,
     "sourcePage": 17,
     "reviewPending": false
   },
